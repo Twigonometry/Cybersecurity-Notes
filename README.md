@@ -5,18 +5,18 @@ My Markdown notes for all things cybersecurity
 
 ### On Windows
 
-Go to [https://obsidian.md/download](the download page)... and click Download
+Go to [the download page](https://obsidian.md/download)... and click Download
 
 ### On Kali
 
-Go to [https://obsidian.md/download](the download page), and download the AppImage. Put it in any directory you want (I went with `~/Applications`)
+Go to [the download page](https://obsidian.md/download), and download the AppImage. Put it in any directory you want (I went with `~/Applications`)
 
 You can either double click the file to run it, or run it with `/path/to/Obsidian-0.11.9.AppImage`
 
 You may get the following error while running:
 
 ```bash
-    ┌──(mac㉿kali)-\[~/Applications\]  
+┌──(mac㉿kali)-\[~/Applications\]  
 └─$ ./Obsidian-0.11.9.AppImage  
 \[2122:0327/193255.690087:FATAL:setuid\_sandbox\_host.cc(158)\] The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I'm aborting now. You need to make sure that /tmp/.mount\_Obsidi1nvAuD/chrome-sandbox is owned by root and has mode 4755.  
 Trace/breakpoint trap
@@ -26,7 +26,9 @@ To fix this, run obsidian with the `--no-sandbox` flag
 
 I setup this alias in `~/.bashrc`:
 
-`alias obsidian="~/Applications/Obsidian-0.11.9.AppImage --no-sandbox"`
+```bash
+alias obsidian="~/Applications/Obsidian-0.11.9.AppImage --no-sandbox"
+```
 
 Finally, if Obsidian stops responding on launch, update Kali:
 
