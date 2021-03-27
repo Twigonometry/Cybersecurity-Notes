@@ -29,7 +29,7 @@ On attacker machine:
 enumserve
 ```
 
-Find your IP address ([[Networking#Get your IP]])
+Find your IP address ([[Linux Networking#Get your IP]])
 
 On target machine:
 

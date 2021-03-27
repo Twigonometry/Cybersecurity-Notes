@@ -8,11 +8,8 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Cheat Sheets/Linux/Enumeration.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheets/Linux/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +82,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Cheat Sheets/Linux/Enumeration.md",
-    "Cheat Sheets/Linux/Misc.md",
+    "Writeups/Hack the Box/Boxes/Academy/Academy Index.md",
+    "Writeups/Hack the Box/Boxes/Academy/Untitled.md",
     "Cheat Sheets/Linux/Shells.md",
     "Cheat Sheets/Linux/Networking.md",
+    "Cheat Sheets/Linux/Misc.md",
+    "Cheat Sheets/Linux/Enumeration.md",
     "Cheat Sheets/Aliases.md",
     "Cheat Sheets/Enumeration.md",
     "Cheat Sheets/Web Hacking/Untitled.md",
-    "Cheat Sheets/Linux/Untitled.md",
-    "README.md",
-    "SESH/CTF/Path to Root.md"
+    "Cheat Sheets/Linux/Untitled.md"
   ]
 }

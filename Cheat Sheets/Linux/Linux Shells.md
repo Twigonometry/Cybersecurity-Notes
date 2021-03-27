@@ -1,6 +1,6 @@
 # Shells
 
-Always remember to check your IP: [[Networking#Get your IP]]
+Always remember to check your IP: [[Linux Networking#Get your IP]]
 
 ## Bash Reverse
 
