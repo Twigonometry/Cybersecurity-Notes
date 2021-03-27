@@ -1,12 +1,6 @@
 # Shells
 
-Always remember to check your IP:
-
-```bash
-ifconfig [interface]
-```
-
-specify `tun0` as the interface on HacktheBox
+Always remember to check your IP: [[Networking#Get your IP]]
 
 ## Bash Reverse
 
