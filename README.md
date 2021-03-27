@@ -1,6 +1,8 @@
 # Cybersecurity Notes
 My Markdown notes for all things cybersecurity
 
+## Installing Obsidian on Kali
+
 ## Using Obsidian
 
 It is easy to share individual notes from within the vault, as they are just markdown files - this lets you disseminate stuff as required, and move notes into public repositories etc.
