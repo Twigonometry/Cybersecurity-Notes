@@ -8,8 +8,11 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -66,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "README.md",
+    "SESH/CTF/Path to Root.md",
+    "Writeups/Hack the Box/Boxes/Academy/5 - Enumeration.md",
+    "Writeups/Hack the Box/Boxes/Academy/0 - Overview.md",
+    "Cheat Sheets/Aliases.md",
     "Writeups/Hack the Box/Boxes/Academy/Academy Index.md",
+    "Cheat Sheets/Web Hacking/Untitled.md",
     "Writeups/Hack the Box/Boxes/Academy/Untitled.md",
     "Cheat Sheets/Linux/Shells.md",
-    "Cheat Sheets/Linux/Networking.md",
-    "Cheat Sheets/Linux/Misc.md",
-    "Cheat Sheets/Linux/Enumeration.md",
-    "Cheat Sheets/Aliases.md",
-    "Cheat Sheets/Enumeration.md",
-    "Cheat Sheets/Web Hacking/Untitled.md",
-    "Cheat Sheets/Linux/Untitled.md"
+    "Cheat Sheets/Linux/Networking.md"
   ]
 }
