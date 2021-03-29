@@ -37,6 +37,16 @@ sudo apt update
 sudo apt full-upgrade -y
 ```
 
+## Downloading the Vault
+
+Run the following:
+
+```bash
+git clone git@github.com:Twigonometry/Cybersecurity-Notes.git
+```
+
+Then open Obsidian and click `Open folder as vault`, then select the `Cybersecurity-Notes` folder that was just created by Git
+
 ## Using Obsidian
 
 It is easy to share individual notes from within the vault, as they are just markdown files - this lets you disseminate stuff as required, and move notes into public repositories etc.
