@@ -47,7 +47,7 @@ It also lets you push/pull down between virtual machines. OneDrive will back the
 
 Git history can show people how a collection of notes develops over time - pretty interesting, especially when putting together a cheatsheet!
 
-Copy across cheatsheet notes to a public repo when you make changes, perhaps with a script - the only disadvantage of this is you will lose backlinks if you are not also copying across writeups, but if you bring writeups over to the public repo when the boxes retire this will work.
+As of 29/03/21, merging this vault into my main Personal Vault (so I can make links to Cyber-related notes) and using this vault as a public set of notes. Will move across any notes to be publicly shared, such as cheatsheets and writeups for retired boxes.
 
 ### Links
 
@@ -66,3 +66,9 @@ Copy across cheatsheet notes to a public repo when you make changes, perhaps wit
 [Single-Vault Philosophy](https://forum.obsidian.md/t/one-vault-vs-multiple-vaults/1445)
 
 [Zettelkasten Method](https://medium.com/@rebeccawilliams9941/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6)
+
+[Toggling Checklists Hotkeys](https://forum.obsidian.md/t/set-hotkeys-for-creating-unordered-lists-ordered-lists-and-task-lists/4332/25)
+
+[Key Mapping Diagram](https://keycombiner.com/collections/obsidian/winlinux/)
+
+[Hotkeysplus Repo](https://github.com/argenos/hotkeysplus-obsidian)
