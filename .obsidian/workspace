@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "83b00864328df757",
+        "id": "1a5cc3273026023a",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
-            "mode": "source"
+            "file": "Projects/CTF Tools.md",
+            "mode": "preview"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Projects/CTF Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,6 +86,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Projects/CTF Tools.md",
+    "Projects/Untitled.md",
     "README.md",
     "Starting Point.md",
     "Cheat Sheets/Linux/Linux Shells.md",
@@ -93,8 +95,6 @@
     "Sending HTTP Requests.md",
     "Cheat Sheets/Linux/Linux Networking.md",
     "Cheat Sheets/Linux/Linux Misc.md",
-    "Cheat Sheets/Linux/Basic Linux Commands.md",
-    "Cheat Sheets/Linux/Linux Enumeration.md",
-    "Articles/Untitled.md"
+    "Cheat Sheets/Linux/Basic Linux Commands.md"
   ]
 }
