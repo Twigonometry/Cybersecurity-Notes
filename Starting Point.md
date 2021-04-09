@@ -26,6 +26,15 @@ For those of you interested in reading writeups, I'll be putting all of mine on 
 
 I also want to include resources for developers who are looking to improve the way they write secure code. Stay tuned on this one - I will be looking for examples of badly implemented sites in CTF and HTB challenges, and uploading remedied code here when I can. I'd also like to include resources for secure use of Cloud Computing platforms such as AWS.
 
+In summary, these are the areas that are relevant:
+- For Beginners:
+	- [[Fundamental Skills]]
+	- [[Basic Linux Commands]]
+- For Learning Reconnaisance:
+	- [[Reconnaisance]]
+- For all writeups:
+	- `/Writeups` folder
+
 So, that's the plan for the repo. 
 
 ## How do I find stuff?
