@@ -11,6 +11,20 @@ Start here if you are a complete beginner!
 
 ### SSH
 
+SSH means 'secure shell', and is one of the most fundamental ways of remotely accessing another computer.
+
+SSH access is controlled by keys, using public-key cryptography. 'Hosts' make themselves
+
+The SSH protocol also powers many other tools and services, such as [[Linux Networking#Secure Copy]] and port forwarding.
+
+**Basic Syntax**
+
+```bash
+ssh [user@]IP_ADDRESS
+```
+
+The `user@` portion is optional, and specifies a specific user you would like to connect as.
+
 ### RDP
 
 ## Filesharing Between Computers

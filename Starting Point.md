@@ -6,7 +6,9 @@ If you don't know what you're looking for in this repository, or want to find an
 
 This repository contains a number of resources about cybersecurity. I plan to include a number of different categories of information, grouped into folders.
 
-- Cheat Sheets: condensed information, payloads and commands regarding specific topics
+- Cheat Sheets: condensed information, payloads and commands regarding specific topics. Good starting points are listed below:
+	- [[Fundamental Skills]]
+	- [[Basic Linux Commands]]
 - Cyber Topics: detailed overviews of a specific topic, for example a specific exploit I took a deep dive into on a box, or a beginner's look at XSS
 - Writeups: full rundowns of how I completed challenges on HacktheBox (HTB), TryHackMe (THM), and various CTFs
 - Articles: some of my favourite cybersecurity articles - either news on big hacks, or well though out resources that I'd feel bad trying to rip off here
