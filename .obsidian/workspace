@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Articles/Large Scale Attacks & APTs.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Articles/Large Scale Attacks & APTs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "e081bb0ed5ce506d",
   "lastOpenFiles": [
+    "Articles/Untitled.md",
     "README.md",
     "Starting Point.md",
     "Untitled.md",
@@ -96,7 +97,6 @@
     "Cheat Sheets/Web Hacking/Deserialisation.md",
     "Cheat Sheets/Password Cracking/John the Ripper.md",
     "Cheat Sheets/Password Cracking/Identifying Hash.md",
-    "Cheat Sheets/Password Cracking/Hashcat.md",
-    "Cheat Sheets/Password Cracking/Generating a Wordlist.md"
+    "Cheat Sheets/Password Cracking/Hashcat.md"
   ]
 }
