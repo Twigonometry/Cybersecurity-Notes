@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Starting Point.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "scp",
+                "query": "directory",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Starting Point.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +87,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Starting Point.md",
-    "Cheat Sheets/Fundamental Skills.md",
-    "Cheat Sheets/Linux/Linux Networking.md",
-    "Cheat Sheets/Linux/Basic Linux Commands.md",
-    "Projects/CTF Tools.md",
-    "Projects/Untitled.md",
     "README.md",
-    "Cheat Sheets/Linux/Linux Shells.md",
-    "Untitled.md",
-    "Sending HTTP Requests.md"
+    "Cheat Sheets/Web Hacking/Deserialisation.md",
+    "Cheat Sheets/Linux/Linux Enumeration.md",
+    "Cheat Sheets/Password Cracking/John the Ripper.md",
+    "Cheat Sheets/Password Cracking/Identifying Hash.md",
+    "Cheat Sheets/Web Hacking/File Upload.md",
+    "Articles/Large Scale Attacks & APTs.md",
+    "Cheat Sheets/Password Cracking/Generating a Wordlist.md",
+    "Cheat Sheets/Linux/Linux Misc.md",
+    "Cheat Sheets/Aliases.md"
   ]
 }

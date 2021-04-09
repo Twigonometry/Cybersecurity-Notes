@@ -59,9 +59,9 @@ Once you have cloned the repsitory, open Obsidian and click `Open folder as vaul
 
 If you have no idea what you're looking for, go to the [[Starting Point]] page!
 
-If you want to find writeups, they're all in the `Writeups` directory. Cheat sheets are in the `Cheat Sheets` directory. You get the idea.
+If you want to find writeups, they're all in the `Writeups` folder. Cheat sheets are in the `Cheat Sheets` folder. You get the idea.
 
-The Cheat Sheets directory has a number of subfolders, such as sheets on Web Hacking, Linux, and Password Cracking. General cheat sheets, such as the Fundamental Skills cheat sheet, are in the top level of the folder. This is a good place to start if you're a complete beginner.
+The Cheat Sheets folder has a number of subfolders, such as sheets on Web Hacking, Linux, and Password Cracking. General cheat sheets, such as the Fundamental Skills cheat sheet, are in the top level of the folder. This is a good place to start if you're a complete beginner.
 
 ## Using Obsidian
 
