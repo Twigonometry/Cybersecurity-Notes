@@ -6,11 +6,10 @@
       {
         "id": "e081bb0ed5ce506d",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheets/Linux/Linux Shells.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -69,10 +68,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheets/Linux/Linux Shells.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -85,16 +86,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "e081bb0ed5ce506d",
   "lastOpenFiles": [
-    "Cheat Sheets/Linux/Linux Shells.md",
-    "Cheat Sheets/Linux/Linux Networking.md",
-    "Cheat Sheets/Linux/Linux Misc.md",
-    "Cheat Sheets/Linux/Linux Enumeration.md",
     "README.md",
-    "SESH/CTF/Path to Root.md",
-    "Cheat Sheets/Web Hacking/Deserialisation.md",
-    "Cheat Sheets/Web Hacking/File Upload.md",
+    "Starting Point.md",
+    "Untitled.md",
     "Cheat Sheets/Aliases.md",
-    "Writeups/Hack the Box/Boxes/Academy/0 - Overview.md"
+    "Cheat Sheets/Web Hacking/File Upload.md",
+    "Cheat Sheets/Web Hacking/Deserialisation.md",
+    "Cheat Sheets/Password Cracking/John the Ripper.md",
+    "Cheat Sheets/Password Cracking/Identifying Hash.md",
+    "Cheat Sheets/Password Cracking/Hashcat.md",
+    "Cheat Sheets/Password Cracking/Generating a Wordlist.md"
   ]
 }

@@ -1,6 +1,8 @@
 # Cybersecurity Notes
 My Markdown notes for all things cybersecurity
 
+Read on to find out how to install this repository, and where to start finding the information you need.
+
 ## Installing Obsidian
 
 ### On Windows
@@ -39,25 +41,55 @@ sudo apt full-upgrade -y
 
 ## Downloading the Vault
 
-Run the following:
+You will need to [download git](https://git-scm.com/downloads). This is a quick and easy process.
+
+On Windows, open the Start Menu and search for 'Git Bash', then click it to open a bash terminal (or navigate to the folder you want to install the notes into, then right-click and press 'Git Bash Here'). On Unix, open a terminal of your choice.
+
+In this Git Bash/terminal, type the following:
 
 ```bash
 git clone git@github.com:Twigonometry/Cybersecurity-Notes.git
 ```
 
-Then open Obsidian and click `Open folder as vault`, then select the `Cybersecurity-Notes` folder that was just created by Git
+If you are uncomfortable using the command line, you can install [GitHub Desktop](https://desktop.github.com/) instead.
+
+Once you have cloned the repsitory, open Obsidian and click `Open folder as vault`, then select the `Cybersecurity-Notes` folder that was just created by Git. You're ready to go!
+
+## Where to Start?
+
+If you have no idea what you're looking for, go to the [[Starting Point]] page!
+
+If you want to find writeups, they're all in the `Writeups` directory. Cheat sheets are in the `Cheat Sheets` directory. You get the idea.
+
+The Cheat Sheets directory has a number of subfolders, such as sheets on Web Hacking, Linux, and Password Cracking. General cheat sheets, such as the Fundamental Skills cheat sheet, are in the top level of the folder. This is a good place to start if you're a complete beginner.
 
 ## Using Obsidian
 
-It is easy to share individual notes from within the vault, as they are just markdown files - this lets you disseminate stuff as required, and move notes into public repositories etc.
+**This Repository**
 
-For example, you can have a public vault of notes, linked to a public repository, where you can move writeups to as the boxes retire. This helps keep your public notes sanitised.
+This is a public version of my main Obsidian vault, containing fleshed out cybersecurity notes and finished writeups. I will commit stuff to this repository as I finish it, moving it over from my main vault.
 
-It also lets you push/pull down between virtual machines. OneDrive will back the notes up to the Cloud, but they will also be on Git.
+You can see how this collection of notes has developed over time in the git history. Type `git log` to see a list of commits, and `git checkout [HASH]` to go back in time and see the state of the repo back then.
 
-Git history can show people how a collection of notes develops over time - pretty interesting, especially when putting together a cheatsheet!
+### Useful Hotkeys
 
-As of 29/03/21, merging this vault into my main Personal Vault (so I can make links to Cyber-related notes) and using this vault as a public set of notes. Will move across any notes to be publicly shared, such as cheatsheets and writeups for retired boxes.
+Obsidian supports a wide range of hotkey commands. Some of the most useful ones are listed below, if you're into your Zettelkasten power use (who isn't?)
+
+**(\*) indicates a custom hotkey**
+
+Global Search: `Ctrl + Shift + F`
+
+(\*) Open Random Note: `Ctrl + R`
+
+Turn line into Checklist/Toggle Status: `Ctrl + Enter` (one press turns into list, two presses into checklist, three presses toggles status)
+
+Toggle mode: `Ctrl + E`
+
+(\*) Toggle default mode: `Ctrl + Shift + E` (useful for when you want to go into graph view and jump around notes, but stay in preview mode - this behaviour [is not default](https://forum.obsidian.md/t/not-retaining-preview-mode-when-switching-to-graph-view-and-back/3080/2))
+
+(\*) Open local graph: `Ctrl + L`
+
+Paste Plain Text: `Ctrl + Shift + V` (avoids escaping characters in nmap/autorecon output etc)
 
 ### Links
 
