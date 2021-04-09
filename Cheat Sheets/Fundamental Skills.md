@@ -25,38 +25,6 @@ ssh [user@]IP_ADDRESS
 
 The `user@` portion is optional, and specifies a specific user you would like to connect as.
 
-### RDP
-
-## Filesharing Between Computers
-
-### FTP
-
-### Netcat
-
-### 
-
-## Shells
-
-**What is a shell?**
-
-**When might you want to use a shell?** 
-
-### Web Shells
-
-### Bash Reverse Shells
-
-## Network Requests
-
-**What does a HTTP Request look like?**
-
-### Sending Requests with Curl
-
-### Manipulating Requests with Burp Suite
-
-### More Details
-
-See [[Sending HTTP Requests]]
-
 ## Scripting & Programming
 
 ### sh/bash
@@ -91,7 +59,3 @@ bash bash_script
 echo 'ls -la' > list-files.sh
 ./list-files.sh
 ```
-
-### Python
-
-### Powershell
