@@ -1,5 +1,5 @@
 # Cybersecurity Notes
-My Markdown notes for all things cybersecurity
+My Markdown notes for all things cybersecurity. Best viewed in Obsidian.
 
 Read on to find out how to install this repository, and where to start finding the information you need.
 
@@ -64,6 +64,8 @@ If you want to find writeups, they're all in the `Writeups` directory. Cheat she
 The Cheat Sheets directory has a number of subfolders, such as sheets on Web Hacking, Linux, and Password Cracking. General cheat sheets, such as the Fundamental Skills cheat sheet, are in the top level of the folder. This is a good place to start if you're a complete beginner.
 
 ## Using Obsidian
+
+You could *technically* view this information straight out of GitHub, as it is all Markdown files - but it's built to be viewed in Obsidian, where all the code is pretty and the links between notes actually work.
 
 **This Repository**
 

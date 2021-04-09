@@ -6,9 +6,13 @@
       {
         "id": "83b00864328df757",
         "type": "leaf",
+        "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,11 +69,10 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -82,8 +85,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "83b00864328df757",
   "lastOpenFiles": [
+    "README.md",
+    "Starting Point.md",
     "Cheat Sheets/Linux/Linux Shells.md",
     "Untitled.md",
     "Sending HTTP Requests.md",
@@ -91,8 +95,6 @@
     "Cheat Sheets/Linux/Linux Misc.md",
     "Cheat Sheets/Linux/Basic Linux Commands.md",
     "Cheat Sheets/Linux/Linux Enumeration.md",
-    "Articles/Untitled.md",
-    "README.md",
-    "Starting Point.md"
+    "Articles/Untitled.md"
   ]
 }
