@@ -15,6 +15,30 @@ If you want to suggest some content to add and it isnt' on the list, feel free t
 	- [ ] Basic pre-auth attack
 	- [ ] Password Spray
 
+## Guides to Basic Linux Commands
+
+- [ ] awk
+- [ ] grep
+
+## Common Services and Protocols
+
+- [ ] FTP
+	- [ ] Anonymous Authentication
+	- [ ] Basic get/upload syntax
+	- [ ] Uploading malicious payloads via FTP
+	- [ ] Exploits on old versions
+- [ ] SMB
+	- [ ] Anonymous Authentication
+	- [ ] Enumeration
+- [ ] LDAP
+	- [ ] Basic query structure
+
+## Password Cracking
+
+- [ ] Cracking encrypted files
+	- [ ] zip2john
+	- [ ] keepass2john
+
 ## Detailed Writeups
 
 - [ ] Deserialisation
