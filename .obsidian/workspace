@@ -6,11 +6,10 @@
       {
         "id": "1a5cc3273026023a",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "To Add.md",
             "mode": "source"
           }
         }
@@ -49,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,10 +68,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "To Add.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -86,16 +86,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "1a5cc3273026023a",
   "lastOpenFiles": [
+    "To Add.md",
     "README.md",
+    "Untitled.md",
     "Cheat Sheets/Web Hacking/Deserialisation.md",
     "Cheat Sheets/Linux/Linux Enumeration.md",
     "Cheat Sheets/Password Cracking/John the Ripper.md",
     "Cheat Sheets/Password Cracking/Identifying Hash.md",
     "Cheat Sheets/Web Hacking/File Upload.md",
     "Articles/Large Scale Attacks & APTs.md",
-    "Cheat Sheets/Password Cracking/Generating a Wordlist.md",
-    "Cheat Sheets/Linux/Linux Misc.md",
-    "Cheat Sheets/Aliases.md"
+    "Cheat Sheets/Password Cracking/Generating a Wordlist.md"
   ]
 }

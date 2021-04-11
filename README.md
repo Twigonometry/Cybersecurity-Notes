@@ -61,7 +61,11 @@ If you have no idea what you're looking for, go to the [[Starting Point]] page!
 
 If you want to find writeups, they're all in the `Writeups` folder. Cheat sheets are in the `Cheat Sheets` folder. You get the idea.
 
-The Cheat Sheets folder has a number of subfolders, such as sheets on Web Hacking, Linux, and Password Cracking. General cheat sheets, such as the Fundamental Skills cheat sheet, are in the top level of the folder. This is a good place to start if you're a complete beginner.
+The Cheat Sheets folder has a number of subfolders, such as sheets on Web Hacking, Linux, and Password Cracking. General cheat sheets, such as the [[Fundamental Skills]] cheat sheet, are in the top level of the folder. This is a good place to start if you're a complete beginner.
+
+**Requesting Content**
+
+If you want to request I add something to this repo, I will do my best to research it and write up some content. I have [[To Add|a list of things to add]], so please check it isn't there first.
 
 ## Using Obsidian
 
