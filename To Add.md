@@ -5,6 +5,9 @@ If you want to suggest some content to add and it isnt' on the list, feel free t
 
 ## Cheatsheets on Common Tools
 
+- [ ] Gobuster
+	- [ ] Add links to practical examples
+	- [ ] VHOST busting
 - [ ] SQLMap
 	- [ ] Blind Injection
 - [ ] CrackMapExec
@@ -44,3 +47,9 @@ If you want to suggest some content to add and it isnt' on the list, feel free t
 - [ ] Deserialisation
 	- [ ] .NET Deserialisation
 	- [ ] PHP Deserialisation
+
+
+## Reconnaisance
+
+- [ ] Options for scanning a range of targets
+- [ ] Options for scanning targets with an unknown address
