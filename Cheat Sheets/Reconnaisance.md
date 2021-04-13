@@ -1,11 +1,34 @@
 # Reconnaisance
+
+## nmap
+
+Usually the first step in reconnaisance, `nmap` allows you to enumerate services that are running on a target machine.
+
+**Basic Syntax**
+
+General purpose `nmap` scan for target IP `a.b.c.d`:
+
+```bash
+$ nmap -v -sC -sV -oA nmap/ a.b.c.d
+```
+
+In another terminal, run an all ports scan after five minutes has passed:
+
+```bash
+$ nmap -p- a.b.c.d
+```
+
+**More Details**
+
+See the [[nmap|nmap Cheat Sheet]] for more details.
+
 ## Autorecon
 
 Download the tool from the [Git Repository](https://github.com/Tib3rius/AutoRecon), where you can also see a whole host of extra usage details.
 
 As a personal preference, I like doing my standard reconnaisance manually, and running autorecon in the background. This helps me process the information better as I find it.
 
-It is useful as it cannot forget crucial steps, for example an all-ports `nmap` scan.
+It is particularly useful if you are prone to forgetting crucial steps, for example an all-ports `nmap` scan.
 
 **Basic Syntax**
 
