@@ -3,6 +3,8 @@ My Markdown notes for all things cybersecurity. Best viewed in Obsidian.
 
 Read on to find out how to install this repository, and where to start finding the information you need.
 
+**DISCLAIMER:** These notes are for educational purposes only. Use them as a learning resource or a reference guide when performing tests with *explicit permission*. I'm sure you've seen similar disclaimers on Cybersecurity resources before, but always make sure you have permission to do what you're doing. I am not responsible or liable if you misuse this resource and get into trouble.
+
 ## Installing Obsidian
 
 ### On Windows
@@ -63,17 +65,17 @@ If you want to find writeups, they're all in the `Writeups` folder. Cheat sheets
 
 The Cheat Sheets folder has a number of subfolders, such as sheets on Web Hacking, Linux, and Password Cracking. General cheat sheets, such as the [[Fundamental Skills]] cheat sheet, are in the top level of the folder. This is a good place to start if you're a complete beginner.
 
+**What is this Repository?**
+
+This is a public version of my main Obsidian vault, containing fleshed out cybersecurity notes and finished writeups. I will commit stuff to this repository as I finish it, moving it over from my main vault.
+
 **Requesting Content**
 
-If you want to request I add something to this repo, I will do my best to research it and write up some content. I have [[To Add|a list of things to add]], so please check it isn't there first.
+If you want to request I add something to this repo, I will do my best to research it and write up some content - you can [open an issue](https://github.com/Twigonometry/Cybersecurity-Notes/issues) to make such a request. I have a [[To Add|list of things to add]], so please check it isn't there first.
 
 ## Using Obsidian
 
 You could *technically* view this information straight out of GitHub, as it is all Markdown files - but it's built to be viewed in Obsidian, where all the code is pretty and the links between notes actually work.
-
-**This Repository**
-
-This is a public version of my main Obsidian vault, containing fleshed out cybersecurity notes and finished writeups. I will commit stuff to this repository as I finish it, moving it over from my main vault.
 
 You can see how this collection of notes has developed over time in the git history. Type `git log` to see a list of commits, and `git checkout [HASH]` to go back in time and see the state of the repo back then.
 
@@ -93,9 +95,15 @@ Toggle mode: `Ctrl + E`
 
 (\*) Toggle default mode: `Ctrl + Shift + E` (useful for when you want to go into graph view and jump around notes, but stay in preview mode - this behaviour [is not default](https://forum.obsidian.md/t/not-retaining-preview-mode-when-switching-to-graph-view-and-back/3080/2))
 
-(\*) Open local graph: `Ctrl + L`
+(\*) Open local graph: `Ctrl + L` (this is useful for exploring linked notes - it will open the graph in a new pane, and clicking a linked note will open it along with its local graph)
 
-Paste Plain Text: `Ctrl + Shift + V` (avoids escaping characters in nmap/autorecon output etc)
+Paste Plain Text: `Ctrl + Shift + V` (avoids escaping characters in nmap/autorecon output etc - useful if you want to fork/edit this repo)
+
+(\*) Split Pane Vertically: `Ctrl + Alt + V`
+
+(\*) Split Pane Vertically: `Ctrl + Alt + H`
+
+Back/Forward: `Alt + Left-Arrow`/`Alt + Right-Arrow`
 
 ### Links
 
