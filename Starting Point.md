@@ -51,7 +51,7 @@ If you want to get a feel for how the information links together, you can view t
 
 Within the graph settings, you can enable showing tags, turn off orphan nodes (i.e. only show connected notes), and search for files. Groups can also be created to display subsets of notes (I haven't got this far yet).
 
-You can also open a local graph by pressing `Ctrl + L`. This will show the notes that are connected to the note you are currently viewing.
+You can also open a local graph by pressing `Ctrl + L`. This will show the notes that are connected to the note you are currently viewing. You can use this to browse connected notes easily - clicking a new one will open its local graph, so you can traverse chains of related notes. Use `Alt + Left-Arrow` and `Alt + Right-Arrow` to navigate back and forth.
 
 ### Exploring
 

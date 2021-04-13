@@ -2,6 +2,8 @@
 
 ## Get your IP
 
+Use this command to see your IP address. `ifconfig` on its own will list all interfaces, or you can specify one.
+
 ```bash
 ifconfig [interface]
 ```
