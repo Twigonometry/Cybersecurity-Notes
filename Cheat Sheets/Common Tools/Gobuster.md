@@ -11,7 +11,7 @@ The repository can be found at [https://github.com/OJ/gobuster](https://github.c
 `gobuster` does not come preinstalled on Kali Linux, but it does have a package. Install with:
 
 ```bash
-sudo apt-get install gobuster
+$ sudo apt-get install gobuster
 ```
 
 ### Other Operating Systems
@@ -23,7 +23,7 @@ If your package manager doesn't have `gobuster`, or you want to install from sou
 **Basic Syntax**
 
 ```bash
-gobuster dir -u [URL] -w /path/to/wordlist
+$ gobuster dir -u [URL] -w /path/to/wordlist
 ```
 
 Practical Example:
@@ -42,5 +42,5 @@ If you do not wish to install SecLists some distributions come with alternative 
 If you know your target site is using a specific file extension, such as `php` or `jsp`, you can specify this with the `-x` flag
 
 ```bash
-gobuster dir -u example.com -w /path/to/wordlist -x php,asp
+$ gobuster dir -u example.com -w /path/to/wordlist -x php,asp
 ```
