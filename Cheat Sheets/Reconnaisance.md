@@ -1,9 +1,44 @@
 # Reconnaisance
 ## Autorecon
+
+Download the tool from the [Git Repository](https://github.com/Tib3rius/AutoRecon), where you can also see a whole host of extra usage details.
+
+As a personal preference, I like doing my standard reconnaisance manually, and running autorecon in the background. This helps me process the information better as I find it.
+
+It is useful as it cannot forget crucial steps, for example an all-ports `nmap` scan.
+
 **Basic Syntax**
 
 ```bash
-autorecon [IP]
+autorecon [IP/Domain Name]
+```
+
+**Multiple Targets**
+
+Specify multiple targets after you define your options (flags). E.g.
+
+```bash
+autorecon [OPTIONS] a.b.c.d foo.bar w.x.y.z
+```
+
+Or use CIDR Notation to define a range of targets:
+
+```bash
+autorecon [OPTIONS] a.b.c.d/24
+```
+
+Or use a target file with the `-t` flag:
+
+```bash
+autorecon -t /path/to/target_file a.b.c.d
+```
+
+**Output Options**
+
+Set an output directory with the `-o` flag:
+
+```bash
+autorecon -o /path/to/output_dir example.com
 ```
 
 ### Running a Webserver
