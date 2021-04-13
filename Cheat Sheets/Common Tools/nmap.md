@@ -61,9 +61,17 @@ $ nmap -v a.b.c.d
 
 ## Extra Information
 
-`nmap` is capable of running several scripts for enumerating extra information about a service. Specify the `-sC` flag to run default scripts.
+`nmap` is capable of running several scripts for enumerating extra information about a service. Specify the `-sC` flag to run default scripts:
 
+```bash
+$ nmap -sC a.b.c.d
+```
 
+`nmap` can also enumerate the versions of software running on a port. Use the `-sV` flag to do this:
+
+```bash
+$ nmap -sV a.b.c.d
+```
 
 ## Specifying Ports
 
