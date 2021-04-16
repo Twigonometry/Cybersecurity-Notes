@@ -122,7 +122,7 @@ $ find /media/d/ -type f -size +50M ! \( -name "*deb" -o -name "*vmdk" \)
 ## Linpeas
 Install Linpeas from [GitHub](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
 
-Placing it in `~/Documents/enum` allows you to easily retrieve it with a simple python server. See [[Aliases#Useful Aliases]] for `enumserve` alias setup.
+Placing it in `~/Documents/enum` allows you to easily retrieve it with a simple python server. See [[Aliases#Useful Aliases|Useful Aliases]] for `enumserve` alias setup instructions.
 
 On attacker machine:
 

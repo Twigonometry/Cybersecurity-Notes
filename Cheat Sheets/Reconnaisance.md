@@ -66,7 +66,7 @@ autorecon -o /path/to/output_dir example.com
 
 ### Running a Webserver
 
-Once your scans are finished, you can easily view the results by starting a webserver in the `/results` directory and visiting it on localhost:
+Once your scans are finished, you can easily view the results by starting a [[Fundamental Skills#Python Webserver|Python Webserver]] in the `/results` directory and visiting it on localhost:
 
 ```bash
 ┌──(mac㉿kali)-[~/Documents/HTB/BOX/results/]
