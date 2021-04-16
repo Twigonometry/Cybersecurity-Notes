@@ -15,9 +15,9 @@ This represents a simple web application that constructs a `SignupForm` object a
 
 #### The Vulnerability
 
-The class variables `$outfile` and `$username_string` are normally set by the `parse_username()` method. However, when a specially crafted `SignupForm` object with these variables already set is passed to the `username` GET parameter, it is deserialised and the `__destruct` method is automatically called. This skips the `parse_username()` method and overrides the variables, meaning their attacker-controlled values are used in the `file_put_contents()` call.
+The class variables `$outfile` and `$username_string` are normally set by the `parse_username()` method. However, an attacker can craft a `SignupForm` object manually and set these variables to whatever they like. If this is passed to the `username` GET parameter it is deserialised and the `__destruct` method is automatically called. This skips the `parse_username()` method and overrides the variables, meaning their attacker-controlled values are used in the `file_put_contents()` call.
 
-The vulnerability only exists because untrusted data (i.e. user input) is passed directly to the `unserialize()` function. Remove this line, and the vulnerability is fixed. In fact, it's not even needed to make this program work - it is there just to teach about the mechanics of the vulnerability, but there may be situations where `unserialize()` may have a genuine use case (for example, if objects were serialized for more efficient storage). In this case, ensure that no untrusted data is allowed into the source of this deserialisation.
+The vulnerability only exists because untrusted data (i.e. user input) is passed directly to the `unserialize()` function. Remove this line, and the vulnerability is fixed. In fact, it's not even needed to make this program work - it is there just to teach about the mechanics of the vulnerability, but there may be situations where `unserialize()` may have a genuine use case - for example, frameworks like Laravel serialise PHP Objects that represent users. In this case, developers must ensure that no untrusted data is involved in this deserialisation, either directly or 'upstream' when data is passed from a database or similar connected service.
 
 ### The Exploit
 
@@ -29,7 +29,9 @@ It creates an instance of the class, with preset values that are used when the o
 
 By default, the object looks like this:
 
-`O:10:"SignupForm":2:{s:7:"outfile";s:10:"gotcha.txt";s:15:"username_string";s:25:"malicious stuff goes here";}`
+```
+O:10:"SignupForm":2:{s:7:"outfile";s:10:"gotcha.txt";s:15:"username_string";s:25:"malicious stuff goes here";}
+```
 
 The syntax is as follows:
 - `O` tells us the type is an 'object'
@@ -61,9 +63,9 @@ Then make a request to the page, passing your object to the `username` GET param
 http://localhost:5000/unsafe.php?username={SERIALISED OBJECT HERE}
 ```
 
-*Note:* If you use curl, bash may throw a fit at your curly brackets. It's easier to visit the URL in your browser instead.
+*Note:* If you use curl, bash may throw a fit at your curly brackets. You can either visit the URL in your browser, or use the `--globoff` flag to [escape the brackets](https://stackoverflow.com/questions/8333920/passing-a-url-with-brackets-to-curl)
 
-For example:
+Here is the request we made, using our malicious object:
 
 ```
 http://localhost:5000/unsafe.php?username=O:10:"SignupForm":2:{s:7:"outfile";s:10:"gotcha.txt";s:15:"username_string";s:25:"malicious stuff goes here";}
