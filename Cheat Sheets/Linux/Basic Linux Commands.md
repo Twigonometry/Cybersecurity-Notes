@@ -111,10 +111,38 @@ $ cat /path/to/file | grep [SEARCH_TERM]
 
 **Grepping Terminal Output**
 
-You can use the pipe operator to run `grep` on the output of any command. A common use case is searching the 
+You can use the pipe operator to run `grep` on the output of any command. A common use case is searching the output of a directory.
 
 ```bash
 $ ls -la | grep [SEARCH_TERM]
 ```
 
 ## awk
+`awk` can be used for manipulating structured text and extracting specific fields. Think of it as a way of selecting a specific column from a load of structured data.
+
+For example, a list of employee names:
+
+```bash
+$ cat employees
+John Doe
+Jane Doe
+```
+
+`awk` could be used to extract the first names of these employees:
+
+```bash
+$ cat employees | awk '{print $1}'
+```
+
+Where `$x` represents the `xth` column (1-indexed).
+
+You can specify a different 'field separator' with the `-F` flag:
+
+```bash
+$ cat employees
+John:Doe
+Jane:Doe
+$ cat employees | awk -F ':' '{print $1}'
+John
+Jane
+```
