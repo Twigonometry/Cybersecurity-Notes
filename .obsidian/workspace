@@ -9,47 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheets/Reconnaisance.md",
-            "mode": "preview"
+            "file": "To Add.md",
+            "mode": "source"
           }
-        },
-        "group": "853c944175ff03bb"
-      },
-      {
-        "id": "9a40876dce98ae71",
-        "type": "leaf",
-        "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "Cheat Sheets/Reconnaisance.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1,
-              "close": false
-            }
-          }
-        },
-        "group": "853c944175ff03bb"
+        }
       }
     ],
     "direction": "vertical"
@@ -76,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nmap",
+                "query": "python",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheets/Reconnaisance.md",
+                "file": "To Add.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9a40876dce98ae71",
+  "active": "baafc49aa1888c39",
   "lastOpenFiles": [
-    "Cheat Sheets/Reconnaisance.md",
-    "Starting Point.md",
+    "To Add.md",
+    "SESH/Demos/Deserialisation Demo.md",
+    "Cheat Sheets/Web Hacking/Deserialisation.md",
     "Cheat Sheets/Linux/Linux Networking.md",
-    "Cheat Sheets/Linux/Linux Misc.md",
-    "Cheat Sheets/Linux/Basic Linux Commands.md",
-    "Cheat Sheets/Password Cracking/Creating a Hashfile.md",
-    "Cheat Sheets/Password Cracking/Generating a Wordlist.md",
-    "Cheat Sheets/Password Cracking/Hashcat.md",
     "Cheat Sheets/Password Cracking/Identifying Hash.md",
-    "Cheat Sheets/Password Cracking/John the Ripper.md"
+    "Cheat Sheets/Linux/Basic Linux Commands.md",
+    "Cheat Sheets/Common Tools/nmap.md",
+    "Cheat Sheets/Common Tools/Gobuster.md",
+    "Cheat Sheets/Reconnaisance.md",
+    "Cheat Sheets/Fundamental Skills.md"
   ]
 }

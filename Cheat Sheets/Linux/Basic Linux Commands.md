@@ -68,3 +68,53 @@ Combine the two:
 ```bash
 $ ls -la
 ```
+
+## Switch User
+
+The `su` command switches to another user on the machine. You must know their password.
+
+This command will attempt to switch to the `jane` user:
+
+```bash
+$ su jane
+```
+
+If no username is provided, `su` will attempt to login as root:
+
+```bash
+$ su
+```
+
+Using the `-` flag simulates a real login - you will often see `su -` in writeups as shorthand for `su root`:
+
+```bash
+$ su -
+```
+
+However this command is effectively the same as the one above, apart from a few [small differences](https://unix.stackexchange.com/questions/15611/what-is-the-difference-between-su-and-su-root) like the clearing of environment variables.
+
+## grep
+
+`grep` is an incredibly useful command that allows searching the contents of files and the outputs of terminal commands. 
+
+**Grepping a File**
+
+```bash
+$ grep [SEARCH_TERM] /path/to/file
+```
+
+or, using pipe (`|`):
+
+```bash
+$ cat /path/to/file | grep [SEARCH_TERM]
+```
+
+**Grepping Terminal Output**
+
+You can use the pipe operator to run `grep` on the output of any command. A common use case is searching the 
+
+```bash
+$ ls -la | grep [SEARCH_TERM]
+```
+
+## awk

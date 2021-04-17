@@ -1,4 +1,4 @@
-# Identifying Hash
+# Identifying Hashes
 Run this command to find a list of potential hashing algorithms
 
 ```bash
