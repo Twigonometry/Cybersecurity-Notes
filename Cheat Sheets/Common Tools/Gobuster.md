@@ -26,9 +26,6 @@ If your package manager doesn't have `gobuster`, or you want to install from sou
 $ gobuster dir -u [URL] -w /path/to/wordlist
 ```
 
-Practical Example:
-[[Cybersecurity/Writeups/Hack the Box/Boxes/Academy/5 - Enumeration#Gobuster]]
-
 **Which Wordlist to Use?**
 
 I like to use the [SecLists](https://github.com/danielmiessler/SecLists) Discovery lists. The most common one I use is located at `/path/to/seclists/Discovery/Web-Content/raft-small-words.txt`. SecLists comes preinstalled on Kali Linux, and is found at `/usr/share/seclists`.

@@ -108,3 +108,49 @@ $ sleep 300; nmap -v -p- -oA nmap/target-all-ports a.b.c.d
 This will save the output to the same directory as in the **General Purpose nmap Command** above, with a different suffix.
 
 It is unnecessary to run scripts on this scan - it is just useful for finding open ports you may have missed, and you can re-enumerate them with scripts afterwards by specifying those ports.
+
+## Scan UDP
+
+Some services run only over UDP, and may be missed by a standard TCP scan. Scan UDP with the `-sU` flag:
+
+```bash
+$ nmap -sU a.b.c.d
+```
+
+Practical Example: [Ippsec's Intense Video](https://youtu.be/nBg6zUalb7c?t=143)
+
+## Adjusting Speed
+
+Use the `--min-rate` flag to increase the speed of your scan. This adjusts the minimum number of packets sent per second. It is useful if you want to rapidly re-scan, perhaps with a full port scan or a UDP scan.
+
+```bash
+$ nmap --min-rate 10000 a.b.c.d
+```
+
+Only do this if you are not concerned about crashing the target, or concerned about Operational Security - a high minimum rate will stand out like a sore thumb in server logs and Intrusion Detection Systems (IDS).
+
+Conversely, you can also set the `--max-rate` flag to put an upper limit on the number of requests per second. This is useful if you wish to evade detection.
+
+```bash
+$ nmap --max-rate 30 a.b.c.d
+```
+
+### Timing Templates
+
+`nmap` provides a number of preset timing templates, that are chosen with the `-T` flag. These set a number of rate-related variables, including the ones above.
+
+```bash
+$ nmap -T paranoid|sneaky|polite|normal|aggressive|insane a.b.c.d
+```
+
+You can also use the numeric equivalents,  `-T0` through `-T5`. The [nmap documentation](https://nmap.org/book/man-performance.html) recommends `-T4` on a high broadband speed, and `-T1` or lower for IDS evasion.
+
+You can also combine a template with a specific performance flag, such as a `--scan-delay` between probes to avoid some rate limiting defences:
+
+```bash
+$ nmap -T4 --scan-delay 1s a.b.c.d
+```
+
+This will keep all the other settings of `aggresive` mode, such as the lowered `max-retries`.
+
+Full details on timing template values are available at [https://nmap.org/book/performance-timing-templates.html](https://nmap.org/book/performance-timing-templates.html)
