@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheets/Linux/Linux Networking.md",
-            "mode": "source"
+            "file": "Cheat Sheets/Enumeration/Docker Enumeration.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "python3",
+                "query": "linpeas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheets/Linux/Linux Networking.md",
+                "file": "Cheat Sheets/Enumeration/Docker Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "baafc49aa1888c39",
   "lastOpenFiles": [
+    "Cheat Sheets/Enumeration/Untitled.md",
     "Cheat Sheets/Linux/Linux Networking.md",
     "Cheat Sheets/Fundamental Skills.md",
     "Cheat Sheets/Password Cracking/Creating a Hashfile.md",
@@ -96,7 +97,6 @@
     "Cheat Sheets/Linux/Basic Linux Commands.md",
     "Cheat Sheets/Password Cracking/Identifying Hashes.md",
     "Cheat Sheets/Password Cracking/Generating a Wordlist.md",
-    "Cheat Sheets/Password Cracking/Hashcat.md",
-    "To Add.md"
+    "Cheat Sheets/Password Cracking/Hashcat.md"
   ]
 }
