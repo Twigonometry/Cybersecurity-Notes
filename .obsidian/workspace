@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheets/Linux/Basic Linux Commands.md",
+            "file": "Cheat Sheets/Linux/Linux Networking.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "python",
+                "query": "python3",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheets/Linux/Basic Linux Commands.md",
+                "file": "Cheat Sheets/Linux/Linux Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "baafc49aa1888c39",
   "lastOpenFiles": [
+    "Cheat Sheets/Linux/Linux Networking.md",
+    "Cheat Sheets/Fundamental Skills.md",
+    "Cheat Sheets/Password Cracking/Creating a Hashfile.md",
+    "Cheat Sheets/Linux/Linux Enumeration.md",
+    "Cheat Sheets/Linux/Linux Shells.md",
     "Cheat Sheets/Linux/Basic Linux Commands.md",
     "Cheat Sheets/Password Cracking/Identifying Hashes.md",
     "Cheat Sheets/Password Cracking/Generating a Wordlist.md",
     "Cheat Sheets/Password Cracking/Hashcat.md",
-    "To Add.md",
-    "SESH/Demos/Deserialisation Demo.md",
-    "Cheat Sheets/Web Hacking/Deserialisation.md",
-    "Cheat Sheets/Linux/Linux Networking.md",
-    "Cheat Sheets/Password Cracking/Identifying Hash.md",
-    "Cheat Sheets/Common Tools/nmap.md"
+    "To Add.md"
   ]
 }

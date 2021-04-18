@@ -38,3 +38,76 @@ $ ssh-keygen -f key_name
 ```bash
 $ scp [OPTION] [[user@]SRC_HOST:]file1 [[user@]DEST_HOST:]file2
 ```
+
+## Testing a Connection
+
+How to test if you can force a box to communicate back to you?
+
+### Netcat
+
+A `netcat` listener is useful for many reasons, including catching shells. But it can also be good for testing a one-off connection, such as a HTTP request.
+
+This is the basic syntax for a netcat listener:
+
+```bash
+$ nc -lp [PORT]
+```
+
+This will catch incoming connections, and also harvest user agents from the requestor.
+
+To start on a priveleged port, such as 80 or 443, you must run with root priveleges:
+
+```bash
+$ sudo nc -lnvp 80
+```
+
+For extra info, use the `-v` flag to put it in verbose mode. Use the `-n` flag to not perform DNS lookups on the incoming connections. This is the standard netcat command I use:
+
+```bash
+$ nc -lnvp [PORT]
+```
+
+Netcat can listen for anything sent over TCP or UDP (practically any web traffic besides `ping` requests).
+
+Netcat closes after one connection by default. To have your netcat listener stay open after a connection, use the `-k` flag.
+
+### Python webserver
+
+A Python webserver is better than Netcat if you want to make multiple requests, as it stays open after a connection by default. However, a Python webserver does not harvest as much information by default, such as User Agent strings
+
+On host machine, start a webserver:
+
+```bash
+$ python3 -m http.server [PORT]
+```
+
+(This listens on port 8000 by default. See more details [[Fundamental Skills#Filesharing Between Computers]]
+
+Then make a connection to your box, using any method available to you:
+- Curl: `$ curl http://[IP]:[PORT]`
+- Wget: `$ wget http://[IP]:[PORT]`
+- Netcat: `$ nc [IP]:[PORT]`
+- Curl.exe (Windows 10): `curl.exe --url http://[IP]:[PORT]`
+- Powershell: `powershell -command "Invoke-WebRequest -Uri http://[IP]:[PORT]"`
+
+See the following [Stack Overflow Post](https://serverfault.com/questions/483754/is-there-a-built-in-command-line-tool-under-windows-like-wget-curl) for more windows options.
+
+### Ping
+
+For non-TCP/UDP requests, start a tcpdump and send a ping.
+
+On the host machine, start a listener for ICMP (ping) requests:
+
+```bash
+┌──(mac㉿kali)-[~]
+└─$ sudo tcpdump -i [INTERFACE] -n icmp
+[sudo] password for mac: 
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on tun0, link-type RAW (Raw IP), snapshot length 262144 bytes
+```
+
+On the target machine, ping your box once using either:
+- `ping -c 1 [IP]` (Linux)
+- `ping -n 1 [IP]` (Windows)
+
+Pinging only once is necessary if you have non-interactive remote code execution (i.e. you can issue a command, but not press `Ctrl + C` to abort it). Otherwise, the box will continue pinging forever.
