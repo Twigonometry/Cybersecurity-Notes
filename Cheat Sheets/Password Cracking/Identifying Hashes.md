@@ -10,7 +10,7 @@ $ hashid [HASH]
 Run these through [[Hashcat]] to see what modes they are for cracking:
 
 ```bash
-$ hashcat --example-hashes | grep [ALGORITHM-NAME] -B 1
+$ hashcat --example-hashes | grep [ALGORITHM-NAME] -B 2
 ```
 
 If you have a large number of candidates, search them all with this one-liner:

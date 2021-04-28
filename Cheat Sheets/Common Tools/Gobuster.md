@@ -41,3 +41,18 @@ If you know your target site is using a specific file extension, such as `php` o
 ```bash
 $ gobuster dir -u example.com -w /path/to/wordlist -x php,asp
 ```
+
+## VHOST Busting
+
+You can also use Gobuster to brute force Virtual Hosts (aka subdomains). Use `vhost` mode to do this.
+
+**Basic Syntax**
+
+```bash
+gobuster vhost -u example.com -w /path/to/wordlist
+```
+
+This will append subdomains to the beginning of the hostname, e.g. `staging.example.com`. A good wordlist can be found at `/usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt`.
+
+Practical example:
+IppSec does this on [Academy](https://youtu.be/yQl5RA6APyQ?t=306)

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheets/Enumeration/Docker Enumeration.md",
+            "file": "Cheat Sheets/Common Tools/smbclient.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linpeas",
+                "query": "udp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheets/Enumeration/Docker Enumeration.md",
+                "file": "Cheat Sheets/Common Tools/smbclient.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "baafc49aa1888c39",
   "lastOpenFiles": [
-    "Cheat Sheets/Enumeration/Untitled.md",
-    "Cheat Sheets/Linux/Linux Networking.md",
-    "Cheat Sheets/Fundamental Skills.md",
-    "Cheat Sheets/Password Cracking/Creating a Hashfile.md",
-    "Cheat Sheets/Linux/Linux Enumeration.md",
-    "Cheat Sheets/Linux/Linux Shells.md",
-    "Cheat Sheets/Linux/Basic Linux Commands.md",
+    "Cheat Sheets/Common Tools/smbclient.md",
+    "Cheat Sheets/Common Tools/nmap.md",
+    "Cheat Sheets/Common Tools/netcat.md",
+    "Pasted image 20210418195621.png.md",
+    "Cheat Sheets/Common Tools/Gobuster.md",
+    "Cheat Sheets/Enumeration/Linux Enumeration.md",
+    "Cheat Sheets/Enumeration/Docker Enumeration.md",
     "Cheat Sheets/Password Cracking/Identifying Hashes.md",
-    "Cheat Sheets/Password Cracking/Generating a Wordlist.md",
-    "Cheat Sheets/Password Cracking/Hashcat.md"
+    "Cheat Sheets/Enumeration/Untitled.md",
+    "Cheat Sheets/Linux/Linux Networking.md"
   ]
 }

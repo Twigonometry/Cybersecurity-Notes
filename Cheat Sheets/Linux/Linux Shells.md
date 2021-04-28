@@ -46,6 +46,8 @@ Within your shell, possibly after spawning a `/bin/bash` process with python, do
 
 You should now have an interactive shell!
 
+You can then run `export TERM=xterm` to allow clearing the terminal.
+
 If your line wrapping seems off, you may need to recalibrate the columns and rows in your new shell. Do the following:
 
 - Execute `stty -a` on your host machine and make a note of the rows and columns number
