@@ -13,7 +13,7 @@ Start here if you are a complete beginner!
 
 SSH means 'secure shell', and is one of the most fundamental ways of remotely accessing another computer.
 
-SSH access is controlled by keys, using public-key cryptography. 'Hosts' make themselves
+SSH access is controlled by keys, using public-key cryptography.
 
 The SSH protocol also powers many other tools and services, such as [[Linux Networking#Secure Copy|Secure Copy]] and port forwarding.
 
@@ -48,7 +48,7 @@ Your public key has been saved in /home/user/.ssh/id_rsa.pub.
 
 This will create a pair of keys and store them in your `~/.ssh` directory. By default they will be called `id_rsa` (your **private key**) and `id_rsa.pub` (your **public key**).
 
-You can change the name of these keys by specifying the `-f` flag, which also lets you specify where you wish to save them. This is useful if you have multiple keys
+You can change the name of these keys by specifying the `-f` flag, which also lets you specify where you wish to save them. This is useful if you have multiple keys:
 
 ```bash
 $ ssh-keygen -f test
@@ -73,6 +73,8 @@ Clients also keep a list of 'known hosts', which tells them which public keys th
 
 There are many situations when you may want to transfer a file to a remote host. The most common example I can think of is when uploading an enumeration script to a machine you have gained a foothold on.
 
+You may also want to download a file from a remote host - for example, when exfiltrating data or downloading a binary file to see how it works.
+
 ### Python Webserver
 
 This is one of the easiest methods of file transfer. It involves starting a basic HTTP server on your machine and using this to serve files to a remote computer.
@@ -96,6 +98,8 @@ If you want to listen on a priveleged port (<1000) you must run with root privel
 ```bash
 $ sudo python3 -m http.server 80
 ```
+
+[[Common Ports|Learn more about ports]]
 
 **Communicating with the Server**
 
