@@ -2,6 +2,8 @@
 
 Detailed cheat sheet available here: [https://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf](https://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf)
 
+`nc` can be used as shorthand for `netcat` on some machines.
+
 ## Basic Client
 
 I.e. connect to an arbitrary port on an IP address:
