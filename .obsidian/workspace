@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheets/Common Tools/smbclient.md",
-            "mode": "preview"
+            "file": "Cheat Sheets/Common Tools/smbmap.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheets/Common Tools/smbclient.md",
+                "file": "Cheat Sheets/Common Tools/smbmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "baafc49aa1888c39",
   "lastOpenFiles": [
+    "Cheat Sheets/Common Tools/smbmap.md",
     "Cheat Sheets/Common Tools/smbclient.md",
     "Cheat Sheets/Common Tools/nmap.md",
     "Cheat Sheets/Common Tools/netcat.md",
@@ -96,7 +97,6 @@
     "Cheat Sheets/Enumeration/Linux Enumeration.md",
     "Cheat Sheets/Enumeration/Docker Enumeration.md",
     "Cheat Sheets/Password Cracking/Identifying Hashes.md",
-    "Cheat Sheets/Enumeration/Untitled.md",
-    "Cheat Sheets/Linux/Linux Networking.md"
+    "Cheat Sheets/Enumeration/Untitled.md"
   ]
 }
