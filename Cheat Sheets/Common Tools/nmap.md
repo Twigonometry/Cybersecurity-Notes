@@ -73,6 +73,12 @@ $ nmap -sC a.b.c.d
 $ nmap -sV a.b.c.d
 ```
 
+`nmap` can also enumerate an operating system, using the `-O` flag:
+
+```bash
+$ nmap -O a.b.c.d
+```
+
 ## Specifying Ports
 
 **Scan a Single Port**
