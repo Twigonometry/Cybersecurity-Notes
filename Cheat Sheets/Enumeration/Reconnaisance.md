@@ -13,6 +13,14 @@ $ nmap -v -sC -sV -oA nmap/ [IP/HOSTNAME]
 
 It shows ports as it finds them with the `-v` flag, tries to enumerate service versions and runs some default scripts, and then outputs the results to the `nmap/` directory, which you must make first (with `mkdir nmap`)
 
+By default, `nmap` only scans the 1000 most common ports. To scan all ports, run this command:
+
+```bash
+$ nmap -p- -oA nmap/all-ports [IP/HOSTNAME]
+```
+
+It is best to do this after your first scan has completed.
+
 See more details about nmap's various functions in the [[nmap|nmap cheatsheet]], including:
 - Installation Instructions
 - Scanning Specific Ports

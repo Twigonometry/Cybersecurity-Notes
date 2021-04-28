@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheets/Enumeration/Reconnaisance.md",
+            "file": "Cheat Sheets/Reconnaisance.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheets/Enumeration/Reconnaisance.md",
+                "file": "Cheat Sheets/Reconnaisance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "baafc49aa1888c39",
   "lastOpenFiles": [
+    "Cheat Sheets/Reconnaisance.md",
     "Cheat Sheets/Enumeration/Reconnaisance.md",
     "Cheat Sheets/Common Tools/nmap.md",
     "Cheat Sheets/Enumeration/Linux Enumeration.md",
@@ -96,7 +97,6 @@
     "Cheat Sheets/Common Tools/smbclient.md",
     "Cheat Sheets/Common Tools/netcat.md",
     "Pasted image 20210418195621.png.md",
-    "Cheat Sheets/Common Tools/Gobuster.md",
-    "Cheat Sheets/Password Cracking/Identifying Hashes.md"
+    "Cheat Sheets/Common Tools/Gobuster.md"
   ]
 }
