@@ -7,7 +7,7 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 
 - [ ] Gobuster
 	- [ ] Add links to practical examples
-	- [ ] VHOST busting
+	- [x] VHOST busting
 - [ ] SQLMap
 	- [ ] Blind Injection
 - [ ] CrackMapExec
@@ -33,7 +33,7 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 	- [ ] Exploits on old versions
 - [ ] SMB
 	- [ ] Anonymous Authentication
-	- [ ] Enumeration
+	- [x] Enumeration
 - [ ] LDAP
 	- [ ] Basic query structure
 

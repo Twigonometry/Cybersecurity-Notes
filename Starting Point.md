@@ -18,11 +18,11 @@ The repository is designed to be highly connected and full of atomic notes, just
 
 ## Who is this Repository for?
 
-I want this repository to be a useful resource for people of all skill levels in Cybersecurity. With [Sheffield Ethical Student Hackers](https://shefesh.com) and through work I've had a chance to develop my skills communicating the basics of Cybsersecurity, and I hope to be able to provide a good resource here for complete beginners.
+I want this repository to be a useful resource for people of all skill levels in Cybersecurity. With [Sheffield Ethical Student Hackers](https://shefesh.com) and through my work I've had a chance to develop my skills communicating the basics of Cybsersecurity, and I hope to be able to provide a good resource here for complete beginners.
 
-I also want to do some deep dives into some of my favourite topics. Unfortunately I am still somewhat of a beginner myself, and still grappling with some of the harder concepts. Hopefully as my cyber knowledge evolves, so will this resource, and it will become more relevant for those of you who can root a Hard Windows box before it leaves the Release Arena.
+I also want to do some deep dives into some of my favourite topics. Unfortunately I am still somewhat of a beginner myself, and still grappling with some of the harder concepts. Hopefully, as my cyber knowledge evolves so will this resource, and it will become more relevant for those of you who can root a Hard Windows box before it leaves the Release Arena.
 
-For those of you interested in reading writeups, I'll be putting all of mine on here. I will only upload writeups of retired boxes on HacktheBox (as per policy), so they will trickle through as I move them from my private vault. I'll also look at uploading TryHackeMe solutions and solutions for any CTFs I take part in.
+For those of you interested in reading writeups, I'll be putting all of mine on here. I will only upload writeups of retired boxes on HacktheBox (as per policy), so they will trickle through as I move them from my private vault. I'll also look at uploading TryHackMe solutions and solutions for any CTFs I take part in.
 
 I also want to include resources for developers who are looking to improve the way they write secure code. Stay tuned on this one - I will be looking for examples of badly implemented sites in CTF and HTB challenges, and uploading remedied code here when I can. I'd also like to include resources for secure use of Cloud Computing platforms such as AWS.
 

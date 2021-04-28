@@ -29,7 +29,7 @@ See more details about nmap's various functions in the [[nmap|nmap cheatsheet]],
 
 ## Autorecon
 
-This tool performs a number of automated scans. It starts with an nmap scan, and uses the results from that to launch a number of other scans, such as directory discovery with `gobuster`.
+This tool performs a number of automated scans. It starts with an `nmap` scan, and uses the results from that to launch a number of other scans, such as directory discovery with [[Gobuster]].
 
 Download the tool from the [Git Repository](https://github.com/Tib3rius/AutoRecon), where you can also see a whole host of extra usage details.
 
