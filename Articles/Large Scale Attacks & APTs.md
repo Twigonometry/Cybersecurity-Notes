@@ -14,12 +14,6 @@ This note provides a list of articles about high-profile hacks and Advanced Pers
 
 [https://arstechnica.com/information-technology/2021/03/expert-hackers-used-11-zerodays-to-infect-windows-ios-and-android-users/](https://arstechnica.com/information-technology/2021/03/expert-hackers-used-11-zerodays-to-infect-windows-ios-and-android-users/)
 
-## PHP Supply Chain Attack - March 2021
-
-[https://arstechnica.com/gadgets/2021/03/hackers-backdoor-php-source-code-after-breaching-internal-git-server/](https://arstechnica.com/gadgets/2021/03/hackers-backdoor-php-source-code-after-breaching-internal-git-server/)
-
-[https://laravel-news.com/postmortem-of-php-core-compromise-continues](https://laravel-news.com/postmortem-of-php-core-compromise-continues)
-
 ## Fortinet VPN - April 2021
 
 [https://threatpost.com/fbi-apts-actively-exploiting-fortinet-vpn-security-holes/165213/](https://threatpost.com/fbi-apts-actively-exploiting-fortinet-vpn-security-holes/165213/)

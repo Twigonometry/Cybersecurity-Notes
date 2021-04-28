@@ -17,6 +17,8 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 - [ ] Kerbrute
 	- [ ] Basic pre-auth attack
 	- [ ] Password Spray
+- [ ] rpcclient
+	- [ ] Null auth
 
 ## Guides to Basic Linux Commands
 - [ ] awk
@@ -60,6 +62,9 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 
 - [ ] Powershell Shells
 - [ ] ASP Shells
+- [ ] PHP Shells
+- [ ] Netcat Shells
+- [x] Bash Shells
 
 ## Detailed Writeups
 
@@ -72,3 +77,17 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 
 - [ ] Options for scanning a range of targets
 - [ ] Options for scanning targets with an unknown address
+
+## Enumeration
+
+- [ ] Manual Enumeration
+	- [ ] Linpeas
+		- [ ] Details of auto exploit OSCP disqualification
+			- [ ] Tweet
+			- [ ] OSCP statement
+			- [ ] Identify offending code and show how to remove it
+		- [ ] How to replicate most common commands
+			- [ ] Listing services
+			- [ ] Finding passwords
+	- [ ] manual port scanning
+		- [ ] Bashscan

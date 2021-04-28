@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheets/Fundamental Skills.md",
-            "mode": "preview"
+            "file": "Articles/Supply Chain Security.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheets/Fundamental Skills.md",
+                "file": "Articles/Supply Chain Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
   },
   "active": "baafc49aa1888c39",
   "lastOpenFiles": [
-    "Cheat Sheets/Fundamental Skills.md",
-    "Cheat Sheets/Linux/Linux Misc.md",
-    "Cheat Sheets/Linux/Linux Networking.md",
-    "Cheat Sheets/Common Tools/smbclient.md",
-    "Cheat Sheets/Common Tools/nmap.md",
+    "Articles/Supply Chain Security.md",
+    "Articles/Linux Security.md",
+    "Articles/News Sources.md",
+    "Useful Resources.md",
+    "Articles/Large Scale Attacks & APTs.md",
     "To Add.md",
-    "Cheat Sheets/Enumeration/Linux Enumeration.md",
-    "Cheat Sheets/Password Cracking/Hashcat.md",
-    "Cheat Sheets/Aliases.md",
-    "Cheat Sheets/Password Cracking/Generating a Wordlist.md"
+    "Cheat Sheets/Linux/Linux Shells.md",
+    "Articles/Untitled.md",
+    "Cheat Sheets/Fundamental Skills.md",
+    "Cheat Sheets/Linux/Linux Misc.md"
   ]
 }
