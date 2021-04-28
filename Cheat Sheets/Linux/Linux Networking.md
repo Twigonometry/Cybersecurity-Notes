@@ -81,7 +81,7 @@ On host machine, start a webserver:
 $ python3 -m http.server [PORT]
 ```
 
-(This listens on port 8000 by default. See more details [[Fundamental Skills#Filesharing Between Computers]]
+(*Note:* This listens on port 8000 by default. See more details at [[Fundamental Skills#Filesharing Between Computers]])
 
 Then make a connection to your box, using any method available to you:
 - Curl: `$ curl http://[IP]:[PORT]`

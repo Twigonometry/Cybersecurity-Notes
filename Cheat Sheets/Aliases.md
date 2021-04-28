@@ -2,6 +2,8 @@
 
 ## Useful Aliases
 
+These are some examples of personal aliases I've used. They allow me to quickly navigate to certain respositories and quickly open files.
+
 ```bash
 # Running VPNs
 alias htbvpn="sudo openvpn ~/Documents/HTB\ Access/Twigonometry.ovpn"
@@ -32,6 +34,6 @@ alias obsidian="~/Applications/Obsidian-0.11.9.AppImage --no-sandbox"
 
 ```bash
 nano ~/.bashrc
-[...type your code...]
+[...type your code and save...]
 source ~/.bashrc
 ```

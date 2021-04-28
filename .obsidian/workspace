@@ -12,44 +12,7 @@
             "file": "Cheat Sheets/Fundamental Skills.md",
             "mode": "preview"
           }
-        },
-        "group": "9d0c0a51623cf3d2"
-      },
-      {
-        "id": "f8cb6c0b6a103ff8",
-        "type": "leaf",
-        "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "Cheat Sheets/Fundamental Skills.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1.0000000000000009,
-              "close": false
-            }
-          }
-        },
-        "group": "9d0c0a51623cf3d2"
+        }
       }
     ],
     "direction": "vertical"
@@ -76,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "scp",
+                "query": "exploit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,17 +85,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "f8cb6c0b6a103ff8",
+  "active": "baafc49aa1888c39",
   "lastOpenFiles": [
     "Cheat Sheets/Fundamental Skills.md",
+    "Cheat Sheets/Linux/Linux Misc.md",
     "Cheat Sheets/Linux/Linux Networking.md",
-    "Cheat Sheets/Networking/Common Ports.md",
+    "Cheat Sheets/Common Tools/smbclient.md",
+    "Cheat Sheets/Common Tools/nmap.md",
+    "To Add.md",
     "Cheat Sheets/Enumeration/Linux Enumeration.md",
+    "Cheat Sheets/Password Cracking/Hashcat.md",
     "Cheat Sheets/Aliases.md",
-    "Cheat Sheets/Enumeration/Docker Enumeration.md",
-    "Cheat Sheets/Common Tools/netcat.md",
-    "Starting Point.md",
-    "Vulnerabilities/SSH/Untitled.md",
-    "Vulnerabilities/Vulnerabilities Index.md"
+    "Cheat Sheets/Password Cracking/Generating a Wordlist.md"
   ]
 }
