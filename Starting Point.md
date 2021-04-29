@@ -16,6 +16,15 @@ This repository contains a number of resources about cybersecurity. I plan to in
 
 The repository is designed to be highly connected and full of atomic notes, just the way Obsidian intended. This means I will overlap these topics, and try to link 'Cyber Topics' articles to practical examples on writeups, or link writeups to the relevant cheat sheet so you can read more about the commands used.
 
+**Why Build This?**
+
+I had a few main motivations:
+- It was unwieldy to have a set of cheatsheets online that you had to find the links to and reopen every time you wanted to look up a command
+- I was sick of having to open multiple Cherry Tree files to reference my writeups - for example, when completing a new box that was similar to an old one
+- I wanted to be easily able to link cheatsheets to practical examples from writeups
+
+Obsidian easily solves all of the above issues (well - with some effort from me)
+
 ## Who is this Repository for?
 
 I want this repository to be a useful resource for people of all skill levels in Cybersecurity. With [Sheffield Ethical Student Hackers](https://shefesh.com) and through my work I've had a chance to develop my skills communicating the basics of Cybsersecurity, and I hope to be able to provide a good resource here for complete beginners.

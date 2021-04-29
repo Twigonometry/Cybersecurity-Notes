@@ -76,6 +76,7 @@ If you can write to a user's `.ssh/authorized_keys` file, you can write your own
 This situation may arise when:
 - you can use an exploit to write to a file, but cannot execute arbitrary code
 - you can execute arbitrary code, but only one command at a time/in a restrictive shell, and you want to [[Linux Shells#Upgrading a Shell|upgrade your shell]]
+- your shell might be about to be closed, and you want to gain persistence on the box (i.e. repeatable access)
 
 A practical example can be seen in [[15 - Shell as www-data#SSH Persistence]]
 

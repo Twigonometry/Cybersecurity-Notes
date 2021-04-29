@@ -110,3 +110,4 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 
 - Tips and Tricks
 	- [ ] Port Knocking
+- [ ] Add instructions for how to contribute to repo
