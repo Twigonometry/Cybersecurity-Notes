@@ -6,6 +6,14 @@ I wasn't as good at taking screenshots for my notes back then, so when I convert
 
 ---
 
+This is also my first writeup of a HTB box. It is also available [on my website](https://www.mac-goodwin.com/blog/htb/2021/04/29/htb-bucket.html), where the pages are in one sprawling post if you prefer that to notes that sexily link together.
+
+I'm still working out my personal style for writeups, and this one has turned out to be quite long. I enjoy writing up my thought processes and making my writeups quite detailed - mostly because, primarily, these are resources for me.
+
+Some people might not like this style, and that is fine - snappier text writeups are available, such as those by [0xdf](https://0xdf.gitlab.io/). But if you like a bit of explanation and a narrative style, as well as seeing where people go wrong, these might be for you. I think there is a benefit to including mistakes in writeups, so we can learn from them going forwards.
+
+---
+
 This box was extremely fun. The initial exploit involved enumerating a webserver to discover it was linked to some AWS resources. There were then two parallel parts: interacting with a DynamoDB shell to exfiltrate some credentials, and uploading a web shell to an S3 bucket for code execution on the box.
 
 Once you were on the box, you could use the stolen credentials to log in as the user `roy`. roy had access to a locally-hosted web app which you could access via SSH tunneling and exploit by adding a malicious entry in a database that caused the web app to read a sensitive file and convert it to a PDF.

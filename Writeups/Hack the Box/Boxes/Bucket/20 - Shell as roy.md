@@ -423,7 +423,7 @@ This outputs a pdf into our local filesystem:
 
 ![[Pasted image 20210429124611.png]]
 
-Clicking the pin gives us the SSH key!
+Clicking the paperclip gives us the SSH key!
 
 ![[Pasted image 20210429124714.png]]
 
@@ -436,3 +436,5 @@ We can copy and paste and save this key, then SSH in as root:
 root@bucket:~# cat root.txt 
 d2d9f1dd102ca4d5bd9b9ebf62e3f604
 ```
+
+That's the box!
