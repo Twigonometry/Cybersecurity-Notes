@@ -111,3 +111,33 @@ On the target machine, ping your box once using either:
 - `ping -n 1 [IP]` (Windows)
 
 Pinging only once is necessary if you have non-interactive remote code execution (i.e. you can issue a command, but not press `Ctrl + C` to abort it). Otherwise, the box will continue pinging forever.
+
+## Tunneling
+
+Use tunneling to access a remote port via a local port.
+
+For example, a webserver is running locally on a remote box (it is not exposed publicly to the internet). If this server was running on port 9999, it would be accessed on the remote box via `http://localhost:9999`.
+
+If we have a way of tunneling to this box, we can set up a relay from our computer to the remote computer. For example, we could tell our port 8000 to point to the remote server's port 9999. If the remote server's IP was `192.0.0.2`, the tunnel would look like this:
+- We make a request to `http://localhost:8000` on our local machine
+- This request is forwarded, via a tunnel, to `http://192.0.0.2:9999`
+
+This setup allows us, for example, to access a website in the browser that we may only have been able to interact with previously over command line.
+
+### With SSH
+
+If we have SSH access to this machine, we can use SSH tunneling to accomplish this goal:
+
+```bash
+$ ssh -L 8000:localhost:9999 [USER@]192.0.0.2 [-i /path/to/private/key]
+```
+
+This assumes the same addresses as above. It will ask us to log in, or use an optional provided private key. Once the SSH connection completes, an SSH terminal will open, and the tunnel will be setup.
+
+You can then 'navigate' to the remote host's 'local' webserver by visiting your own localhost:
+
+```bash
+$ curl localhost:8000
+```
+
+A good guide to this process can be found at [Linux Hint](https://linuxhint.com/ssh-port-forwarding-linux/), which includes SSH setup instructions.

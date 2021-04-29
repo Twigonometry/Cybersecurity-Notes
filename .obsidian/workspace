@@ -4,13 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "baafc49aa1888c39",
+        "id": "97acd2f459b3467a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheets/Enumeration/Linux Enumeration.md",
+            "file": "Writeups/Hack the Box/Boxes/Bucket/20 - Shell as roy.md",
             "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "a15e65e5158e142e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Cheat Sheets/Linux/Linux Networking.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ippsec",
+                "query": "Cybersecurity/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheets/Enumeration/Linux Enumeration.md",
+                "file": "Writeups/Hack the Box/Boxes/Bucket/20 - Shell as roy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,19 +94,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "baafc49aa1888c39",
+  "active": "97acd2f459b3467a",
   "lastOpenFiles": [
+    "Writeups/Hack the Box/Boxes/Bucket/20 - Shell as roy.md",
+    "Cheat Sheets/Linux/Linux Networking.md",
     "Cheat Sheets/Enumeration/Linux Enumeration.md",
-    "To Add.md",
-    "Articles/Supply Chain Security.md",
-    "Articles/Linux Security.md",
-    "Articles/News Sources.md",
-    "Useful Resources.md",
-    "Articles/Large Scale Attacks & APTs.md",
-    "Cheat Sheets/Linux/Linux Shells.md",
-    "Articles/Untitled.md",
-    "Cheat Sheets/Fundamental Skills.md"
+    "Writeups/Hack the Box/Boxes/Bucket/15 - Shell as www-data.md",
+    "Writeups/Hack the Box/Boxes/Bucket/10 - Website.md",
+    "Writeups/Hack the Box/Boxes/Bucket/5 - Enumeration.md",
+    "Writeups/Hack the Box/Boxes/Bucket/1 - Loot.md",
+    "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Bucket/Bucket Index.md",
+    "Cheat Sheets/Networking/Common Ports.md"
   ]
 }
