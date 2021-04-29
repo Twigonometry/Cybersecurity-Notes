@@ -78,7 +78,7 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 ## Writeups
 
 - HTB
-	- [ ] Bucket
+	- [x] Bucket
 	- [ ] Time
 	- [ ] Doctor
 	- [ ] Academy
@@ -86,6 +86,7 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 	- [ ] OpenAdmin
 	- [ ] Laboratory
 	- [ ] Passage
+- [ ] PwnED CTF
 
 ## Reconnaisance
 
@@ -96,10 +97,10 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 
 - [ ] Manual Enumeration
 	- [ ] Linpeas
-		- [ ] Details of auto exploit OSCP disqualification
-			- [ ] Tweet
-			- [ ] OSCP statement
-			- [ ] Identify offending code and show how to remove it
+		- [x] Details of auto exploit OSCP disqualification
+			- [x] Tweet
+			- [x] OSCP statement
+			- [x] Identify offending code and show how to remove it
 		- [ ] How to replicate most common commands
 			- [ ] Listing services
 			- [ ] Finding passwords
@@ -111,3 +112,20 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 - Tips and Tricks
 	- [ ] Port Knocking
 - [ ] Add instructions for how to contribute to repo
+
+## Linux Operating System
+
+- [ ] File permissions
+	- [ ] rwx
+	- [ ] ACL
+	- [ ] Suid
+- [ ] Credentials
+	- [ ] Shadow File
+
+## Windows Operating System
+
+- [ ] File Permissions
+- [ ] Credentials
+	- [ ] Where are credentials stored
+	- [ ] Exploits involving registry
+- [ ] Powershell secure strings

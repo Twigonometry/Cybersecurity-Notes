@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheets/Linux/Linux Networking.md",
-            "mode": "preview"
+            "file": "To Add.md",
+            "mode": "source"
           }
         }
       }
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheets/Linux/Linux Networking.md",
+                "file": "To Add.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +88,8 @@
   },
   "active": "10f05db8c3462739",
   "lastOpenFiles": [
+    "To Add.md",
+    "SESH/Demos/Deserialisation Demo.md",
     "Cheat Sheets/Linux/Linux Networking.md",
     "Writeups/Hack the Box/Boxes/Bucket/20 - Shell as roy.md",
     "Starting Point.md",
@@ -96,8 +97,6 @@
     "Writeups/Hack the Box/Boxes/Bucket/1 - Loot.md",
     "Writeups/Hack the Box/Boxes/Bucket/15 - Shell as www-data.md",
     "Writeups/Hack the Box/Boxes/Bucket/10 - Website.md",
-    "To Add.md",
-    "README.md",
-    "Cheat Sheets/Fundamental Skills.md"
+    "README.md"
   ]
 }
