@@ -13,17 +13,6 @@
             "mode": "preview"
           }
         }
-      },
-      {
-        "id": "a15e65e5158e142e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Cheat Sheets/Linux/Linux Networking.md",
-            "mode": "source"
-          }
-        }
       }
     ],
     "direction": "vertical"

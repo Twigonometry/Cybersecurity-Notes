@@ -306,6 +306,8 @@ Running this successfully creates our table.
 
 Now we need to create an alert that will read a sensitive file. Looking at the code, the `title` field needs to equal "Ransomware", and then we can put whatever we like in the `data` field.
 
+We use the `put-item` method to do this. [Reading the docs](https://docs.aws.amazon.com/cli/latest/reference/dynamodb/put-item.html) explains how to do this, and the method allows us to set our `data` attribute.
+
 Let's go with `/root/.ssh/id_rsa` to read their private key.
 
 Here's our initial script:
