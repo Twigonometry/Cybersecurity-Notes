@@ -64,7 +64,7 @@ It turns out `localstack` does actually support IAM, but I suppose somehow this 
 
 ### Network Connections
 
-`netstat` shows some local connections (the database for `bucket-app`) and outgoing connections to my box.
+`netstat` shows some local connections (namely port 4566, which hosts the 'edge service' for `localstack`) and outgoing connections to my box.
 
 ```bash
 roy@bucket:/var/www/bucket-app$ netstat
