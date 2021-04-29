@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Bucket/20 - Shell as roy.md",
+            "file": "Cheat Sheets/Fundamental Skills.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Bucket/20 - Shell as roy.md",
+                "file": "Cheat Sheets/Fundamental Skills.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "97acd2f459b3467a",
   "lastOpenFiles": [
-    "Writeups/Hack the Box/Boxes/Bucket/20 - Shell as roy.md",
-    "Cheat Sheets/Linux/Linux Networking.md",
-    "Cheat Sheets/Enumeration/Linux Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Bucket/15 - Shell as www-data.md",
+    "Cheat Sheets/Fundamental Skills.md",
+    "To Add.md",
     "Writeups/Hack the Box/Boxes/Bucket/10 - Website.md",
     "Writeups/Hack the Box/Boxes/Bucket/5 - Enumeration.md",
     "Writeups/Hack the Box/Boxes/Bucket/1 - Loot.md",
     "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Bucket/Bucket Index.md",
-    "Cheat Sheets/Networking/Common Ports.md"
+    "Writeups/Hack the Box/Boxes/Bucket/20 - Shell as roy.md",
+    "Cheat Sheets/Linux/Linux Networking.md",
+    "Cheat Sheets/Enumeration/Linux Enumeration.md",
+    "Writeups/Hack the Box/Boxes/Bucket/15 - Shell as www-data.md"
   ]
 }

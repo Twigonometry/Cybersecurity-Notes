@@ -69,6 +69,16 @@ Clients also keep a list of 'known hosts', which tells them which public keys th
 
 **Never give away your private key**. It will allow someone to impersonate you, and potentially gain access to your server.
 
+##### Using SSH Keys to Gain Access
+
+If you can write to a user's `.ssh/authorized_keys` file, you can write your own public key and then SSH in using your private key as an identity file.
+
+This situation may arise when:
+- you can use an exploit to write to a file, but cannot execute arbitrary code
+- you can execute arbitrary code, but only one command at a time/in a restrictive shell, and you want to [[Linux Shells#Upgrading a Shell|upgrade your shell]]
+
+A practical example can be seen in [[15 - Shell as www-data#SSH Persistence]]
+
 ## Filesharing Between Computers
 
 There are many situations when you may want to transfer a file to a remote host. The most common example I can think of is when uploading an enumeration script to a machine you have gained a foothold on.

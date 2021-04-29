@@ -19,6 +19,9 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 	- [ ] Password Spray
 - [ ] rpcclient
 	- [ ] Null auth
+- [ ] Netcat
+	- [x] Basic syntax
+	- [ ] Traditional mode
 
 ## Guides to Basic Linux Commands
 - [ ] awk

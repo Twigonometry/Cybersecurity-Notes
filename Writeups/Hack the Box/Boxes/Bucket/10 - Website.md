@@ -70,8 +70,7 @@ Date: Tue, 15 Dec 2020 15:26:03 GMT
 Server: hypercorn-h11  
 content-type: text/html; charset=utf-8  
 content-length: 0  
-refresh: 0; url=[http://444af250749d:4566/shell/  
-](http://444af250749d:4566/shell/)  
+refresh: 0; url=http://444af250749d:4566/shell/
 access-control-allow-origin: \*  
 access-control-allow-methods: HEAD,GET,PUT,POST,DELETE,OPTIONS,PATCH  
 access-control-allow-headers: authorization,content-type,content-md5,cache-control,x-amz-content-sha256,x-amz-date,x-amz-security-token,x-amz-user-agent,x-amz-target,x-amz-acl,x-amz-version-id,x-localstack-target,x-amz-tagging  

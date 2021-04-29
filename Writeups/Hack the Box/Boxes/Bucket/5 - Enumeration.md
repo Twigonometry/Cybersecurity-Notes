@@ -7,18 +7,18 @@ I started with an `nmap` scan to discover open ports:
 ```bash
 ┌──(mac㉿kali)-[~/Documents/HTB/bucket]
 └─$ nmap 10.10.10.212 -sC -sV -oA nmap/  
-Starting Nmap 7.80 ( [https://nmap.org](https://nmap.org) ) at 2020-12-15 15:04 GMT  
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-12-15 15:04 GMT  
 Nmap scan report for 10.10.10.212  
 Host is up (0.032s latency).  
 Not shown: 998 closed ports  
 PORT STATE SERVICE VERSION  
 22/tcp open ssh OpenSSH 8.2p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)  
 80/tcp open http Apache httpd 2.4.41  
-|\_http-server-header: Apache/2.4.41 (Ubuntu)  
-|\_http-title: Did not follow redirect to [http://bucket.htb/](http://bucket.htb/)  
-Service Info: Host: 127.0.1.1; OS: Linux; CPE: cpe:/o:linux:linux\_kernel  
+|_http-server-header: Apache/2.4.41 (Ubuntu)  
+|_http-title: Did not follow redirect to http://bucket.htb/
+Service Info: Host: 127.0.1.1; OS: Linux; CPE: cpe:/o:linux:linux\kernel  
   
-Service detection performed. Please report any incorrect results at [https://nmap.org/submit/](https://nmap.org/submit/) .  
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .  
 Nmap done: 1 IP address (1 host up) scanned in 8.45 seconds
 ```
 
