@@ -97,6 +97,8 @@ LISTEN               0                    128                                   
 
 It also doesn't show up in `ps aux`, so there is no way to verify which user it runs as. We later find out it has root privileges, and there is one `/usr/sbin/apache2 -k start` process running as root, so I suspect that is the underlying process that started the server.
 
+After looking at some other writeups, it seems `netstat -tnl` would have revealed the webserver. An alternative would have been to look in `/etc/apache2/sites-enabled/000-default.conf` to see what sites are enabled on the box. [0xdf's writeup](https://0xdf.gitlab.io/2021/04/24/htb-bucket.html#web-1) explains this process.
+
 ### Linpeas
 
 I did run [[Linux Enumeration#Linpeas|Linpeas]], but it didn't throw up much useful information. The highlights were the presence of the `.aws` directory, which we had already found, and a potential `at` exploit.
