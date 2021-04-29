@@ -112,6 +112,28 @@ On the target machine, ping your box once using either:
 
 Pinging only once is necessary if you have non-interactive remote code execution (i.e. you can issue a command, but not press `Ctrl + C` to abort it). Otherwise, the box will continue pinging forever.
 
+## PHP Webservers
+
+Similarly to the Python Webserver, this starts a server locally and quickly, and gives you output logs. However, it is more useful for serving PHP files than it is for transferring files between boxes.
+
+If you want to test a PHP script locally, you can run a PHP webserver in the serving directory like so:
+
+```bash
+$ php -S localhost:[PORT]
+```
+
+Like with Python, you will need root privileges to run on a priveleged port (<1000)
+
+You can then access PHP files with curl, or in the browser. For example, testing a webshell:
+
+```bash
+$ curl http://localhost:[PORT]/cmdphp.php?cmd=id
+```
+
+PHP webservers can also come in handy when testing web applications on a remote box. If you setup an [[Linux Networking#With SSH|SSH tunnel]] to the remote server, you can run a PHP server to test it and see the output. This can help debug the server remotely.
+
+A practical example of this can be seen at [[20 - Shell as roy#Testing the Web App]]
+
 ## Tunneling
 
 Use tunneling to access a remote port via a local port.

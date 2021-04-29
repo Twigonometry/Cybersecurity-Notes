@@ -11,6 +11,7 @@ This repository contains a number of resources about cybersecurity. I plan to in
 	- [[Basic Linux Commands]]
 - Cyber Topics: detailed overviews of a specific topic, for example a specific exploit I took a deep dive into on a box, or a beginner's look at XSS
 - Writeups: full rundowns of how I completed challenges on HacktheBox (HTB), TryHackMe (THM), and various CTFs
+- CVEs: overviews of common CVEs I've found useful, and PoC code where relevant
 - Articles: some of my favourite cybersecurity articles - either news on big hacks, or well though out resources that I'd feel bad trying to rip off here
 - [[Useful Resources|Resource Lists]]: Similarly to the above, I can't replicate everything here - I'll point you to some of my favourite online resources for learning and research
 
@@ -42,8 +43,9 @@ In summary, these are the areas that are relevant:
 - For Learning Reconnaisance:
 	- [[Reconnaisance]]
 	- [[Common Ports]]
-- For all writeups:
-	- `/Writeups` folder
+- For writeups and CVEs:
+	- `/Writeups` folder for all writeups
+	- [[Vulnerabilities Index]] for all CVEs
 - For learning resources and tools:
 	- [[Useful Resources]]
 

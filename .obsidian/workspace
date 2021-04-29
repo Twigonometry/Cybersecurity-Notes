@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
-            "mode": "source"
+            "file": "Cheat Sheets/Linux/Linux Networking.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pin",
+                "query": "python webs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
+                "file": "Cheat Sheets/Linux/Linux Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "10f05db8c3462739",
   "lastOpenFiles": [
-    "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
+    "Cheat Sheets/Linux/Linux Networking.md",
     "Writeups/Hack the Box/Boxes/Bucket/20 - Shell as roy.md",
+    "Starting Point.md",
+    "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Bucket/1 - Loot.md",
     "Writeups/Hack the Box/Boxes/Bucket/15 - Shell as www-data.md",
     "Writeups/Hack the Box/Boxes/Bucket/10 - Website.md",
     "To Add.md",
-    "Starting Point.md",
     "README.md",
-    "Cheat Sheets/Fundamental Skills.md",
-    "Writeups/Hack the Box/Boxes/Bucket/5 - Enumeration.md"
+    "Cheat Sheets/Fundamental Skills.md"
   ]
 }
