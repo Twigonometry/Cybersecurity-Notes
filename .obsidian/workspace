@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Articles/Supply Chain Security.md",
-            "mode": "source"
+            "file": "Cheat Sheets/Enumeration/Linux Enumeration.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exploit",
+                "query": "ippsec",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Supply Chain Security.md",
+                "file": "Cheat Sheets/Enumeration/Linux Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
   },
   "active": "baafc49aa1888c39",
   "lastOpenFiles": [
+    "Cheat Sheets/Enumeration/Linux Enumeration.md",
+    "To Add.md",
     "Articles/Supply Chain Security.md",
     "Articles/Linux Security.md",
     "Articles/News Sources.md",
     "Useful Resources.md",
     "Articles/Large Scale Attacks & APTs.md",
-    "To Add.md",
     "Cheat Sheets/Linux/Linux Shells.md",
     "Articles/Untitled.md",
-    "Cheat Sheets/Fundamental Skills.md",
-    "Cheat Sheets/Linux/Linux Misc.md"
+    "Cheat Sheets/Fundamental Skills.md"
   ]
 }

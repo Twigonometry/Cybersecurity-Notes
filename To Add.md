@@ -72,6 +72,17 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 	- [ ] .NET Deserialisation
 	- [ ] PHP Deserialisation
 
+## Writeups
+
+- HTB
+	- [ ] Bucket
+	- [ ] Time
+	- [ ] Doctor
+	- [ ] Academy
+	- [ ] Traceback
+	- [ ] OpenAdmin
+	- [ ] Laboratory
+	- [ ] Passage
 
 ## Reconnaisance
 
@@ -91,3 +102,8 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 			- [ ] Finding passwords
 	- [ ] manual port scanning
 		- [ ] Bashscan
+
+## Misc
+
+- Tips and Tricks
+	- [ ] Port Knocking

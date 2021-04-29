@@ -122,7 +122,13 @@ $ find /media/d/ -type f -size +50M ! \( -name "*deb" -o -name "*vmdk" \)
 ## Linpeas
 Install Linpeas from [GitHub](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
 
-Placing it in `~/Documents/enum` allows you to easily retrieve it with a simple python server. See [[Aliases#Useful Aliases|Useful Aliases]] for `enumserve` alias setup instructions.
+--
+
+**IMPORTANT UPDATE:** on 22/04/21 @\_superhero1 on twitter revealed they [failed OSCP](https://twitter.com/_superhero1/status/1385206684109447168) because of a linpeas auto exploit regarding sudo tokens. They were eventually awarded the revoked points, but OffSec made it clear they would not be lenient in future. The offending auto exploit feature [was removed](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/issues/125), but you must make sure you use the [fixed version](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/commit/14601ecd35585537f0fe0041e411ecff0fcd27a8) of LinPeas, which has been [confirmed](https://www.offensive-security.com/offsec/understanding-pentest-tools-scripts/) by OffSec to be exam safe.
+
+--
+
+Placing `linpeas.sh` in `~/Documents/enum` allows you to easily retrieve it with a simple python server. See [[Aliases#Useful Aliases|Useful Aliases]] for `enumserve` alias setup instructions.
 
 On attacker machine:
 
