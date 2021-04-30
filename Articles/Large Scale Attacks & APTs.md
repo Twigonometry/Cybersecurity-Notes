@@ -83,3 +83,6 @@ This note provides a list of articles about high-profile hacks and Advanced Pers
 [https://research.nccgroup.com/category/threat-intelligence/](https://research.nccgroup.com/category/threat-intelligence/)
 
 
+### Crowdstrike
+
+[https://adversary.crowdstrike.com/](https://adversary.crowdstrike.com/)

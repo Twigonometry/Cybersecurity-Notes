@@ -11,8 +11,8 @@ This repository contains a number of resources about cybersecurity. I plan to in
 	- [[Basic Linux Commands]]
 - Cyber Topics: detailed overviews of a specific topic, for example a specific exploit I took a deep dive into on a box, or a beginner's look at XSS
 - Writeups: full rundowns of how I completed challenges on HacktheBox (HTB), TryHackMe (THM), and various CTFs
-- CVEs: overviews of common CVEs I've found useful, and PoC code where relevant
-- Articles: some of my favourite cybersecurity articles - either news on big hacks, or well though out resources that I'd feel bad trying to rip off here
+- CVEs: overviews of common CVEs I've found useful, and Proof of Concept (PoC) code where relevant
+- Articles: some of my favourite cybersecurity articles - either news on big hacks, or well thought out resources that I'd feel bad trying to rip off here
 - [[Useful Resources|Resource Lists]]: Similarly to the above, I can't replicate everything here - I'll point you to some of my favourite online resources for learning and research
 
 The repository is designed to be highly connected and full of atomic notes, just the way Obsidian intended. This means I will overlap these topics, and try to link 'Cyber Topics' articles to practical examples on writeups, or link writeups to the relevant cheat sheet so you can read more about the commands used.

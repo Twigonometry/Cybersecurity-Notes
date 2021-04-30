@@ -9,19 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Articles/Twitter.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "0d7c7495dfef83a8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Articles/Windows Security.md",
-            "mode": "preview"
+            "file": "To Add.md",
+            "mode": "source"
           }
         }
       }
@@ -79,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles/Windows Security.md",
+                "file": "To Add.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0d7c7495dfef83a8",
+  "active": "10f05db8c3462739",
   "lastOpenFiles": [
+    "To Add.md",
     "Articles/Windows Security.md",
+    "Starting Point.md",
     "Articles/Web Vulnerabilities.md",
+    "Articles/Bounties & Zero-Days.md",
+    "Articles/Large Scale Attacks & APTs.md",
     "Articles/Twitter.md",
     "Articles/Supply Chain Security.md",
     "Articles/News Sources.md",
-    "Articles/Malware.md",
-    "Articles/Linux Security.md",
-    "Articles/Large Scale Attacks & APTs.md",
-    "Articles/Data Breaches.md",
-    "Articles/Crypto.md"
+    "Articles/Malware.md"
   ]
 }

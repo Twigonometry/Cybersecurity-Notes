@@ -11,3 +11,7 @@ Impressive bug bounty submissions and interesting zero-day bugs
 ## Zoom RCE - April 2021
 
 [https://www.zdnet.com/article/critical-zoom-vulnerability-triggers-remote-code-execution-without-user-input/](https://www.zdnet.com/article/critical-zoom-vulnerability-triggers-remote-code-execution-without-user-input/)
+
+## Chrome Type Mismatch - Pwn2Own $100k - April 2021
+
+[https://threatpost.com/chrome-zero-day-exploit-twitter/165363/](https://threatpost.com/chrome-zero-day-exploit-twitter/165363/)

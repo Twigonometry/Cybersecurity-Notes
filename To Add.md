@@ -77,7 +77,7 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 
 ## Writeups
 
-- HTB
+- [ ] HTB
 	- [x] Bucket
 	- [ ] Time
 	- [ ] Doctor
@@ -109,9 +109,10 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 
 ## Misc
 
-- Tips and Tricks
+- [ ] Tips and Tricks
 	- [ ] Port Knocking
 - [ ] Add instructions for how to contribute to repo
+- [ ] Link preview hacks
 
 ## Linux Operating System
 
@@ -129,3 +130,9 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 	- [ ] Where are credentials stored
 	- [ ] Exploits involving registry
 - [ ] Powershell secure strings
+
+## CVEs
+
+- [ ] Add titles to all
+- [ ] Add PoCs both with and without msf
+- [ ] Eternal Blue

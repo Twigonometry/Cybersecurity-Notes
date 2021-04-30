@@ -23,6 +23,6 @@
 
 [https://twitter.com/SecurityGuill/status/1368241476753371140?s=19](https://twitter.com/SecurityGuill/status/1368241476753371140?s=19)
 
-### Tools You Might be Skeptical Of
+### Great Tools You Might be Skeptical Of
 
 [https://twitter.com/varcharr/status/1384193596589445127?s=19](https://twitter.com/varcharr/status/1384193596589445127?s=19)
