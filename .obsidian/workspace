@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Starting Point.md",
-            "mode": "source"
+            "file": "Writeups/Hack the Box/Boxes/Blue/10 - Eternal Blue.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Starting Point.md",
+                "file": "Writeups/Hack the Box/Boxes/Blue/10 - Eternal Blue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "10f05db8c3462739",
   "lastOpenFiles": [
+    "Writeups/Hack the Box/Boxes/Blue/10 - Eternal Blue.md",
+    "Writeups/Hack the Box/Boxes/Blue/5 - Enumeration.md",
+    "Writeups/Hack the Box/Boxes/Blue/Untitled.md",
+    "Writeups/Hack the Box/Boxes/Blue/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
     "Starting Point.md",
     "Useful Resources.md",
     "To Add.md",
     "README.md",
-    "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Bucket/Bucket Index.md",
-    "Writeups/Hack the Box/Boxes/Bucket/20 - Shell as roy.md",
-    "Writeups/Hack the Box/Boxes/Bucket/15 - Shell as www-data.md",
-    "Writeups/Hack the Box/Boxes/Bucket/10 - Website.md",
-    "Writeups/Hack the Box/Boxes/Bucket/5 - Enumeration.md"
+    "Writeups/Hack the Box/Boxes/Bucket/Bucket Index.md"
   ]
 }
