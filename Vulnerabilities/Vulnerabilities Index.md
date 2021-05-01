@@ -6,6 +6,10 @@ I'm not collecting every CVE in existence - that's what [ExploitDB](https://www.
 
 ## Common Protocols
 
+### SMB
+
+- Eternal Blue (MS17-010): [[CVE-2017-0143]]
+
 ### SSH
 
 - Tectia Auth Bypass: [[CVE-2012-5975]]
