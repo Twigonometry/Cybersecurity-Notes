@@ -3,6 +3,77 @@ This note lays out a roadmap for content I want to add to this repository. You c
 
 If you want to suggest some content to add and it isn't on the list, feel free to [open an issue](https://github.com/Twigonometry/Cybersecurity-Notes/issues).
 
+## Fundamental Skills
+
+The roadmap for content I want to add to Fundamental Skills section
+
+- [ ] Burp Suite
+	- [ ] On the fly editing
+	- [ ] Repeater
+		- [ ] Things to look for
+		- [ ] Multiple Tabs
+		- [ ] Inspecting Content size to see if page contents change
+	- [ ] Intruder
+- [ ] Web Requests
+	- [ ] Basics of HTTP requests
+		- [ ] Request methods
+			- [ ] CRUD
+		- [ ] Response codes
+- [ ] Web Authentication Methods
+	- [ ] Cookies
+	- [ ] JWT
+- [ ] Fuzzing
+	- [ ] Wfuzz
+	- [ ] FFUF
+	- [ ] Fuzzing APIs
+	- [ ] Attaching authentication to fuzzer
+	- [ ] Trying to provoke errors
+	- [ ] Polyglots
+- [ ] Password Cracking
+	- [ ] Recognising hash types
+	- [ ] Recognising other encodings - b64, ROT
+- [ ] Recognising common data types
+	- [ ] JSON
+		- [ ] Using JQ
+	- [ ] Encoding and decoding b64 in command line
+- [ ] Password spraying
+	- [ ] Using CME
+	- [ ] Using hydra
+- [ ] File transfers
+- [ ] Shells
+	- [ ] Web shells
+	- [ ] Reverse shells
+	- [ ] Catching shells
+		- [ ] Netcat
+		- [ ] Multi handler
+	- [ ] Generating shellcode
+- [ ] Searching for CVEs
+	- [ ] Looking for version numbers
+		- [ ] Websites
+		- [ ] Nmap OS versions - how to read patch numbers
+	- [ ] Searchsploit
+		- [ ] Mirroring code
+		- [ ] Editing exploits
+			- [ ] Common pitfalls e.g. python2
+			- [ ] Tools e.g. 2to3
+- [ ] General hacking methodology steps
+	- [ ] Overview of steps
+		- [ ] Recon
+		- [ ] Looking for a foothold
+			- [ ] RCE
+			- [ ] File read/write
+			- [ ] Auth bypass
+	- [ ] Link to main sheet
+- [ ] Exploiting the OWASP top 10
+	- [ ] Identifying them
+	- [ ] Brief overview of all
+- [ ] Terminal basic functionality and productivity
+	- [ ] `wc`
+	- [ ] `grep`
+	- [ ] `less`
+	- [ ] pipes
+	- [ ] redirects
+
 ## Cheatsheets on Common Tools
 
 - [ ] Gobuster
@@ -22,6 +93,7 @@ If you want to suggest some content to add and it isn't on the list, feel free t
 - [ ] Netcat
 	- [x] Basic syntax
 	- [ ] Traditional mode
+- [ ] Mimikatz
 
 ## Guides to Basic Linux Commands
 - [ ] awk

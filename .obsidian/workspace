@@ -7,8 +7,11 @@
         "id": "c9b29919a1a030da",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "To Add.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "To Add.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +88,8 @@
   },
   "active": "c9b29919a1a030da",
   "lastOpenFiles": [
+    "To Add.md",
+    "SESH/Demos/Deserialisation Demo.md",
     "Vulnerabilities/Vulnerabilities Index.md",
     "Writeups/Hack the Box/Boxes/Blue/10 - Eternal Blue.md",
     "Vulnerabilities/Windows/CVE-2017-0143.md",
@@ -91,8 +97,6 @@
     "Vulnerabilities/Windows/Untitled.md",
     "Cheat Sheets/Common Tools/smbmap.md",
     "Writeups/Hack the Box/Boxes/Blue/5 - Enumeration.md",
-    "Cheat Sheets/Common Tools/smbclient.md",
-    "Writeups/Hack the Box/Boxes/Blue/Blue Index.md",
-    "Writeups/Hack the Box/Boxes/Blue/0 - Overview.md"
+    "Cheat Sheets/Common Tools/smbclient.md"
   ]
 }
