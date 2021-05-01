@@ -12,3 +12,7 @@ https://blog.cryptohack.org/twitter-secrets)
 ## Breaking RSA - NCC Group Slides
 
 [https://speakerdeck.com/rlifchitz/15-ways-to-break-rsa-security?slide=23https://www.nccgroup.com/uk/protection-detection-and-response/threat-intelligence/](https://speakerdeck.com/rlifchitz/15-ways-to-break-rsa-security?slide=23https://www.nccgroup.com/uk/protection-detection-and-response/threat-intelligence/)
+
+# Tags
+
+#article #cryptography

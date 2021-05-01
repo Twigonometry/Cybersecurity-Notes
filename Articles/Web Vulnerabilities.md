@@ -34,3 +34,7 @@ Searching for browser vulnerabilities and exploring [[Bounties & Zero-Days|0-day
 
 Specific CVE Analyses:
 - [CVE-2020-6418](https://googleprojectzero.github.io/0days-in-the-wild/0day-RCAs/2020/CVE-2020-6418.html)
+
+# Tags
+
+#article #web

@@ -15,3 +15,7 @@ Impressive bug bounty submissions and interesting zero-day bugs
 ## Chrome Type Mismatch - Pwn2Own $100k - April 2021
 
 [https://threatpost.com/chrome-zero-day-exploit-twitter/165363/](https://threatpost.com/chrome-zero-day-exploit-twitter/165363/)
+
+# Tags
+
+#article #cve

@@ -38,3 +38,7 @@ This is a fork of another server gist, tweaked to support POST requests.
 [This folder](https://github.com/Twigonometry/CTF-Tools/tree/master/hack_the_box) contains a number of scripts that I've used in Hack the Box.
 
 I make commits locally and then push them up when the box retires. Commits may be dated before the box retired, but will not be published publicly until that date.
+
+# Tags
+
+#project

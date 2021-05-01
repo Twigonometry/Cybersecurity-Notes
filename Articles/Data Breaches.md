@@ -9,3 +9,7 @@
 [Twitter Thread - Deciding Whether to Include in HIBP](https://twitter.com/troyhunt/status/1378503918284460035)
 
 [https://www.troyhunt.com/the-facebook-phone-numbers-are-now-searchable-in-have-i-been-pwned/](https://www.troyhunt.com/the-facebook-phone-numbers-are-now-searchable-in-have-i-been-pwned/)
+
+# Tags
+
+#article #infosec

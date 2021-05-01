@@ -163,3 +163,7 @@ $ curl localhost:8000
 ```
 
 A good guide to this process can be found at [Linux Hint](https://linuxhint.com/ssh-port-forwarding-linux/), which includes SSH setup instructions.
+
+# Tags
+
+#cheat-sheet #unix #networking

@@ -143,3 +143,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 ```
 
 This revealed the `/health` and `shell` pages.
+
+# Tags
+
+#writeup

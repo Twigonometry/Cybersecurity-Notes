@@ -14,3 +14,7 @@ Taken from [[Writeups/Hack the Box/Boxes/Bucket/10 - Website#Exfiltrating Data|D
 |Mgmt|Management@#1@#|
 |Cloudadm|Welcome123!|
 |Sysadm(roy)|n2vM-<\_K\_Q:.Aa2|
+
+# Tags
+
+#writeup

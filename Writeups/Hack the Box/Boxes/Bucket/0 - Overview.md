@@ -23,3 +23,7 @@ Once you were on the box, you could use the stolen credentials to log in as the 
 I rated user a 6 for difficulty at the time, as I found the debugging of the DDB code very difficult. After revisiting the box I would probably rate it a 5, as the steps were fairly simple but just required some knowledge of AWS.
 
 I rated root a 7 for difficulty. It involved some techniques I hadn't used before, such as SSH tunneling, and a cool custom exploitation on a web app, plus an interesting way of stealing a sensitive file via a PDF attachment which I hadn't seen before.
+
+# Tags
+
+#writeup #cloud #web

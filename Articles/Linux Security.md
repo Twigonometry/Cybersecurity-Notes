@@ -11,3 +11,7 @@
 [https://www.theverge.com/2021/4/22/22398156/university-minnesota-linux-kernal-ban-research](https://www.theverge.com/2021/4/22/22398156/university-minnesota-linux-kernal-ban-research)
 
 [https://www.bleepingcomputer.com/news/security/linux-bans-university-of-minnesota-for-committing-malicious-code/](https://www.bleepingcomputer.com/news/security/linux-bans-university-of-minnesota-for-committing-malicious-code/)
+
+# Tags
+
+#article #unix #cve

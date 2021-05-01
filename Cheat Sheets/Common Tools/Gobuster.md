@@ -56,3 +56,7 @@ This will append subdomains to the beginning of the hostname, e.g. `staging.exam
 
 Practical example:
 IppSec does this on [Academy](https://youtu.be/yQl5RA6APyQ?t=306)
+
+# Tags
+
+#cheat-sheet #enum

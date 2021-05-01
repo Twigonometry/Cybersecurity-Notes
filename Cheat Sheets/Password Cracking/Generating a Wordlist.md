@@ -38,3 +38,7 @@ cat passwordlist | awk 'length($0) > 7' > passwordlist-eight
 ### Check Number
 
 Pipe output to `wc -l` to check how many are in the list
+
+# Tags
+
+#cheat-sheet #cryptography 

@@ -9,3 +9,7 @@
 [https://arstechnica.com/gadgets/2021/03/hackers-backdoor-php-source-code-after-breaching-internal-git-server/](https://arstechnica.com/gadgets/2021/03/hackers-backdoor-php-source-code-after-breaching-internal-git-server/)
 
 [https://laravel-news.com/postmortem-of-php-core-compromise-continues](https://laravel-news.com/postmortem-of-php-core-compromise-continues)
+
+# Tags
+
+#article #supply-chain

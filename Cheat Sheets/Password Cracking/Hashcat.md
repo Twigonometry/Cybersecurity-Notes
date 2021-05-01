@@ -57,3 +57,7 @@ The `-B 3` flag shows the previous 3 lines before the match. This gives us the d
 **Add Notes on using regexes here.**
 
 See the [[Identifying Hashes]] cheat sheet for more techniques.
+
+# Tags
+
+#cheat-sheet #cryptography 

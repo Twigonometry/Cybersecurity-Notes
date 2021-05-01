@@ -18,3 +18,7 @@ Or concatenate file and stored magic bytes:
 ```bash
 cat /path/to/magic/bytes /path/to/file > new_file
 ```
+
+# Tags
+
+#cheat-sheet #web

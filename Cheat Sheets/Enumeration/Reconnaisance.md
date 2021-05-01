@@ -82,3 +82,7 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 ```
 
 Then visit `http://localhost:8000` and view the results in browser.
+
+# Tags
+
+#cheat-sheet #enum 

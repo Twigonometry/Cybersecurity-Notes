@@ -129,3 +129,7 @@ Unmount the share if you don't need it anymore:
 ```bash
 $ sudo umount /mnt/[SHARE]
 ```
+
+# Tags
+
+#cheat-sheet

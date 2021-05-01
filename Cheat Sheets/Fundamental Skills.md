@@ -238,3 +238,7 @@ bash bash_script
 echo 'ls -la' > list-files.sh
 ./list-files.sh
 ```
+
+# Tags
+
+#cheat-sheet #fundamentals 

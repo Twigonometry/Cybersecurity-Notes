@@ -9,3 +9,7 @@ I'm not collecting every CVE in existence - that's what [ExploitDB](https://www.
 ### SSH
 
 - Tectia Auth Bypass: [[CVE-2012-5975]]
+
+# Tags
+
+#cve 

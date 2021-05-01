@@ -86,3 +86,7 @@ ssh -i key_name victim@IP_ADDRESS
 ### Girsh
 
 [Repo link](https://github.com/nodauf/Girsh)
+
+# Tags
+
+#cheat-sheet #unix

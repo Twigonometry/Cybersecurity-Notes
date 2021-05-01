@@ -203,3 +203,7 @@ $ systemctl list-units --type=service --state=running
 - It allows you to see what might be running on a system - and therefore what might be a vulnerable process or service
 - It gives you clues to the purpose/role of the user or the system
 - It may help you identify processes that belong to higher-privileged users
+
+# Tags
+
+#cheat-sheet #enum #unix 

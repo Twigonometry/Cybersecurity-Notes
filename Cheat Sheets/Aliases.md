@@ -37,3 +37,7 @@ nano ~/.bashrc
 [...type your code and save...]
 source ~/.bashrc
 ```
+
+# Tags
+
+#cheat-sheet

@@ -146,3 +146,7 @@ $ cat employees | awk -F ':' '{print $1}'
 John
 Jane
 ```
+
+# Tags
+
+#cheat-sheet #unix #fundamentals

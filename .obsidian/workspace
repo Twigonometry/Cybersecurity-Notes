@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "To Add.md",
+            "file": "Useful Resources.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To Add.md",
+                "file": "Useful Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "10f05db8c3462739",
   "lastOpenFiles": [
+    "Useful Resources.md",
     "To Add.md",
-    "Articles/Windows Security.md",
     "Starting Point.md",
-    "Articles/Web Vulnerabilities.md",
-    "Articles/Bounties & Zero-Days.md",
-    "Articles/Large Scale Attacks & APTs.md",
-    "Articles/Twitter.md",
-    "Articles/Supply Chain Security.md",
-    "Articles/News Sources.md",
-    "Articles/Malware.md"
+    "README.md",
+    "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Bucket/Bucket Index.md",
+    "Writeups/Hack the Box/Boxes/Bucket/20 - Shell as roy.md",
+    "Writeups/Hack the Box/Boxes/Bucket/15 - Shell as www-data.md",
+    "Writeups/Hack the Box/Boxes/Bucket/10 - Website.md",
+    "Writeups/Hack the Box/Boxes/Bucket/5 - Enumeration.md"
   ]
 }

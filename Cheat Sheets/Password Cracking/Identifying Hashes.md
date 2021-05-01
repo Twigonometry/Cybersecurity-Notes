@@ -20,3 +20,7 @@ $ hashid [HASH] | awk '{print $2}' | while read line; do hashcat --example-hashe
 ```
 
 This is a quick and dirty bash script that takes the second column of the `hashid` output (the guessed algorithm) and passes it to hashcat. It could be improved, as it also passes the hash itself to the `grep` command.
+
+# Tags
+
+#cheat-sheet #cryptography 

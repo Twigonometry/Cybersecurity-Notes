@@ -86,3 +86,7 @@ This note provides a list of articles about high-profile hacks and Advanced Pers
 ### Crowdstrike
 
 [https://adversary.crowdstrike.com/](https://adversary.crowdstrike.com/)
+
+# Tags
+
+#article #apt #cve #threat-intel

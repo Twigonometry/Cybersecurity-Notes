@@ -38,3 +38,7 @@ Port 443 serves HTTPS traffic, which is just like HTTP but encrypted using TLS.
 This is essentially a 'secure' version of HTTP, and is used to protect sensitive data being transmitted over the internet.
 
 If you see this port open, there is likely a HTTPS version of the website you are visiting. It may mean you will be able to view the site's SSL/TLS certificate, which can sometimes contain useful information (including domain names).
+
+# Tags
+
+#cheat-sheet #networking 

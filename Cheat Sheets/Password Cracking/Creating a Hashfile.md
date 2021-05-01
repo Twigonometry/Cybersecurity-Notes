@@ -21,3 +21,7 @@ truncate -s $(($(stat -c '%s' hashes)-1)) hashes
 ```bash
 sed -i 's/$//' hashes
 ```
+
+# Tags
+
+#cheat-sheet #cryptography 

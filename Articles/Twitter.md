@@ -26,3 +26,7 @@
 ### Great Tools You Might be Skeptical Of
 
 [https://twitter.com/varcharr/status/1384193596589445127?s=19](https://twitter.com/varcharr/status/1384193596589445127?s=19)
+
+# Tags
+
+#article #infosec 
