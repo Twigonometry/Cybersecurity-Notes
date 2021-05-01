@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Useful Resources.md",
+            "file": "Starting Point.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "python webs",
+                "query": "tag:#malware",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Useful Resources.md",
+                "file": "Starting Point.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "10f05db8c3462739",
   "lastOpenFiles": [
+    "Starting Point.md",
     "Useful Resources.md",
     "To Add.md",
-    "Starting Point.md",
     "README.md",
     "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Bucket/Bucket Index.md",

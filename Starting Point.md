@@ -57,13 +57,19 @@ Information is organised into folders to make things a little easier to find. So
 
 There is no central list of links to specific notes, but many notes contain multiple links to other notes. I've experimented with building 'index' nodes, and may do so in the future, but it is easy enough to find notes for now. The main reason for not creating an index note is that it would be hard to maintain, but some specific categories have indexes (and all writeups have an index note).
 
-In the future, I plan to include tags on all notes to make individual categories of notes even more searchable. For now, the global search (`Ctrl + Shift + F`) is the easiest way to find a specific topic.
+The global search (`Ctrl + Shift + F`) is the easiest way to find a specific topic. For example, searching `python webserver` will display all the instances in our notes where we started a python server. You can also search notes by their tag in the global searchbar. For example, searching `tag:#malware` will display all notes with the malware tag.
 
 ### The Graph
 
 If you want to get a feel for how the information links together, you can view the Graph. Open it by pressing `Ctrl + G`, or by clicking the graph icon on the far-left of the screen. The graph is a good indicator of what topics are linked together, and highly connected nodes are probably the nearest thing to an 'index' page that may serve as a good launching point into other knowledge areas.
 
 Within the graph settings, you can enable showing tags, turn off orphan nodes (i.e. only show connected notes), and search for files. Groups can also be created to display subsets of notes (I haven't got this far yet).
+
+Enabling tags, for example, links all notes by category rather than by their backlinks:
+
+![[Pasted image 20210501111234.png]]
+
+Clicking a tag on the graph will open a list in the searchbar of all notes with that tag.
 
 You can also open a local graph by pressing `Ctrl + L`. This will show the notes that are connected to the note you are currently viewing. You can use this to browse connected notes easily - clicking a new one will open its local graph, so you can traverse chains of related notes. Use `Alt + Left-Arrow` and `Alt + Right-Arrow` to navigate back and forth.
 
