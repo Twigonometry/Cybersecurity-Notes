@@ -98,7 +98,7 @@ OS Discovery reveals the operating system to be `Windows 7 Professional 7601`, a
 
 ## Enumerating SMB
 
-I tried a basic `smbmap` against the host, then tried enumerating with null authentication:
+I tried a basic `smbmap` against the host to see if any domain name was exposed, then tried enumerating with null authentication:
 
 ```bash
 ┌──(mac㉿kali)-[~/Documents/HTB/blue]
@@ -162,7 +162,7 @@ The `Users` share is particularly interesting, and contains some `NTUSER.DAT` fi
 
 ### SMB Vulnerability Scan
 
-I didn't do this when I first ran through the box, but the following command would have immediately raised that the box was vulnerable to SMB.
+I didn't do this when I first ran through the box, but the following command would have immediately raised that the box was vulnerable to Eternal Blue.
 
 ```bash
 ┌──(mac㉿kali)-[~/Documents/Personal-Vault]
@@ -204,3 +204,7 @@ Nmap done: 1 IP address (1 host up) scanned in 112.68 seconds
 ```
 
 I found out it was vulnerable a different way, detailed in the next section.
+
+# Tags
+
+#windows #enum #smb

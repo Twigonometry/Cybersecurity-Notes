@@ -132,4 +132,4 @@ $ sudo umount /mnt/[SHARE]
 
 # Tags
 
-#cheat-sheet
+#cheat-sheet #smb

@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Writeups/Hack the Box/Boxes/Blue/10 - Eternal Blue.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#malware",
+                "query": "smb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 290
   },
   "right": {
     "id": "4aa42a08b2824dd0",
@@ -90,13 +90,13 @@
   "lastOpenFiles": [
     "Writeups/Hack the Box/Boxes/Blue/10 - Eternal Blue.md",
     "Writeups/Hack the Box/Boxes/Blue/5 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Blue/Untitled.md",
+    "Writeups/Hack the Box/Boxes/Blue/Blue Index.md",
     "Writeups/Hack the Box/Boxes/Blue/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
-    "Starting Point.md",
-    "Useful Resources.md",
-    "To Add.md",
-    "README.md",
-    "Writeups/Hack the Box/Boxes/Bucket/Bucket Index.md"
+    "Cheat Sheets/Common Tools/smbmap.md",
+    "Cheat Sheets/Common Tools/smbclient.md",
+    "Writeups/Hack the Box/Boxes/Bucket/Bucket Index.md",
+    "Writeups/Hack the Box/Boxes/Blue/Untitled.md",
+    "Attachments/Pasted image 20210501205703.png",
+    "Attachments/Pasted image 20210501192018.png"
   ]
 }
