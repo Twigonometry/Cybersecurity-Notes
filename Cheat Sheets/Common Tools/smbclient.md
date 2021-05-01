@@ -130,6 +130,10 @@ Unmount the share if you don't need it anymore:
 $ sudo umount /mnt/[SHARE]
 ```
 
+## Practical Examples
+
+- [[Writeups/Hack the Box/Boxes/Blue/5 - Enumeration#Enumerating SMB]]
+
 # Tags
 
 #cheat-sheet #smb

@@ -72,6 +72,13 @@ As I said, the script didn't end up working - but these debugging steps were use
 
 I followed [this excellent tutorial](https://null-byte.wonderhowto.com/how-to/manually-exploit-eternalblue-windows-server-using-ms17-010-python-exploit-0195414/) on exploiting Eternal Blue manually. It used a different exploit, `windows/remote/42315.py`.
 
+First, mirror the exploit:
+
+```bash
+┌──(mac㉿kali)-[~/Documents/HTB/blue]
+└─$ searchsploit -m windows/remote/42315.py
+```
+
 The exploit requires providing a working username. When I first tried the box I went with `null`, as I had used it to login before.
 
 I tried the exploit multiple times before realising this was incorrect - in fact, earlier enumeration exposed that `guest` was the correct username to login with. I set this in the code:
