@@ -48,6 +48,7 @@ In summary, these are the areas that are relevant:
 	- [[Vulnerabilities Index]] for all CVEs
 - For learning resources and tools:
 	- [[Useful Resources]]
+	- `/Articles` folder for various articles on a wide range of topics, if you fancy a deep dive
 
 So, that's the plan for the repo. 
 

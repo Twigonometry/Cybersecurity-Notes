@@ -74,6 +74,11 @@ The roadmap for content I want to add to Fundamental Skills section
 	- [ ] pipes
 	- [ ] redirects
 
+For each topic, include:
+- 'Read More' link, linking reader to main cheatsheet
+- 'Practical Examples' link, linking either to specific boxes and examples, or to a practical examples section in the corresponding cheatsheet if it exists
+- 'Where to Practice This Skill' section, which links places you can test the skill - including specific HTB boxes, THM Rooms, or VulnHub VMs
+
 ## Cheatsheets on Common Tools
 
 - [ ] Gobuster
@@ -205,6 +210,14 @@ The roadmap for content I want to add to Fundamental Skills section
 
 ## CVEs
 
+General
 - [ ] Add titles to all
 - [ ] Add PoCs both with and without msf
-- [ ] Eternal Blue
+
+Specific CVEs
+- [x] Eternal Blue
+- [ ] From Cyber Awareness Day
+	- [ ] Android ADB - CVE-2019-16273
+	- [ ] Teams RCE - CVE-2020-1709
+- [ ] From Articles
+- [ ] 
