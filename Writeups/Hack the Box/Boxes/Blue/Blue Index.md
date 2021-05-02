@@ -8,4 +8,4 @@ Eternal Blue: [[10 - Eternal Blue|Eternal Blue]]
 
 # Tags
 
-#writeup #cve #windows #smb
+#writeup #cve #windows #smb #oscp-prep 

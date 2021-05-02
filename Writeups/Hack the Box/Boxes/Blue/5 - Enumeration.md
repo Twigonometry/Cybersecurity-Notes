@@ -207,4 +207,4 @@ I found out it was vulnerable a different way, detailed in the next section.
 
 # Tags
 
-#windows #enum #smb
+#windows #enum #smb #oscp-prep 

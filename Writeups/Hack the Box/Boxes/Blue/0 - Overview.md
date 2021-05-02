@@ -23,4 +23,4 @@ I rated the box a 1 for both user and root - the exploit was simple really, made
 
 # Tags
 
-#writeup #windows #cve #smb
+#writeup #windows #cve #smb #oscp-prep 
