@@ -48,6 +48,9 @@ I converted the HTML code to markdown using [Turndown](https://domchristie.githu
 
 [Enumerating Active Directory](https://medium.com/@Shorty420/enumerating-ad-98e0821c4c78) - An interesting article on common commands when poking around a Windows Domain Controller
 
+[Excellent Guide to OSCP](https://sushant747.gitbooks.io/total-oscp-guide/content/)
+- and the original repo this was forked from: [https://github.com/xapax/security/tree/master/docs](https://github.com/xapax/security/tree/master/docs)
+
 #### Scripting
 
 *   [Simple Bash Scripting](https://www.linux.com/training-tutorials/writing-simple-bash-script/) - A nice guide to writing basic bash scripts
@@ -55,7 +58,15 @@ I converted the HTML code to markdown using [Turndown](https://domchristie.githu
 *   [Bash with arguments](https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script) - A guide to passing data to your script
     
 *   [Python with arguments](https://www.tutorialspoint.com/python/python_command_line_arguments.htm) - Command line arguments in a python script
-    
+   
+#### Buffer Overflow
+
+Corelan Articles: [https://www.corelan.be/index.php/articles/](https://www.corelan.be/index.php/articles/)
+
+LiveOverflow:
+	- [Full Playlist](https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN)
+	- [Buffer Overflow with Shellcode](https://www.youtube.com/watch?v=HSlhY4Uy8SA)
+	- [Writing a Simple Buffer Overflow Exploit](https://www.youtube.com/watch?v=oS2O75H57qU)
 
 ### Courses + Videos
 

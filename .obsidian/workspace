@@ -9,39 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vulnerabilities/Networking/CVE-2020-12271.md",
+            "file": "Exam Resources/OSCP/OSCP Resources.md",
             "mode": "preview"
           }
         }
-      },
-      {
-        "id": "1a600e2c6e048557",
-        "type": "split",
-        "children": [
-          {
-            "id": "46891422b058d5c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vulnerabilities/Windows/CVE-2017-0143.md",
-                "mode": "source"
-              }
-            }
-          },
-          {
-            "id": "075502e72754454a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Articles/Windows Security.md",
-                "mode": "source"
-              }
-            }
-          }
-        ],
-        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -97,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vulnerabilities/Networking/CVE-2020-12271.md",
+                "file": "Exam Resources/OSCP/OSCP Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,15 +88,15 @@
   },
   "active": "cadac7c6715ad95d",
   "lastOpenFiles": [
+    "Exam Resources/OSCP/OSCP Resources.md",
+    "Exam Resources/OSCP/Exam Details.md",
+    "Exam Resources/OSCP/Untitled.md",
+    "Useful Resources.md",
     "Vulnerabilities/Networking/Untitled.md",
     "Vulnerabilities/Windows/CVE-2021-24092.md",
     "Articles/Windows Security.md",
     "Vulnerabilities/Windows/CVE-2017-0143.md",
     "Vulnerabilities/Windows/Untitled.md",
-    "To Add.md",
-    "Starting Point.md",
-    "Attachments/Pasted image 20210428122533.png",
-    "Cheat Sheets/Web Hacking/File Upload.md",
-    "Writeups/Hack the Box/Boxes/Legacy/10 - Eternal Blue.md"
+    "To Add.md"
   ]
 }
