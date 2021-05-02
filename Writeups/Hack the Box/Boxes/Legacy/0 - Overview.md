@@ -10,7 +10,7 @@ This is the second box in my OSCP prep series.
 
 ---
 
-This box was also super simple. The only difference between it and blue was the operating system and SMB username. I had rooted it within 40 minutes, and a good chunk of that time was spent documenting the process.
+This box was also super simple. It involved exploiting Eternal Blue on an old Windows XP machine. The only difference between it and [[Blue Index|Blue]] was the operating system and SMB username. I had rooted it within 40 minutes, and a good chunk of that time was spent documenting the process.
 
 ## Ratings
 

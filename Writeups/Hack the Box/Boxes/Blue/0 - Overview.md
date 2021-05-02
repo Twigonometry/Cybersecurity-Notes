@@ -5,6 +5,12 @@ In preparation for my OSCP, I have begun the long journey of completing all reti
 
 I have been recommended to tackle these up to about a 6 in difficulty, as that is about the highest I should encounter in the exam. I don't expect to do them all by the time I sit my exam (aiming for mid-late August 2021), but I have to start somewhere. I expect to learn a lot, especially about Windows which is currently my weakest area.
 
+**Box Details**
+
+|IP|User-Rated Difficulty
+|---|---|
+|10.10.10.40|2.4|
+
 Blue has a difficulty rating of 2.4, the lowest on HTB:
 
 ![[Pasted image 20210501114708.png]]

@@ -100,9 +100,7 @@ Nmap done: 1 IP address (1 host up) scanned in 118.06 seconds
 
 There were no new ports.
 
-As this was an old operating system and port 445 was open, I ran a `vuln` nmap scan to check if the system was vulnerable to [[Writeups/Hack the Box/Boxes/Blue/10 - Eternal Blue|Eternal Blue]]:
-
-TODO: add CVE page to these notes and link
+As this was an old operating system and port 445 was open, I ran a `vuln` nmap scan to check if the system was vulnerable to [[CVE-2017-0143|Eternal Blue]]:
 
 ```bash
 ┌──(mac㉿kali)-[~/Documents/HTB/legacy]

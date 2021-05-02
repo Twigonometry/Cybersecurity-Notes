@@ -49,7 +49,7 @@ Then I needed a payload. I did a search for windows payloads to see if there wer
 └─$ msfvenom -l payload | grep windows
 ```
 
-It looked like there weren't, so I went with the same as for *Blue*/the most generic one:
+It looked like there weren't, so I went for the most generic one:
 
 ```bash
 ┌──(mac㉿kali)-[~/Documents/HTB/legacy]

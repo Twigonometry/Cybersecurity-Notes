@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Blue/Blue Index.md",
+            "file": "Vulnerabilities/Windows/CVE-2017-0143.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "6b63f28024d9378a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Writeups/Hack the Box/Boxes/Legacy/10 - Eternal Blue.md",
             "mode": "source"
           }
         }
@@ -68,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Blue/Blue Index.md",
+                "file": "Vulnerabilities/Windows/CVE-2017-0143.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +99,15 @@
   },
   "active": "cadac7c6715ad95d",
   "lastOpenFiles": [
-    "Writeups/Hack the Box/Boxes/Blue/Blue Index.md",
+    "Vulnerabilities/Windows/CVE-2017-0143.md",
     "Writeups/Hack the Box/Boxes/Blue/10 - Eternal Blue.md",
-    "Writeups/Hack the Box/Boxes/Blue/5 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Blue/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Legacy/10 - Eternal Blue.md",
-    "Writeups/Hack the Box/Boxes/Legacy/Legacy Index.md",
+    "Writeups/Hack the Box/Boxes/Bucket/20 - Shell as roy.md",
     "Writeups/Hack the Box/Boxes/Legacy/5 - Enumeration.md",
     "Writeups/Hack the Box/Boxes/Legacy/0 - Overview.md",
-    "Cheat Sheets/Linux/Basic Linux Commands.md",
-    "Cheat Sheets/Fundamental Skills.md"
+    "Writeups/Hack the Box/Boxes/Blue/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Blue/Blue Index.md",
+    "Writeups/Hack the Box/Boxes/Blue/5 - Enumeration.md"
   ]
 }
