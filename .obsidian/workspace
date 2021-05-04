@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Exam Resources/OSCP/OSCP Resources.md",
+            "file": "Writeups/Hack the Box/Boxes/Lame/Lame Index.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exam Resources/OSCP/OSCP Resources.md",
+                "file": "Writeups/Hack the Box/Boxes/Lame/Lame Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "cadac7c6715ad95d",
   "lastOpenFiles": [
+    "Writeups/Hack the Box/Boxes/Lame/Lame Index.md",
+    "Writeups/Hack the Box/Boxes/Lame/15 - SMB.md",
+    "Writeups/Hack the Box/Boxes/Lame/10 - FTP.md",
+    "Writeups/Hack the Box/Boxes/Lame/5 - Enumeration.md",
+    "Writeups/Hack the Box/Boxes/Lame/0 - Overview.md",
     "Exam Resources/OSCP/OSCP Resources.md",
     "Exam Resources/OSCP/Exam Details.md",
     "Exam Resources/OSCP/Untitled.md",
     "Useful Resources.md",
-    "Vulnerabilities/Networking/Untitled.md",
-    "Vulnerabilities/Windows/CVE-2021-24092.md",
-    "Articles/Windows Security.md",
-    "Vulnerabilities/Windows/CVE-2017-0143.md",
-    "Vulnerabilities/Windows/Untitled.md",
-    "To Add.md"
+    "Vulnerabilities/Networking/Untitled.md"
   ]
 }
