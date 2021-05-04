@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Lame/Lame Index.md",
+            "file": "Writeups/Hack the Box/Boxes/Jerry/10 - Tomcat.md",
             "mode": "preview"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290
+    "width": 353
   },
   "right": {
     "id": "4aa42a08b2824dd0",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Lame/Lame Index.md",
+                "file": "Writeups/Hack the Box/Boxes/Jerry/10 - Tomcat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "cadac7c6715ad95d",
   "lastOpenFiles": [
-    "Writeups/Hack the Box/Boxes/Lame/Lame Index.md",
-    "Writeups/Hack the Box/Boxes/Lame/15 - SMB.md",
-    "Writeups/Hack the Box/Boxes/Lame/10 - FTP.md",
-    "Writeups/Hack the Box/Boxes/Lame/5 - Enumeration.md",
+    "Writeups/Hack the Box/Boxes/Jerry/10 - Tomcat.md",
+    "Writeups/Hack the Box/Boxes/Jerry/5 - Enumeration.md",
+    "Writeups/Hack the Box/Boxes/Jerry/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Lame/0 - Overview.md",
-    "Exam Resources/OSCP/OSCP Resources.md",
-    "Exam Resources/OSCP/Exam Details.md",
-    "Exam Resources/OSCP/Untitled.md",
-    "Useful Resources.md",
-    "Vulnerabilities/Networking/Untitled.md"
+    "Writeups/Hack the Box/Boxes/Jerry/Jerry Index.md",
+    "Attachments/Pasted image 20210429124611.png",
+    "Attachments/Pasted image 20210429124714.png",
+    "Attachments/Pasted image 20210501111234.png",
+    "Attachments/Pasted image 20210501114708.png",
+    "Attachments/Pasted image 20210501180503.png"
   ]
 }
