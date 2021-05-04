@@ -1,5 +1,11 @@
 # Overview
 
+**Box Details**
+
+|IP|User-Rated Difficulty|OS|
+|---|---|---|
+|10.10.10.212|5.7|Linux|
+
 I did this box back in December 2020. It was the fifth box I'd done, and only the second medium-rated box I'd tried. It took me a few days of pretty non-stop work to get User, and I had Root after a week.
 
 I wasn't as good at taking screenshots for my notes back then, so when I converted this writeup to Obsidian I made sure to go back and get some. Therefore you may see some screenshots dated after the box retired. My IP might also change between bash commands :)

@@ -4,9 +4,9 @@ This is the second box in my OSCP prep series.
 
 **Box Details**
 
-|IP|User-Rated Difficulty
-|---|---|
-|10.10.10.4|2.5|
+|IP|User-Rated Difficulty|OS|
+|---|---|---|
+|10.10.10.4|2.5|Windows (XP)|
 
 ---
 
