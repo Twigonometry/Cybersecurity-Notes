@@ -170,6 +170,8 @@ Besides this, it found no interesting `cron` jobs or SUID/SGID binaries, or any 
 
 ## scriptmanager
 
+As always, I've detailed the important parts of my experimenting as briefly as I can, and included anything new that I learned. Some of this may be obvious to those with more experience, so as always you can [[15 - Privesc#Editing test py to get a Shell as Root|skip to the working exploit]].
+
 `www-data` can run commands as `scriptmanager`:
 
 ```bash
@@ -203,6 +205,8 @@ f.close
 
 It looked like `test.txt` was owned by root but could still be written to, so I wondered if the `test.py` script somehow ran as root. I wanted to edit it to read the root flag, but was sick of my shell at this point, so tried harder to find one.
 
+### Upgrading Shell
+
 I ran this in the webshell:
 
 ```bash
@@ -218,6 +222,8 @@ I quickly upgraded my shell:
 ![[Pasted image 20210505114032.png]]
 
 (i'm not sure why it says `nc -lnvp 9001` in the above)
+
+### Experimenting with the Python Script
 
 However I couldn't find an easy way to edit the file - using `vi` seemed to break down:
 
@@ -268,7 +274,9 @@ Traceback (most recent call last):
 IOError: [Errno 13] Permission denied: 'test.txt'
 ```
 
-So the program does not run as root - maybe something is setup to regularly run it?
+### Editing test.py to get a Shell as Root
+
+So the program does not run as root - but maybe a process running as root is setup to regularly run it?
 
 Linpeas didn't show up a cron job, but I thought I'd take a shot at spawning a shell and hoping the script got executed. I edited it to reuse the shell command from before:
 

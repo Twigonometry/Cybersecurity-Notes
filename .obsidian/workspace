@@ -7,11 +7,8 @@
         "id": "cadac7c6715ad95d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Exam Resources/OSCP/OSCP Resources.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exam Resources/OSCP/OSCP Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +84,15 @@
   },
   "active": "cadac7c6715ad95d",
   "lastOpenFiles": [
+    "Writeups/Hack the Box/Boxes/Bashed/10 - Website.md",
+    "Writeups/Hack the Box/Boxes/Bashed/5 - Enumeration.md",
+    "Writeups/Hack the Box/Boxes/Bashed/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
+    "Writeups/Hack the Box/Boxes/Bashed/15 - Privesc.md",
+    "Writeups/Hack the Box/Boxes/Blue/10 - Eternal Blue.md",
+    "Writeups/Hack the Box/Boxes/Blue/5 - Enumeration.md",
+    "Cybersecurity/Writeups/Hack the Box/Boxes/Bashed/5 - Enumeration.md",
     "Exam Resources/OSCP/OSCP Resources.md",
-    "Exam Resources/OSCP/Exam Details.md",
-    "Useful Resources.md",
-    "Writeups/Hack the Box/Boxes/Legacy/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Lame/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Jerry/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Blue/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Bucket/5 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Jerry/10 - Tomcat.md"
+    "Exam Resources/OSCP/Exam Details.md"
   ]
 }

@@ -32,7 +32,7 @@ Neither was `/phpbash.php`.
 
 ## PHP Web Shell
 
-I ran a [[Cybersecurity/Writeups/Hack the Box/Boxes/Bashed/5 - Enumeration#Gobuster|quick gobuster]] to check for potential directories for the script. It found `/php/` and `/dev/`. I tried `/php/phpbash.php`, and then `/dev/phpbash.php`, which worked:
+I ran a [[Writeups/Hack the Box/Boxes/Bashed/5 - Enumeration#Gobuster|quick gobuster]] to check for potential directories for the script. It found `/php/` and `/dev/`. I tried `/php/phpbash.php`, and then `/dev/phpbash.php`, which worked:
 
 ![[Pasted image 20210505090543.png]]
 
@@ -60,4 +60,4 @@ I also tried the `upload` custom command mentioned in the source code, to no ava
 
 ![[Pasted image 20210505101232.png]]
 
-I decided to continue with enumeration and come back to this once I'd rooted the box and see if anyone had done it in a writeup.
+I decided to continue with enumeration and come back to this once I'd rooted the box and see if anyone had done it in a writeup. I would eventually upgrade my shell [[15 - Privesc]]
