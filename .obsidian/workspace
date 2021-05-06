@@ -9,18 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "e672ae2825aeb524",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Writeups/Hack the Box/Boxes/Bashed/15 - Privesc.md",
+            "file": "Writeups/Hack the Box/Boxes/Bashed/10 - Website.md",
             "mode": "source"
           }
         }
@@ -79,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
+                "file": "Writeups/Hack the Box/Boxes/Bashed/10 - Website.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,10 +88,10 @@
   },
   "active": "cadac7c6715ad95d",
   "lastOpenFiles": [
+    "Writeups/Hack the Box/Boxes/Bashed/10 - Website.md",
     "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
     "Writeups/Hack the Box/Boxes/Bashed/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Bashed/15 - Privesc.md",
-    "Writeups/Hack the Box/Boxes/Bashed/10 - Website.md",
     "Writeups/Hack the Box/Boxes/Bashed/5 - Enumeration.md",
     "Writeups/Hack the Box/Boxes/Legacy/5 - Enumeration.md",
     "Writeups/Hack the Box/Boxes/Legacy/0 - Overview.md",
