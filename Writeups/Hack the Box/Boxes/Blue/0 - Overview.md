@@ -7,9 +7,9 @@ I have been recommended to tackle these up to about a 6 in difficulty, as that i
 
 **Box Details**
 
-|IP|User-Rated Difficulty|OS|
-|---|---|---|
-|10.10.10.40|2.4|Windows (7)|
+|IP|User-Rated Difficulty|OS|Date Started|Date Completed|
+|---|---|---|---|---|
+|10.10.10.40|2.4|Windows (7)|2021-05-01|2021-05-01|
 
 Blue has a difficulty rating of 2.4, the lowest on HTB:
 

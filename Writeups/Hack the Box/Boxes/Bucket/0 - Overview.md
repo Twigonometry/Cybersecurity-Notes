@@ -2,9 +2,9 @@
 
 **Box Details**
 
-|IP|User-Rated Difficulty|OS|
-|---|---|---|
-|10.10.10.212|5.7|Linux|
+|IP|User-Rated Difficulty|OS|Date Started|Date Completed|
+|---|---|---|---|---|
+|10.10.10.212|5.7|Linux|2020-12-15|2020-12-22|
 
 I did this box back in December 2020. It was the fifth box I'd done, and only the second medium-rated box I'd tried. It took me a few days of pretty non-stop work to get User, and I had Root after a week.
 

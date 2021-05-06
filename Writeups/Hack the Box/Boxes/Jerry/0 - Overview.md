@@ -4,9 +4,9 @@ This is the fourth box in my OSCP prep series.
 
 **Box Details**
 
-|IP|User-Rated Difficulty|OS|
-|---|---|---|
-|10.10.10.95|2.9|Windows|
+|IP|User-Rated Difficulty|OS|Date Started|Date Completed|
+|---|---|---|---|---|
+|10.10.10.95|2.9|Windows|2021-05-04|2021-05-04|
 
 ---
 

@@ -4,9 +4,9 @@ This is the fifth box in my OSCP prep series.
 
 **Box Details**
 
-|IP|User-Rated Difficulty|OS|
-|---|---|---|
-|10.10.10.68|3.3|Linux|
+|IP|User-Rated Difficulty|OS|Date Started|Date Completed|
+|---|---|---|---|---|
+|10.10.10.68|3.3|Linux|2021-05-05|2021-05-05|
 
 ---
 
