@@ -169,3 +169,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 ```
 
 This revealed a number of useful directories, including the `/dev` directory which would come in handy later.
+
+# Tags
+
+#writeup #oscp-prep #enum

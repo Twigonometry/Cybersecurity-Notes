@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Legacy/0 - Overview.md",
-            "mode": "preview"
+            "file": "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
+            "mode": "source"
           }
         }
       },
@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Legacy/5 - Enumeration.md",
+            "file": "Writeups/Hack the Box/Boxes/Bashed/15 - Privesc.md",
             "mode": "source"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Legacy/0 - Overview.md",
+                "file": "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +99,15 @@
   },
   "active": "cadac7c6715ad95d",
   "lastOpenFiles": [
+    "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
+    "Writeups/Hack the Box/Boxes/Bashed/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Bashed/15 - Privesc.md",
+    "Writeups/Hack the Box/Boxes/Bashed/10 - Website.md",
+    "Writeups/Hack the Box/Boxes/Bashed/5 - Enumeration.md",
+    "Writeups/Hack the Box/Boxes/Legacy/5 - Enumeration.md",
     "Writeups/Hack the Box/Boxes/Legacy/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Lame/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Jerry/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Blue/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Bashed/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Legacy/5 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Lame/5 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Jerry/5 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Bucket/5 - Enumeration.md"
+    "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md"
   ]
 }

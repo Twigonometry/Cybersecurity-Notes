@@ -21,3 +21,7 @@ I did learn a bit about upgrading shells - part of the reason it took me a littl
 I rated user a 2 for difficulty as there was a bit more guesswork and investigation involved to find a foothold, but ultimately the steps were simple and there was no privesc from `www-data` to `arrexel`.
 
 I rated root a 2 also, but considered rating it a 3. I felt a bit rusty on this box, and struggled a little with remembering my best practices - but overall the privesc was very simple, and once I figured out where to look and managed to upgrade my shell it was plain sailing.
+
+# Tags
+
+#writeup #oscp-prep #linux #web #file-misconfiguration

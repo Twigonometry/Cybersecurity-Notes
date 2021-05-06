@@ -61,3 +61,7 @@ I also tried the `upload` custom command mentioned in the source code, to no ava
 ![[Pasted image 20210505101232.png]]
 
 I decided to continue with enumeration and come back to this once I'd rooted the box and see if anyone had done it in a writeup. I would eventually upgrade my shell [[15 - Privesc]]
+
+# Tags
+
+#writeup #oscp-prep #web 
