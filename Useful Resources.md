@@ -96,6 +96,8 @@ LiveOverflow:
 
 [WireGuard Setup](https://shefesh.com/downloads/wg-setup.pdf) - Set up your own VPN network with WireGuard!
 
+[Rana Khalil OSCP Prep Series](https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/) - An excellent series of HTB writeups built for those preparing for OSCP
+
 ### Tools
 
 Remember the [Code of Conduct](https://shefesh.com/downloads/SESH%25Code%25of%25Conduct.pdf) (and the Computer Misuse Act) when using these tools! They are for education only, to be used on systems where you have explicit permission

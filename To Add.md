@@ -164,6 +164,15 @@ For each topic, include:
 	- [ ] Laboratory
 	- [ ] Passage
 - [ ] PwnED CTF
+- [ ] SESH CTF
+	- [ ] Challenge Development
+		- [ ] Saucy Part 3
+		- [ ] Path to Root
+		- [ ] General AWS and Docker deployment
+	- [ ] Writeups
+		- [ ] Saucy Part 3
+		- [ ] Path to Root
+		- [ ] Robots Challenges
 
 ## Reconnaisance
 
@@ -199,6 +208,9 @@ For each topic, include:
 	- [ ] Suid
 - [ ] Credentials
 	- [ ] Shadow File
+- [ ] Sudo
+	- [ ] Sudoers file
+	- [ ] Sudo Visudo CTF practical example
 
 ## Windows Operating System
 
@@ -220,4 +232,4 @@ Specific CVEs
 	- [ ] Android ADB - CVE-2019-16273
 	- [ ] Teams RCE - CVE-2020-1709
 - [ ] From Articles
-- [ ] 
+- [ ] Smarty CVEs
