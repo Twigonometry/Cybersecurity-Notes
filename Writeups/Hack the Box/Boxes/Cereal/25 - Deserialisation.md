@@ -8,14 +8,9 @@ I found the following posts:
 - https://stackoverflow.com/questions/49038055/external-json-vulnerable-because-of-json-net-typenamehandling-auto/49040862
 - https://www.alphabot.com/security/blog/2017/net/How-to-configure-Json.NET-to-create-a-vulnerable-web-API.html
 
-This is a good sign - sure enough, `Controllers/RequestsController.cs` has the following code:
+They talk about insecure JSON conversions leading to deserialisation vulnerabilities - sure enough, `Controllers/RequestsController.cs` has the following code:
 
-```csharp
-var cereal = JsonConvert.DeserializeObject(json, new JsonSerializerSettings
-{
-	TypeNameHandling = TypeNameHandling.Auto
-});
-```
+![[Pasted image 20210607210556.png]]
 
 Essentially, the vulnerability allows overwriting the type of the object when it is parsed from JSON. It *should* be turned into a `Cereal` object - but if we supply a `$type` field in our JSON, we can create an object of any other class, as the `TypeNameHandling.Auto` call parses it automatically.
 
@@ -25,7 +20,7 @@ Now we need to find a gadget that allows for Remote Code Execution - i.e. a clas
 
 *Note:* as always, I'll detail my thought process - but this technique did not actually work, so you can skip to me [[25 - Deserialisation#Custom Gadget Chain|finding the correct gadget]] if you wish.
 
-And what do you know? Here we have a .NET based Gadget Chain finder, similar to the original [ysoserial](https://github.com/frohoff/ysoserial)...
+What do you know? Here we have a .NET based Gadget Chain finder, similar to the original [ysoserial](https://github.com/frohoff/ysoserial)...
 
 https://github.com/pwntester/ysoserial.net
 
@@ -226,7 +221,7 @@ I searched "Json.Net constructor", and found the following: https://stackoverflo
 
 This suggests that the constructor is the default method that is called when the object is deserialised - this is good. How exactly I call the set methods, however, is unclear.
 
-This [newtonsoft documentation](https://www.newtonsoft.com/json/help/html/DeserializeObject.htm) suggests it is as simple as naming the variables in the JSON. So let's give it a go.
+This [newtonsoft documentation](https://www.newtonsoft.com/json/help/html/DeserializeObject.htm) suggests it is as simple as naming the variables in the JSON. This is the first payload I tried:
 
 ```bash
 {
@@ -236,4 +231,6 @@ This [newtonsoft documentation](https://www.newtonsoft.com/json/help/html/Deseri
 }
 ```
 
-When this JSON is parsed by the `JsonConvert.DeserialiseObject()` call in `Controllers/RequestsController.cs`, it should get deserialised and request the file `test` from our box. Now we need to find a way to request this cereal - it's time to look at some XSS.
+When this JSON is parsed by the `JsonConvert.DeserialiseObject()` call in `Controllers/RequestsController.cs`, it should get deserialised and request the file `test` from our box.
+
+This turned out to not be quite right - but to test it, I had to first find a way to request it. It's time to look at some XSS.
