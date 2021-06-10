@@ -77,7 +77,7 @@ This suggests the description field may not be vulnerable in this way, or there 
 
 ## Fixing the XSS
 
-When I first did this box, I wasn't sure which parts of my payload were broken until I tested them all together. It turned out to be, well, both parts. But rather than writing this up in chronological order and having a broken XSS payload for half of my writeup, I've moved the working payload to this section. As always, you can skip to the final working payload if you want.
+When I first did this box, I wasn't sure which parts of my payload were broken until I tested them all together. It turned out to be, well, both parts. But rather than writing this up in chronological order and having a broken XSS payload for half of my writeup, I've moved the correct CVE to this section. As always, you can skip to the final [[35 - Exploit Chain#Submitting our Test Payload|working payload]] if you want.
 
 ### Markdown Overview
 

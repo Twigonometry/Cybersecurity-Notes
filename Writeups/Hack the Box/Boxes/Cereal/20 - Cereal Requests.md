@@ -6,7 +6,7 @@ If we go to `/requests` in our browser and pass it to Burp, we can capture the r
 
 ![[Pasted image 20210406085414.png]]
 
-Press `Ctrl + R` to send to repeater, then right-click and select 'Change request method' to turn it into a POST request. We also need to set the `Content-Type` header to `application/json`, as the app expects JSON and otherwise responds with `415 Unsupported Media Type`.
+We can press `Ctrl + R` to send to repeater, then right-click and select 'Change request method' to turn it into a POST request. We also need to set the `Content-Type` header to `application/json`, as the app expects JSON and otherwise responds with `415 Unsupported Media Type`.
 
 ![[Pasted image 20210406085814.png]]
 
@@ -44,7 +44,7 @@ And ran it from a very simple HTML file:
 </html>
 ```
 
-Opened it in firefox:
+Then opened it in firefox:
 
 ```bash
 ┌──(mac㉿kali)-[~/Documents/HTB/cereal/test-www]
@@ -53,7 +53,7 @@ Opened it in firefox:
 
 ![[Pasted image 20210406092035.png]]
 
-This gives us the correctly-formatted payload:
+Which gives us the correctly-formatted payload:
 
 ```
 {"JSON":"{\"title\":\"t\",\"flavor\":\"f\",\"color\":\"#FFF\",\"description\":\"d\"}"}

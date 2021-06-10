@@ -4,15 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "cadac7c6715ad95d",
+        "id": "d7729b1b9b6ffc3b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Bashed/10 - Website.md",
-            "mode": "source"
+            "file": "Writeups/Hack the Box/Boxes/Cereal/40 - Shell as sonny.md",
+            "mode": "preview"
           }
-        }
+        },
+        "group": "d9b8bce654306cd7"
+      },
+      {
+        "id": "beaa4ec77f723a00",
+        "type": "leaf",
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "Writeups/Hack the Box/Boxes/Cereal/40 - Shell as sonny.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1,
+              "close": false
+            }
+          }
+        },
+        "group": "d9b8bce654306cd7"
       }
     ],
     "direction": "vertical"
@@ -52,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353
+    "width": 353,
+    "collapsed": true
   },
   "right": {
     "id": "4aa42a08b2824dd0",
@@ -68,14 +106,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Bashed/10 - Website.md",
+                "file": "Writeups/Hack the Box/Boxes/Cereal/40 - Shell as sonny.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -86,17 +124,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cadac7c6715ad95d",
+  "active": "d7729b1b9b6ffc3b",
   "lastOpenFiles": [
-    "Writeups/Hack the Box/Boxes/Bashed/10 - Website.md",
-    "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
-    "Writeups/Hack the Box/Boxes/Bashed/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Bashed/15 - Privesc.md",
-    "Writeups/Hack the Box/Boxes/Bashed/5 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Legacy/5 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Legacy/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Lame/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Jerry/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md"
+    "Writeups/Hack the Box/Boxes/Cereal/40 - Shell as sonny.md",
+    "Writeups/Hack the Box/Boxes/Cereal/Cereal Index.md",
+    "Writeups/Hack the Box/Boxes/Cereal/35 - Exploit Chain.md",
+    "Writeups/Hack the Box/Boxes/Cereal/30 - XSS.md",
+    "Writeups/Hack the Box/Boxes/Cereal/25 - Deserialisation.md",
+    "Writeups/Hack the Box/Boxes/Cereal/20 - Cereal Requests.md",
+    "Writeups/Hack the Box/Boxes/Cereal/15 - Source Code.md",
+    "Writeups/Hack the Box/Boxes/Cereal/11 - source.cereal.htb.md",
+    "Writeups/Hack the Box/Boxes/Cereal/10 - cereal.htb.md",
+    "Writeups/Hack the Box/Boxes/Cereal/5 - Enumeration.md"
   ]
 }

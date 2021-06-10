@@ -59,11 +59,11 @@ Users seem to be saved locally using Javascript, as shown in the `site/ClientApp
 
 ![[Pasted image 20210605212657.png]]
 
-We can use the token in the repository's old commits to craft a JWT token
+We can use the token in the repository's old commits to craft a JWT token.
 
-### .NET
+### Using .NET
 
-I made an attempt to generate a JW with C# code, looking at these links for reference:
+I made an attempt to generate a JWT with C# code, looking at these links for reference:
 - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/main-and-command-args/
 - https://stackoverflow.com/questions/20392243/run-c-sharp-code-on-linux-terminal
 - https://stackoverflow.com/questions/18677837/decoding-and-verifying-jwt-token-using-system-identitymodel-tokens-jwt
@@ -112,7 +112,7 @@ Compilation failed: 1 error(s), 0 warnings
 
 I knew I could resolve this on Windows pretty easily with Visual Studio, but didn't have it setup on Linux. I considered [installing .NET](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu) but didn't think it was worth fiddling with if there was an easier way. I also didn't want to set up a Windows VM, so looked to see if I could use Python instead.
 
-### Python
+### Using Python
 
 I used the `jwt` library for this: [https://pyjwt.readthedocs.io/en/latest/](https://pyjwt.readthedocs.io/en/latest/)
 
@@ -162,9 +162,7 @@ Even with a valid token, we receive a `403` status code.
 
 This means that, to make requests to these controller methods, we must force the box to make a request on our behalf - this is known as a Server Side Request Forgery (SSRF).
 
-## Requests Controller
-
-The file `Controllers/RequestsController.cs` defines the Cereal Requests logic, and has a method that deserialises a JSON. This corresponds to the `/requests?id={ID}` route.
+There are several methods that we want to be able to access, such as viewing a cereal - reviewing the code in `Controllers/RequestsController.cs`, the following function immediately stands out as being potentially dangerous:
 
 ```csharp
 var cereal = JsonConvert.DeserializeObject(json, new JsonSerializerSettings
@@ -173,4 +171,4 @@ var cereal = JsonConvert.DeserializeObject(json, new JsonSerializerSettings
 });
 ```
 
-However, the route is subject to the IP whitelist policy. This means it is only accessible by the box itself.
+But this is one of the routes subject to the IP restriction, so we'll need a way to bypass this.

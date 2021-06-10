@@ -20,9 +20,9 @@ Now we need to find a gadget that allows for Remote Code Execution - i.e. a clas
 
 *Note:* as always, I'll detail my thought process - but this technique did not actually work, so you can skip to me [[25 - Deserialisation#Custom Gadget Chain|finding the correct gadget]] if you wish.
 
-What do you know? Here we have a .NET based Gadget Chain finder, similar to the original [ysoserial](https://github.com/frohoff/ysoserial)...
+---
 
-https://github.com/pwntester/ysoserial.net
+What do you know? Here we have a [.NET based Gadget Chain finder](https://github.com/pwntester/ysoserial.net), similar to the original [ysoserial](https://github.com/frohoff/ysoserial)...
 
 This is the tool spotted in the "Security fixes" commit earlier - when I saw this line in the code, I initially misread it as blocking payloads from the `frohoff` repository, and thought the one I found would bypass the defences. I realised my mistake, but still wanted to try and create a payload just to check the defence was sound.
 
@@ -213,7 +213,7 @@ I'm going to look at an example from `ysoserial.net` and replicate its structure
 }
 ```
 
-It looks like we need to specify the class in the `$type` field, as suggested by the initial article by @frycos, and then set our variables. We will create a test payload for now, and then attempt to make one to download a shell.
+It looks like we need to specify the class in the `$type` field, as suggested by the initial article by frycos, and then set our variables. We will create a test payload for now, and then attempt to make one to download a shell.
 
 I'm unsure the purpose of the `PresentationFramework, Version=...` strings, so I'll look for some documentation on the `Json.Net` formatter and see if it sheds some light on how to call a constructor.
 
@@ -233,4 +233,4 @@ This [newtonsoft documentation](https://www.newtonsoft.com/json/help/html/Deseri
 
 When this JSON is parsed by the `JsonConvert.DeserialiseObject()` call in `Controllers/RequestsController.cs`, it should get deserialised and request the file `test` from our box.
 
-This turned out to not be quite right - but to test it, I had to first find a way to request it. It's time to look at some XSS.
+This [[35 - Exploit Chain#Adjusting the Filepath|turned out]] to not be quite right - but to test it, I had to first find a way to request it. It's time to look at some XSS.

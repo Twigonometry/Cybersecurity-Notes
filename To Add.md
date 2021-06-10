@@ -181,7 +181,12 @@ For each topic, include:
 
 ## Enumeration
 
-- [ ] Manual Enumeration
+- [ ] General
+	- [ ] Linpeas
+		- [ ] What to look for
+		- [ ] What to disregard
+	- [ ] Winpeas
+- [ ] Manual Versions of Common Enumeration Scripts
 	- [ ] Linpeas
 		- [x] Details of auto exploit OSCP disqualification
 			- [x] Tweet
