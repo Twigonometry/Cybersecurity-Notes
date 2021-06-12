@@ -9,47 +9,21 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Cereal/40 - Shell as sonny.md",
+            "file": "Writeups/Hack the Box/Boxes/Scriptkiddie/0 - Overview.md",
             "mode": "preview"
           }
-        },
-        "group": "d9b8bce654306cd7"
+        }
       },
       {
-        "id": "beaa4ec77f723a00",
+        "id": "21720ffe39a8e6fb",
         "type": "leaf",
         "state": {
-          "type": "localgraph",
+          "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Cereal/40 - Shell as sonny.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1,
-              "close": false
-            }
+            "file": "Writeups/Hack the Box/Boxes/Scriptkiddie/Scriptkiddie Index.md",
+            "mode": "source"
           }
-        },
-        "group": "d9b8bce654306cd7"
+        }
       }
     ],
     "direction": "vertical"
@@ -89,8 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353,
-    "collapsed": true
+    "width": 353
   },
   "right": {
     "id": "4aa42a08b2824dd0",
@@ -106,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Cereal/40 - Shell as sonny.md",
+                "file": "Writeups/Hack the Box/Boxes/Scriptkiddie/Scriptkiddie Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d7729b1b9b6ffc3b",
+  "active": "21720ffe39a8e6fb",
   "lastOpenFiles": [
-    "Writeups/Hack the Box/Boxes/Cereal/40 - Shell as sonny.md",
-    "Writeups/Hack the Box/Boxes/Cereal/Cereal Index.md",
-    "Writeups/Hack the Box/Boxes/Cereal/35 - Exploit Chain.md",
-    "Writeups/Hack the Box/Boxes/Cereal/30 - XSS.md",
-    "Writeups/Hack the Box/Boxes/Cereal/25 - Deserialisation.md",
-    "Writeups/Hack the Box/Boxes/Cereal/20 - Cereal Requests.md",
-    "Writeups/Hack the Box/Boxes/Cereal/15 - Source Code.md",
-    "Writeups/Hack the Box/Boxes/Cereal/11 - source.cereal.htb.md",
-    "Writeups/Hack the Box/Boxes/Cereal/10 - cereal.htb.md",
-    "Writeups/Hack the Box/Boxes/Cereal/5 - Enumeration.md"
+    "Writeups/Hack the Box/Boxes/Scriptkiddie/Scriptkiddie Index.md",
+    "Writeups/Hack the Box/Boxes/Scriptkiddie/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Scriptkiddie/25 - Shell as pwn to Root.md",
+    "Writeups/Hack the Box/Boxes/Scriptkiddie/20 - Shell as kid.md",
+    "Writeups/Hack the Box/Boxes/Scriptkiddie/15 - Metasploit CVE.md",
+    "Writeups/Hack the Box/Boxes/Scriptkiddie/10 - Website.md",
+    "Writeups/Hack the Box/Boxes/Scriptkiddie/5 - Enumeration.md",
+    "Writeups/Hack the Box/Boxes/Cereal/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Scriptkiddie/25 - Shell as pwn - Root.md",
+    "Writeups/Hack the Box/Boxes/Cereal/40 - Shell as sonny.md"
   ]
 }
