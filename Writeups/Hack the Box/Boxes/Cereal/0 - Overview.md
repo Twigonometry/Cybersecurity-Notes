@@ -2,9 +2,9 @@
 
 **Box Details**
 
-|IP|Difficulty|OS|Date Started|Date User Completed|
+|IP|User-Rated Difficulty|OS|Date Started|Date User Completed|
 |---|---|---|---|---|
-|10.10.10.217|Hard|Windows|2020-03-16|2020-04-18|
+|10.10.10.217|7.4|Windows|2020-03-16|2020-04-18|
 
 This was a very hard box based on a .NET web application; it required a lot of source code analysis and involved a chain of exploits to get a foothold on the box. After reversing the authentication system and forging a JWT token, you could figure out how to insert malicious data into the database to trigger a deserialisation vulnerability. However, the triggering HTTP request had an IP address limitation, meaning only the box itself could trigger it. This meant we needed an XSS or SSRF vulnerability to force a request, which came via a CVE in a markdown rendering library. After this, we could trigger our deserialisation payload and upload a shell to the box.
 
