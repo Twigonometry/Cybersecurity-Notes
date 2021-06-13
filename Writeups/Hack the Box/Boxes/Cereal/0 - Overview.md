@@ -18,6 +18,10 @@ What also surprised me about this box was the sheer number of little hitches alo
 
 I only managed to finish the user stage of this box (although that was no small task). I had a look at the root path at the time, but due to my little Windows priv esc experience I decided to go back and focus on some retired boxes to try and learn a little more. I also had a CTF to run and an AWS exam, and by the time they were finished and I could come back to the box again it was about to retire. I might come back to the root stage at some point, but for now I'm uploading what I've got.
 
+---
+
+This writeup is also available on my site at [mac-goodwin.com](https://www.mac-goodwin.com/blog/htb/2021/06/12/htb-cereal.html)
+
 ## Scripts
 
 All the scripts I used on this box are available on my github, at https://github.com/Twigonometry/CTF-Tools/tree/master/hack_the_box/cereal

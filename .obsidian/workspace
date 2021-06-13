@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Cereal/0 - Overview.md",
+            "file": "Writeups/Hack the Box/Boxes/Scriptkiddie/0 - Overview.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Cereal/0 - Overview.md",
+                "file": "Writeups/Hack the Box/Boxes/Scriptkiddie/0 - Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "21720ffe39a8e6fb",
   "lastOpenFiles": [
-    "Writeups/Hack the Box/Boxes/Cereal/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Scriptkiddie/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Cereal/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Bucket/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Legacy/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Lame/0 - Overview.md",
