@@ -24,4 +24,4 @@ I rated root a 2 also, but considered rating it a 3. I felt a bit rusty on this 
 
 # Tags
 
-#writeup #oscp-prep #linux #web #file-misconfiguration
+#writeup #oscp-prep #linux #web #file-misconfiguration #no-metasploit

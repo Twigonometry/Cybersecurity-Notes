@@ -11,3 +11,7 @@ Exploiting Metasploit CVE: [[15 - Metasploit CVE|Metasploit CVE]]
 Shell as kid: [[20 - Shell as kid|Shell as kid]]
 
 Shell as pwn -> root: [[25 - Shell as pwn to Root|Shell as pwn]]
+
+## Tags
+
+#writeup #web #cve #command-injection #linux

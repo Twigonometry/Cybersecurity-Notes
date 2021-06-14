@@ -10,4 +10,4 @@ Privesc: [[15 - Privesc|Privesc]]
 
 # Tags
 
-#writeup #oscp-prep #linux #web #file-misconfiguration
+#writeup #oscp-prep #linux #web #file-misconfiguration #no-metasploit

@@ -20,4 +20,4 @@ I rated both user and root a 2 for difficulty, as there was a little more to the
 
 # Tags
 
-#writeup #oscp-prep #unix #cve #smb #ftp
+#writeup #oscp-prep #unix #cve #smb #ftp #no-metasploit

@@ -7,3 +7,7 @@ Enumeration: [[Writeups/Hack the Box/Boxes/Lame/5 - Enumeration|Enumeration]]
 FTP Attempted Exploit: [[10 - FTP|FTP]]
 
 SMB Successful Exploit: [[Writeups/Hack the Box/Boxes/Lame/15 - SMB|SMB]]
+
+# Tags
+
+#writeup #oscp-prep #unix #cve #smb #ftp #no-metasploit

@@ -20,4 +20,4 @@ I rather both user and root a 1 for difficulty. The exploit was arguably even si
 
 # Tags
 
-#writeup #oscp-prep #windows #file-upload #tomcat
+#writeup #oscp-prep #windows #file-upload #tomcat #no-metasploit

@@ -18,4 +18,4 @@ I rated both user and root a 1 for difficulty. The exploit was incredibly simple
 
 # Tags
 
-#writeup #oscp-prep #windows #cve
+#writeup #oscp-prep #windows #cve #no-metasploit

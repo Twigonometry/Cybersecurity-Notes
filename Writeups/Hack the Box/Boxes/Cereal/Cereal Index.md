@@ -19,3 +19,7 @@ XSS: [[30 - XSS|XSS]]
 Exploit Chain & Revisiting XSS: [[35 - Exploit Chain|Exploit Chain]]
 
 Shell as Sonny: [[40 - Shell as sonny|Shell as sonny]]
+
+# Tags
+
+#writeup #web #xss #markdown #deserialisation #dotnet #windows
