@@ -9,47 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Granny/Granny Index.md",
-            "mode": "preview"
+            "file": "Writeups/Hack the Box/Boxes/Scriptkiddie/25 - Shell as pwn to Root.md",
+            "mode": "source"
           }
-        },
-        "group": "518028e605124ff6"
-      },
-      {
-        "id": "2c2c7c239affb916",
-        "type": "leaf",
-        "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "Writeups/Hack the Box/Boxes/Granny/Granny Index.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1.000000000000002,
-              "close": false
-            }
-          }
-        },
-        "group": "518028e605124ff6"
+        }
       }
     ],
     "direction": "vertical"
@@ -76,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "6418",
+                "query": "three row",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -105,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Granny/Granny Index.md",
+                "file": "Writeups/Hack the Box/Boxes/Scriptkiddie/25 - Shell as pwn to Root.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +89,7 @@
   },
   "active": "21720ffe39a8e6fb",
   "lastOpenFiles": [
+    "Writeups/Hack the Box/Boxes/Scriptkiddie/25 - Shell as pwn to Root.md",
     "Writeups/Hack the Box/Boxes/Granny/Granny Index.md",
     "Writeups/Hack the Box/Boxes/Granny/20 - Key Lessons.md",
     "Writeups/Hack the Box/Boxes/Granny/15 - Shell as Network Service.md",
@@ -133,7 +98,6 @@
     "Writeups/Hack the Box/Boxes/Granny/5 - Enumeration.md",
     "Writeups/Hack the Box/Boxes/Blue/5 - Enumeration.md",
     "Attachments/Pasted image 20210506195056.png",
-    "Writeups/Hack the Box/Boxes/Granny/1 - Todo.md",
-    "Writeups/Hack the Box/Boxes/Cereal/0 - Overview.md"
+    "Writeups/Hack the Box/Boxes/Granny/1 - Todo.md"
   ]
 }

