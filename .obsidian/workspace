@@ -4,15 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "21720ffe39a8e6fb",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SESH/CTFs/BakeryTF/Challenge Development Index.md",
-            "mode": "source"
+        "id": "d08450f2978e1e60",
+        "type": "split",
+        "children": [
+          {
+            "id": "21720ffe39a8e6fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writeups/Hack the Box/Boxes/Optimum/10 - Website.md",
+                "mode": "preview"
+              }
+            }
+          },
+          {
+            "id": "a2401d3ef1d86510",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writeups/Hack the Box/Boxes/Optimum/15 - Shell as kostas.md",
+                "mode": "source"
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "6b91dc3860273eeb",
+        "type": "split",
+        "children": [
+          {
+            "id": "5ed73c48cb9a6102",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writeups/Hack the Box/Boxes/Optimum/0 - Overview.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "3407ba922a181ec6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writeups/Hack the Box/Boxes/Optimum/20 - Key Lessons.md",
+                "mode": "source"
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -39,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "three row",
+                "query": "\"key lessons\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353
+    "width": 353,
+    "collapsed": true
   },
   "right": {
     "id": "4aa42a08b2824dd0",
@@ -68,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SESH/CTFs/BakeryTF/Challenge Development Index.md",
+                "file": "Writeups/Hack the Box/Boxes/Optimum/0 - Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +134,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "21720ffe39a8e6fb",
+  "active": "5ed73c48cb9a6102",
   "lastOpenFiles": [
-    "SESH/CTFs/BakeryTF/Challenge Development Index.md",
-    "SESH/SESH Index.md",
-    "Writeups/CTFs/SESH BakeryTF/BakeryTF Writeups Index.md",
-    "Writeups/CTFs/SESH BakeryTF/Raspberry Peist Writeup.md",
-    "Writeups/CTFs/SESH BakeryTF/Juicy Part 3 Writeup.md",
-    "SESH/CTFs/Untitled.md",
-    "Writeups/CTFs/SESH BakeryTF/Untitled.md",
-    "SESH/Untitled.md",
-    "Writeups/Hack the Box/Boxes/Scriptkiddie/25 - Shell as pwn to Root.md",
-    "Writeups/Hack the Box/Boxes/Granny/Granny Index.md"
+    "Writeups/Hack the Box/Boxes/Optimum/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Optimum/15 - Shell as kostas.md",
+    "Writeups/Hack the Box/Boxes/Optimum/20 - Key Lessons.md",
+    "Writeups/Hack the Box/Boxes/Optimum/10 - Website.md",
+    "Attachments/Pasted image 20210613121849.png",
+    "Writeups/Hack the Box/Boxes/Granny/Granny Index.md",
+    "Writeups/Hack the Box/Boxes/Optimum/Untitled.md",
+    "Writeups/Hack the Box/Boxes/Legacy/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Optimum/5 - Enumeration.md",
+    "Writeups/CTFs/SESH BakeryTF/Juicy Part 3 Writeup.md"
   ]
 }
