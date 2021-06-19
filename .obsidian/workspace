@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Scriptkiddie/25 - Shell as pwn to Root.md",
+            "file": "SESH/CTFs/BakeryTF/Challenge Development Index.md",
             "mode": "source"
           }
         }
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Scriptkiddie/25 - Shell as pwn to Root.md",
+                "file": "SESH/CTFs/BakeryTF/Challenge Development Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +88,15 @@
   },
   "active": "21720ffe39a8e6fb",
   "lastOpenFiles": [
+    "SESH/CTFs/BakeryTF/Challenge Development Index.md",
+    "SESH/SESH Index.md",
+    "Writeups/CTFs/SESH BakeryTF/BakeryTF Writeups Index.md",
+    "Writeups/CTFs/SESH BakeryTF/Raspberry Peist Writeup.md",
+    "Writeups/CTFs/SESH BakeryTF/Juicy Part 3 Writeup.md",
+    "SESH/CTFs/Untitled.md",
+    "Writeups/CTFs/SESH BakeryTF/Untitled.md",
+    "SESH/Untitled.md",
     "Writeups/Hack the Box/Boxes/Scriptkiddie/25 - Shell as pwn to Root.md",
-    "Writeups/Hack the Box/Boxes/Granny/Granny Index.md",
-    "Writeups/Hack the Box/Boxes/Granny/20 - Key Lessons.md",
-    "Writeups/Hack the Box/Boxes/Granny/15 - Shell as Network Service.md",
-    "Writeups/Hack the Box/Boxes/Granny/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Granny/10 - Website.md",
-    "Writeups/Hack the Box/Boxes/Granny/5 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Blue/5 - Enumeration.md",
-    "Attachments/Pasted image 20210506195056.png",
-    "Writeups/Hack the Box/Boxes/Granny/1 - Todo.md"
+    "Writeups/Hack the Box/Boxes/Granny/Granny Index.md"
   ]
 }
