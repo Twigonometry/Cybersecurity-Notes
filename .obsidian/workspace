@@ -4,62 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "d08450f2978e1e60",
-        "type": "split",
-        "children": [
-          {
-            "id": "21720ffe39a8e6fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writeups/Hack the Box/Boxes/Optimum/10 - Website.md",
-                "mode": "preview"
-              }
-            }
-          },
-          {
-            "id": "a2401d3ef1d86510",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writeups/Hack the Box/Boxes/Optimum/15 - Shell as kostas.md",
-                "mode": "source"
-              }
-            }
+        "id": "a2401d3ef1d86510",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "Attachments/Pasted image 20210613111557.png"
           }
-        ],
-        "direction": "horizontal"
+        },
+        "group": "b8453047b3ad6132"
       },
       {
-        "id": "6b91dc3860273eeb",
-        "type": "split",
-        "children": [
-          {
-            "id": "5ed73c48cb9a6102",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writeups/Hack the Box/Boxes/Optimum/0 - Overview.md",
-                "mode": "source"
-              }
-            }
-          },
-          {
-            "id": "3407ba922a181ec6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writeups/Hack the Box/Boxes/Optimum/20 - Key Lessons.md",
-                "mode": "source"
-              }
+        "id": "8686c56ca04f0cab",
+        "type": "leaf",
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "Attachments/Pasted image 20210613111557.png",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1,
+              "close": false
             }
           }
-        ],
-        "direction": "horizontal"
+        },
+        "group": "b8453047b3ad6132"
       }
     ],
     "direction": "vertical"
@@ -99,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353,
-    "collapsed": true
+    "width": 353
   },
   "right": {
     "id": "4aa42a08b2824dd0",
@@ -116,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Optimum/0 - Overview.md",
+                "file": "Attachments/Pasted image 20210613111557.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,17 +122,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5ed73c48cb9a6102",
+  "active": "a2401d3ef1d86510",
   "lastOpenFiles": [
-    "Writeups/Hack the Box/Boxes/Optimum/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Optimum/15 - Shell as kostas.md",
+    "Attachments/Pasted image 20210613111557.png",
+    "Exam Resources/OSCP/Untitled.md",
     "Writeups/Hack the Box/Boxes/Optimum/20 - Key Lessons.md",
+    "Writeups/Hack the Box/Boxes/Optimum/15 - Shell as kostas.md",
+    "Writeups/Hack the Box/Boxes/Granny/15 - Shell as Network Service.md",
     "Writeups/Hack the Box/Boxes/Optimum/10 - Website.md",
-    "Attachments/Pasted image 20210613121849.png",
-    "Writeups/Hack the Box/Boxes/Granny/Granny Index.md",
-    "Writeups/Hack the Box/Boxes/Optimum/Untitled.md",
-    "Writeups/Hack the Box/Boxes/Legacy/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Optimum/5 - Enumeration.md",
-    "Writeups/CTFs/SESH BakeryTF/Juicy Part 3 Writeup.md"
+    "Writeups/Hack the Box/Boxes/Optimum/05 - Enumeration.md",
+    "Writeups/Hack the Box/Boxes/Optimum/Optimum Index.md",
+    "Writeups/Hack the Box/Boxes/Optimum/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Blue/Blue Index.md"
   ]
 }

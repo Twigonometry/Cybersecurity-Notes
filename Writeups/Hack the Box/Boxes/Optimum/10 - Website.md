@@ -4,7 +4,7 @@ The website is an old looking file server:
 
 ![[Pasted image 20210613111026.png]]
 
-I ran a [[05 - Enumeration#Gobuster|gobuster scan]] in the background while i poked around.
+I ran a [[05 - Enumeration#Gobuster|gobuster scan]] in the background while I poked around.
 
 ## Trying HFS Exploits
 
@@ -111,13 +111,13 @@ Shellcodes: No Results
 Papers: No Results
 ```
 
-[https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/initial-access/t1190-exploit-public-facing-applications/rejetto-http-file-server-hfs-2.3](https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/initial-access/t1190-exploit-public-facing-applications/rejetto-http-file-server-hfs-2.3)
+I found this article useful for discerning which of these might be along the right path: [https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/initial-access/t1190-exploit-public-facing-applications/rejetto-http-file-server-hfs-2.3](https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/initial-access/t1190-exploit-public-facing-applications/rejetto-http-file-server-hfs-2.3)
 
 I tried one of the alternative exploits:
 
 ![[Pasted image 20210613113210.png]]
 
-But I wasn't getting anything on either of my listeners:
+But I wasn't getting anything on any of my listeners:
 
 ![[Pasted image 20210613112857.png]]
 
@@ -194,13 +194,13 @@ Looking at my other listener, it now had some ICMP requests in it:
 
 This is strange - I guess they took a while to come through. But it means we did have code execution when we tried earlier - just no shell.
 
-After a wait, the one exploit also eventually executed, requesting the `nc.exe` file:
+After a wait, the `39161.py` exploit also eventually executed, requesting the `nc.exe` file:
 
 ![[Pasted image 20210613115437.png]]
 
 I'd already moved onto the next exploit when I noticed this, but I would eventually [[15 - Shell as kostas#Getting a Better Shell|fix it]] in the final stage of priv esc.
 
-But I'd already moved on at this point. I should have been a little more patient and then I may have been able to debug that I needed to host netcat, but the final exploit was much easier to read and understand anyway.
+I should have been a little more patient and then I may have been able to debug that I needed to host `nc.exe`, but the next exploit I tried was much easier to read and understand anyway.
 
 ### Working HFS Exploit
 
