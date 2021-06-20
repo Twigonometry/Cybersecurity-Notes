@@ -97,6 +97,8 @@ For each topic, include:
 	- [ ] Networking VMs
 	- [ ] Increasing partition size
 	- [ ] Installing VSCode
+- [ ] Nmap privileged setup
+- [ ] Configuring proxychains
 
 ## Cheatsheets on Common Tools
 

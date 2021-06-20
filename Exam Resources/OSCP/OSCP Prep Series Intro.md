@@ -4,6 +4,8 @@ As I prepare for my OSCP exam, I will be blogging about all the things I've lear
 
 After I've sat (and hopefully passed) I'll do a big roundup of what I learned and how I found it... even if I fail. I imagine this will still be useful even if I flunk the exam!
 
+*Note*: I will only be including details that I'm permitted to include as per OSCP terms and conditions - this might mean I can't say specifics about course content, but I will try to summarise what I learned within the scope of what is permitted.
+
 I hope to sit the exam in late August 2021. I will be booking 30 days of lab time, starting in July, and will then have a month-ish to sure up my skills before sitting.
 
 Until then, I will be posting regularly here! I hope you enjoy the writeups and find the style helpful. Below are some of my thoughts on what I'm including in them.
