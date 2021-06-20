@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Exam Resources/OSCP/OSCP Prep Series Intro.md",
-            "mode": "preview"
+            "file": "To Add.md",
+            "mode": "source"
           }
         }
       }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353
+    "width": 353,
+    "collapsed": true
   },
   "right": {
     "id": "4aa42a08b2824dd0",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exam Resources/OSCP/OSCP Prep Series Intro.md",
+                "file": "To Add.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "38a20f3edbf9d5c5",
   "lastOpenFiles": [
+    "To Add.md",
+    "Writeups/Hack the Box/Boxes/Lame/15 - SMB.md",
+    "Writeups/Hack the Box/Boxes/Jerry/10 - Tomcat.md",
+    "Writeups/Hack the Box/Boxes/Bashed/15 - Privesc.md",
     "Exam Resources/OSCP/OSCP Prep Series Intro.md",
     "Attachments/Pasted image 20210613111557.png",
     "Exam Resources/OSCP/Untitled.md",
     "Writeups/Hack the Box/Boxes/Optimum/20 - Key Lessons.md",
     "Writeups/Hack the Box/Boxes/Optimum/15 - Shell as kostas.md",
-    "Writeups/Hack the Box/Boxes/Granny/15 - Shell as Network Service.md",
-    "Writeups/Hack the Box/Boxes/Optimum/10 - Website.md",
-    "Writeups/Hack the Box/Boxes/Optimum/05 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Optimum/Optimum Index.md",
-    "Writeups/Hack the Box/Boxes/Optimum/0 - Overview.md"
+    "Writeups/Hack the Box/Boxes/Granny/15 - Shell as Network Service.md"
   ]
 }

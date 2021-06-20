@@ -79,6 +79,25 @@ For each topic, include:
 - 'Practical Examples' link, linking either to specific boxes and examples, or to a practical examples section in the corresponding cheatsheet if it exists
 - 'Where to Practice This Skill' section, which links places you can test the skill - including specific HTB boxes, THM Rooms, or VulnHub VMs
 
+## Methodology
+
+- [ ] Flowchart
+- [ ] Checklist
+	- [ ] Subdomain bruteforcing with wfuzz
+	- [ ] Scanning - nmap standard scripts with OS enum, all ports, UDP, vuln
+	- [ ] Gobuster for files and for directories (-f)
+	- [ ] Script all of this/add it to autorecon profile
+	- [ ] Look for shellshock, log poisoning
+	- [ ] Trying default credentials
+- [ ] Add everything from "key lessons" sections
+
+## Setting stuff up
+
+- [ ] VMs
+	- [ ] Networking VMs
+	- [ ] Increasing partition size
+	- [ ] Installing VSCode
+
 ## Cheatsheets on Common Tools
 
 - [ ] Gobuster
@@ -97,8 +116,13 @@ For each topic, include:
 	- [ ] Null auth
 - [ ] Netcat
 	- [x] Basic syntax
+	- [ ] File transfer
 	- [ ] Traditional mode
 - [ ] Mimikatz
+- [ ] WPScan
+- [ ] WFuzz
+	- [ ] Subdomain Bruteforcing
+- [ ] FFUF
 
 ## Guides to Basic Linux Commands
 - [ ] awk
@@ -151,6 +175,24 @@ For each topic, include:
 - [ ] Deserialisation
 	- [ ] .NET Deserialisation
 	- [ ] PHP Deserialisation
+	- [ ] Deserialisation on Laboratory
+- [ ] Web assessment methodology
+	- [ ] Enumerating Services
+	- [ ] Finding Version numbers
+- [ ] Live overflow Web server hosting advice
+	- [ ] Add practical examples of implementing the advice
+- [ ] Kerberos
+- [ ] Crypto
+	- [ ] Hmac
+	- [ ] Extension attacks
+- [ ] WiFi hacking
+	- [ ] Deauth
+	- [ ] brooks notes
+- [ ] DNS enumeration
+	- [ ] Read DNS sec
+	- [ ] Over tor
+	- [ ] Burp + Tor proxy at same time
+	- [ ] proxychains
 
 ## Writeups
 
@@ -163,6 +205,7 @@ For each topic, include:
 	- [ ] OpenAdmin
 	- [ ] Laboratory
 	- [ ] Passage
+	- [ ] Tenet
 - [ ] PwnED CTF
 - [ ] SESH CTF
 	- [ ] Challenge Development
@@ -170,8 +213,8 @@ For each topic, include:
 		- [ ] Path to Root
 		- [ ] General AWS and Docker deployment
 	- [ ] Writeups
-		- [ ] Saucy Part 3
-		- [ ] Path to Root
+		- [x] Saucy Part 3
+		- [x] Path to Root
 		- [ ] Robots Challenges
 
 ## Reconnaisance
@@ -238,3 +281,34 @@ Specific CVEs
 	- [ ] Teams RCE - CVE-2020-1709
 - [ ] From Articles
 - [ ] Smarty CVEs
+
+## AWS
+
+- [ ] General AWS
+	- [ ] Cloudformation
+- [ ] Security
+	- [ ] Bucket policies
+	- [ ] Enumerating S3 Buckets
+	- [ ] Scanning for misconfigured buckets
+
+## From Old SESH Sessions
+- [ ] Kerberoasting
+- [ ] BOF
+
+## OWASP Top Ten
+
+- XSS
+	- [ ] Tricks
+	- [ ] Payloads
+	- [ ] Fetch
+	- [ ] XMLHTTP
+	- [ ] Img source callbacks
+	- [ ] Markdown
+	- [ ] Delivery methods
+	- [ ] Defence evasion
+	- [ ] Dangerous functions like eval
+- [ ] Deserialisation
+	- [ ] Python + flask
+	- [ ] PHP
+	- [ ] .NET
+	- [ ] Java

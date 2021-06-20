@@ -60,7 +60,7 @@ Here are the boxes I'll be prioritising, sorted by user-rated difficulty - I'm a
 - [ ] Node (Linux - 6.0)
 - [ ] Brainfuck (Linux - 6.6)
 
-This list is comprised mostly of those from the TJ Null List, up to a difficulty level that has been described as probably the top-end of OSCP boxes by colleagues who've sat the exam.
+This list is comprised mostly of those from the [TJ Null List](https://www.reddit.com/r/oscp/comments/cu6jhb/updated_oscplike_boxes_from_hackthebox_by_tjnull/), up to a difficulty level that has been described as probably the top-end of OSCP boxes by colleagues who've sat the exam.
 
 I'll be saving these boxes for a practice exam, as per a [reddit recommendation](https://www.reddit.com/r/oscp/comments/e3omhp/htb_practice_what_would_count_as_a_10_pt_box_20/), which I will writeup on this blog:
 
