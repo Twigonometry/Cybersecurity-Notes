@@ -4,51 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a2401d3ef1d86510",
+        "id": "38a20f3edbf9d5c5",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Attachments/Pasted image 20210613111557.png"
+            "file": "Exam Resources/OSCP/OSCP Prep Series Intro.md",
+            "mode": "preview"
           }
-        },
-        "group": "b8453047b3ad6132"
-      },
-      {
-        "id": "8686c56ca04f0cab",
-        "type": "leaf",
-        "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "Attachments/Pasted image 20210613111557.png",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1,
-              "close": false
-            }
-          }
-        },
-        "group": "b8453047b3ad6132"
+        }
       }
     ],
     "direction": "vertical"
@@ -104,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/Pasted image 20210613111557.png",
+                "file": "Exam Resources/OSCP/OSCP Prep Series Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,8 +86,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a2401d3ef1d86510",
+  "active": "38a20f3edbf9d5c5",
   "lastOpenFiles": [
+    "Exam Resources/OSCP/OSCP Prep Series Intro.md",
     "Attachments/Pasted image 20210613111557.png",
     "Exam Resources/OSCP/Untitled.md",
     "Writeups/Hack the Box/Boxes/Optimum/20 - Key Lessons.md",
@@ -132,7 +97,6 @@
     "Writeups/Hack the Box/Boxes/Optimum/10 - Website.md",
     "Writeups/Hack the Box/Boxes/Optimum/05 - Enumeration.md",
     "Writeups/Hack the Box/Boxes/Optimum/Optimum Index.md",
-    "Writeups/Hack the Box/Boxes/Optimum/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Blue/Blue Index.md"
+    "Writeups/Hack the Box/Boxes/Optimum/0 - Overview.md"
   ]
 }

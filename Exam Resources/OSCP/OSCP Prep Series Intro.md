@@ -2,9 +2,9 @@
 
 As I prepare for my OSCP exam, I will be blogging about all the things I've learned. This will mostly be in the form of Hack the Box retired machine writeups, but I'll also be regularly adding to my Cybersecurity Notes repository with the things I've learned. This might come in the form of detailed posts about topics, such as a Buffer Overflow or Web Hacking methodology guide, or a cheatsheet such as a list of useful Windows commands I've used along the way.
 
-After I've sat (and hopfully passed) I'll do a big roundup of what I learned and how I found it... even if I fail. I imagine this will still be useful even if I flunk the exam!
+After I've sat (and hopefully passed) I'll do a big roundup of what I learned and how I found it... even if I fail. I imagine this will still be useful even if I flunk the exam!
 
-I hope to sit the exam in late-August 2021. I will be booking 30 days of lab time, starting in July, and will then have a month-ish to sure up my skills before sitting.
+I hope to sit the exam in late August 2021. I will be booking 30 days of lab time, starting in July, and will then have a month-ish to sure up my skills before sitting.
 
 Until then, I will be posting regularly here! I hope you enjoy the writeups and find the style helpful. Below are some of my thoughts on what I'm including in them.
 
@@ -14,11 +14,11 @@ My writeup style might not fit everyone's tastes - I tend to include a lot of de
 
 What I want to include in my writeups:
 - My thought process while solving the boxes - i.e. what I tried and why I tried it
-- My mistakes - what went wrong and why?
+- My mistakes - i.e. what went wrong, and why?
 - Key learnings for each box - new technologies, command line tricks, exploits and CVEs, and defence bypass techniques I used
 - Setup instructions when using technologies and tools for the first time - this way, I can reference this section in a later writeup
 
-If that sounds good, then these writeups might be beneficial to you! Still, I will include in Index page (in [Obsidian](https://github.comTwigonometry/Cybersecurity-Notes)) or a Contents section (on [my site](https://mac-goodwin.com/blog/htb/)) to help with navigation, and regular checkpoints so you can skip ahead to what worked.
+If that sounds good, then these writeups might be beneficial to you! Still, I will include an Index page (in [Obsidian](https://github.com/Twigonometry/Cybersecurity-Notes)) or a Contents section (on [my site](https://mac-goodwin.com/blog/htb/)) to help with navigation, and regular checkpoints so you can skip ahead to what worked.
 
 With all that said, my first post in the series is [[Blue Index|Blue]]. I will be adding tags to my blog page in the future so that the OSCP boxes are easier to find - they will be marked with the #oscp-prep tag.
 
@@ -30,7 +30,7 @@ Of course, I still need to actually *do* the course. Right now, I'm just muddlin
 
 I was advised to do a decent amount of Hack the Box so that by the time I sit the course I should be able to breeze through the labs within the 30 days. We'll see how that goes...
 
-Either way, I am hoping doing the course and the labs will help me have a better understanding of where I'm at - right now it is hard to tell whether I'm ready or not, especially as the style of Hack the Box machines might not match up exactly to the style of machines on the exam. I'm hoping the labs will be more representative and show me where my weaknesses are and the top-end of difficulty so I have time to polish off my skills before I sit the exam.
+Either way, I am hoping doing the course and the labs will help me have a better understanding of where I'm at - right now it is hard to tell whether I'm ready or not, especially as the style of Hack the Box machines might not match up exactly to the style of machines on the exam. I'm hoping the labs will be more representative and show me where my weaknesses are and what the top-end of difficulty is so I have time to polish off my skills before I sit the exam.
 
 ### Hack the Box
 
@@ -78,23 +78,23 @@ I won't write up the real exam (because I can't) but hopefully a post about how 
 Besides these boxes, I'm planning a few other activities to help me prepare:
 - Compiling all my notes from my practice into cheatsheets
 - Extra Buffer Overflow Practice
-	- Read [Corelan's Buffer Overflow Series](https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/)
-	- Watch [Live Overflow's Series](https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN)
-	- Do Jack's [Stack Overflows for Beginners](https://www.vulnhub.com/entry/stack-overflows-for-beginners-101,290/) machine
-- Practice Privilege Escalation
+	- Reading [Corelan's Buffer Overflow Series](https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/)
+	- Watching [Live Overflow's Series](https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN)
+	- Doing Jack's [Stack Overflows for Beginners](https://www.vulnhub.com/entry/stack-overflows-for-beginners-101,290/) machine
+- Practicing Privilege Escalation
 	- Tiberius' [Linux Priv Esc THM Room](https://tryhackme.com/room/linuxprivesc)
 	- Tiberius' [Windows Priv Esc THM Room](https://tryhackme.com/room/windows10privesc)
 
 If I have time, I'll do the following
-- The rest of TJ Null's list, including the harder boxes such as Jail which I missed off my initial checklist
+- The rest of [TJ Null's list](https://www.reddit.com/r/oscp/comments/cu6jhb/updated_oscplike_boxes_from_hackthebox_by_tjnull/), including the harder boxes such as Jail which I missed off my initial checklist
 - Other boxes from 0xdf's [OSCP-like](https://0xdf.gitlab.io/tags.html#oscp-like) and [OSCP-plus](https://0xdf.gitlab.io/tags.html#oscp-plus) lists
-- Privilege Escalation courses
-- Try Hack Me rooms about Buffer Overflow and Active Directory
+- Heath Adams' [Windows Priv Esc Course](https://www.udemy.com/course/windows-privilege-escalation-for-beginners/) and [Linux Priv Esc Course](https://www.udemy.com/course/linux-privilege-escalation-for-beginners/), or Tiberius' [Windows](https://www.udemy.com/course/windows-privilege-escalation/) and [Linux](https://www.udemy.com/course/linux-privilege-escalation/) equivalents
+- Try Hack Me rooms about [Buffer Overflow](https://tryhackme.com/room/bufferoverflowprep), [Active Directory](https://tryhackme.com/room/activedirectorybasics), and [Kerberos](https://tryhackme.com/room/attackingkerberos)
 - More modern HTB boxes, such as the recent releases Monitors, Dynstr, and Spider
 
 ## Progress So Far
 
-I've learned a lot from these boxes so far. One of the main things that has improved is my methodology - my enumeration steps are pretty solid now, and I know how to interact with a lot more core services. I'm also much better at privilege escalation than I was, and have started to learn where to look and what stands out as unusual on a filesystem (as well as learning about various dangerous configurations like capabilities).
+I've learned a lot from these boxes so far. One of the main things that has improved is my methodology - my enumeration steps feel pretty solid now, and I know how to interact with a lot more core services. I'm also much better at privilege escalation than I was, and have started to learn where to look and what stands out as unusual on a filesystem (as well as learning about various dangerous configurations like capabilities).
 
 Crucially, I'm much better at windows. Not only am I more comfortable with Command Prompt and Powershell, but I've had the chance to explore various kernel exploits and techniques for finding them, as well as successfully exploiting a Potato-family exploit for the first time and understanding *why* they work. I think I'd now be confident to go back and try a harder example of this, such as Cereal's manual exploitation.
 
@@ -106,11 +106,11 @@ Finally, I've come across a few nice classes of common vulnerabilities and attac
 
 ### A Rock-Solid Methodology
 
-I feel like my methodology has massively improved over the last six months or so of practice on HTB (and with [[SESH Index]] and other side projects), but it's still worth being critical of it. Here's what I think I need to improve:
+I feel like my methodology has massively improved over the last six months or so of practice on HTB (and with [[SESH Index|SESH]] and other side projects), but it's still worth being critical of it. Here's what I think I need to improve:
 - Not overlooking underlying webserver technologies - on a few boxes, such as [[Granny Index|Granny]], I initially overlooked what was running on the webserver (i.e. WebDAV) as not important and focused on the powering language like ASP. Being meticulous about what shows up in the initial `nmap` scans will be important going forward
 - Realising when I'm in a rabbit hole - on a few of these boxes I've spent a long time debugging an exploit before realising it's not going to work. Sometimes it is hard to tell that it isn't appropriate for the box, such as on Granny when I only realised Juicy Potato wouldn't work when I got to the point of supplying a CLSID, but I think going forward I should set myself a cutoff point when I'm stuck where I force myself to try something else
-- At the same time, I need to not give up on an exploit too quickly - a few times I've searched for a class of exploit and not got a result immediately, and moved onto the next. It's worth googling for alternative implementations of that exploit, or adjusting my payload until my options are exhausted
-- Trying every exploit - in a similar vein, I've often overlooked searchsploit results, or forgotten to try them after getting deep into one that didn't work. A checklist might help going forward so I can refer back to my possible attack vectors when I get stuck
+- At the same time, I need to not give up on an exploit too quickly - a few times I've searched for a class of exploit and not got a result immediately, and moved on to the next. It's worth googling for alternative implementations of that exploit, or adjusting my payload until my options are exhausted
+- Trying every exploit - in a similar vein, I've often overlooked `searchsploit` results, or forgotten to try them after getting deep into one that didn't work. A checklist might help going forward so I can refer back to my possible attack vectors when I get stuck
 
 ### Faster Note Taking
 
@@ -126,13 +126,13 @@ I spend a lot of time comprehending what I'm about to do. I think this stems fro
 
 I don't think this apprehension is unreasonable - but sometimes I need to just bite the bullet and launch an exploit for the sake of speed, rather than staring at the output of `searchsploit`.
 
-I think recently a lot of this has come from burnout, too - I will often find myself staring at a box if I've done a few that day and just not being able to push forward or feeling like the attack path seems too complicated. When I get this feeling, it's a good sign to take a break - and will be crucial to recognise on a 24-hour exam.
+I think recently a lot of this has come from burnout, too - I will often find myself staring at a box if I've done a few that day and just not being able to push forward or feeling like the attack path seems too complicated. When I get this feeling, it's a good sign to take a break - and it will be crucial to recognise on a 24-hour exam.
 
 ### Avoiding Tip Addiction
 
 With retired boxes, it is *very* easy to go online and look up the answer. I often find myself validating that I have the right approach, or checking my payload against a writeup.
 
-There's nothing inherently wrong with taking hints - it's all learning, after all. But it needs to be consistently done as a last resort, not just when I'm a bit stuck. I'm making a commitment to exhaust all my ideas and avenues of attack before checking online.
+There's nothing inherently wrong with taking hints - it's all learning, after all. But it needs to be consistently done as a last resort, not just when I'm a bit stuck. I'm making a commitment to exhaust all my ideas and avenues of attack before checking online from this point forward.
 
 ### Windows
 
@@ -153,4 +153,8 @@ Buffer Overflows are a big daunting thing to learn for me - I am hoping that the
 - Non Web-Based Challenges and Services - I have to say web is my favourite part of cybersecurity so far, but need to not neglect things like Active Directory
 - Docker and other container-based services seem to be becoming more popular on challenges recently, and I'd like to get more familiar with enumerating and escaping them
 - Advanced SQL Injection - I need to brush up on practical exploitation of harder SQL challenges, such as blind injections, and ways to pop shells from SQL environments. It's also worth looking at NoSQL technologies too, like MongoDB
-- Proxies and Advanced Networking Concepts - Practically using proxies and tunnelling technologies like `socat` and `proxychains` is a skill I'm not as comfortable with as I'd like. I also want to look at interacting with services like Squid, which I've seen come up on a few more recent HTB machines
+- Proxies and advanced Networking Concepts - practically using proxies and tunnelling technologies like `socat` and `proxychains` is a skill I'm not as comfortable with as I'd like. I also want to look at interacting with services like Squid, which I've seen come up on a few more recent HTB machines
+
+## Conclusion
+
+I'm excited to continue with my OSCP journey, and I hope to smash the exam! Here's hoping that these collected resources will be useful to somebody sitting the exam in the future - from one novice hacker to another.
