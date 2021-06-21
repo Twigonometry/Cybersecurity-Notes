@@ -4,41 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "dbf33ebe91022335",
-        "type": "split",
-        "children": [
-          {
-            "id": "38a20f3edbf9d5c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writeups/Hack the Box/Boxes/Legacy/15 - Key Lessons.md",
-                "mode": "source"
-              }
-            }
-          },
-          {
-            "id": "4dbb4743fba64df7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writeups/Hack the Box/Boxes/Blue/15 - Key Lessons.md",
-                "mode": "source"
-              }
-            }
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "c426d4439c0169d2",
+        "id": "8db6e8b228d5c812",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Legacy/5 - Enumeration.md",
+            "file": "Methodology Checklist.md",
             "mode": "preview"
           }
         }
@@ -97,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Legacy/5 - Enumeration.md",
+                "file": "Methodology Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c426d4439c0169d2",
+  "active": "8db6e8b228d5c812",
   "lastOpenFiles": [
+    "Methodology.md",
+    "Methodology Checklist.md",
+    "Untitled.md",
+    "Writeups/Hack the Box/Boxes/Blue/15 - Key Lessons.md",
+    "Writeups/Hack the Box/Boxes/Optimum/20 - Key Lessons.md",
+    "Writeups/Hack the Box/Boxes/Legacy/15 - Key Lessons.md",
     "Writeups/Hack the Box/Boxes/Legacy/5 - Enumeration.md",
     "Writeups/Hack the Box/Boxes/Legacy/10 - Eternal Blue.md",
-    "Writeups/Hack the Box/Boxes/Legacy/15 - Key Lessons.md",
-    "Writeups/Hack the Box/Boxes/Blue/15 - Key Lessons.md",
     "Exam Resources/OSCP/OSCP Prep Series Intro.md",
-    "Writeups/Hack the Box/Boxes/Legacy/Untitled.md",
-    "Writeups/Hack the Box/Boxes/Legacy/Legacy Index.md",
-    "Writeups/Hack the Box/Boxes/Legacy/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Blue/10 - Eternal Blue.md",
-    "Writeups/Hack the Box/Boxes/Blue/5 - Enumeration.md"
+    "Writeups/Hack the Box/Boxes/Legacy/Untitled.md"
   ]
 }
