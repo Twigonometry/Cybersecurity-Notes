@@ -63,6 +63,12 @@ If you have no idea what you're looking for, go to the [[Starting Point]] page!
 
 If you want to find writeups, they're all in the `Writeups` folder. Cheat sheets are in the `Cheat Sheets` folder. You get the idea.
 
+You can also load various workspaces by clicking the 'Manage workspaces' icon on the side panel:
+
+![[Pasted image 20210621224914.png]]
+
+Then click load!
+
 The Cheat Sheets folder has a number of subfolders, such as sheets on Web Hacking, Linux, and Password Cracking. General cheat sheets, such as the [[Fundamental Skills]] cheat sheet, are in the top level of the folder. This is a good place to start if you're a complete beginner.
 
 **What is this Repository?**

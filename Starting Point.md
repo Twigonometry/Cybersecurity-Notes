@@ -2,6 +2,8 @@
 
 If you don't know what you're looking for in this repository, or want to find an index of information, start here!
 
+There is also a `Start Here!` workspace that opens this note along with the graph for easy navigation!
+
 ## What does this Repository contain?
 
 This repository contains a number of resources about cybersecurity. I plan to include a number of different categories of information, grouped into folders.
