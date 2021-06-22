@@ -309,12 +309,6 @@ That's the box!
 
 ![[Pasted image 20210505111945.png]]
 
-## Afterthoughts
-
-This privesc was a little messy from me. I struggled getting an interactice shell, and missed some basic enumeration like `sudo -l` and checking for scheduled processes.
-
-I also could have handled the `.py` file editing better - [0xdf's writeup](https://0xdf.gitlab.io/2018/04/29/htb-bashed.html) involved moving the file to `.py.old` and making a new one, which would have helped in the cleanup process (and for detecting that it was being run in the first place).
-
 # Tags
 
 #writeup #oscp-prep #file-misconfiguration 

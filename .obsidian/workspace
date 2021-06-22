@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Starting Point.md",
-            "mode": "preview"
+            "file": "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
+            "mode": "source"
           }
         },
         "group": "ebeae51d7fed9e4c"
@@ -21,7 +21,7 @@
         "state": {
           "type": "localgraph",
           "state": {
-            "file": "Starting Point.md",
+            "file": "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
             "options": {
               "collapse-filter": true,
               "search": "",
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280,
-    "collapsed": true
+    "width": 323
   },
   "right": {
     "id": "4aa42a08b2824dd0",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Starting Point.md",
+                "file": "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,15 +125,15 @@
   },
   "active": "8db6e8b228d5c812",
   "lastOpenFiles": [
-    "Starting Point.md",
-    "README.md",
-    "Methodology Checklist.md",
-    "Methodology.md",
-    "Untitled.md",
-    "Writeups/Hack the Box/Boxes/Blue/15 - Key Lessons.md",
-    "Writeups/Hack the Box/Boxes/Optimum/20 - Key Lessons.md",
-    "Writeups/Hack the Box/Boxes/Legacy/15 - Key Lessons.md",
-    "Writeups/Hack the Box/Boxes/Legacy/5 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Legacy/10 - Eternal Blue.md"
+    "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
+    "Writeups/Hack the Box/Boxes/Bashed/20 - Key Lessons.md",
+    "Writeups/Hack the Box/Boxes/Bashed/15 - Privesc.md",
+    "Writeups/Hack the Box/Boxes/Bashed/Untitled.md",
+    "Writeups/Hack the Box/Boxes/Jerry/15 - Key Lessons.md",
+    "Writeups/Hack the Box/Boxes/Jerry/Jerry Index.md",
+    "Writeups/Hack the Box/Boxes/Jerry/Untitled.md",
+    "Writeups/Hack the Box/Boxes/Bashed/10 - Website.md",
+    "Writeups/Hack the Box/Boxes/Bashed/5 - Enumeration.md",
+    "Writeups/Hack the Box/Boxes/Bashed/0 - Overview.md"
   ]
 }

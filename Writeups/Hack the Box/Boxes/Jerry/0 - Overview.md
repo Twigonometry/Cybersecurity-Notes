@@ -16,7 +16,7 @@ It took me about two hours, which is pretty slow compared to the six minutes for
 
 ## Ratings
 
-I rather both user and root a 1 for difficulty. The exploit was arguably even simpler than Blue and Legacy, at least by hand - while it wasn't a case of just firing off a metasploit module, uploading a shell and triggering it by simply visiting the URL is much simpler than manually editing an exploit. There was also no privesc involved.
+I rated both user and root a 1 for difficulty. The exploit was arguably even simpler than Blue and Legacy, at least by hand - while it wasn't a case of just firing off a metasploit module, uploading a shell and triggering it by simply visiting the URL is much simpler than manually editing an exploit. There was also no privesc involved.
 
 # Tags
 
