@@ -9,47 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
-            "mode": "source"
+            "file": "Methodology Checklist.md",
+            "mode": "preview"
           }
-        },
-        "group": "ebeae51d7fed9e4c"
-      },
-      {
-        "id": "32653db332b3f239",
-        "type": "leaf",
-        "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1,
-              "close": false
-            }
-          }
-        },
-        "group": "ebeae51d7fed9e4c"
+        }
       }
     ],
     "direction": "vertical"
@@ -105,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
+                "file": "Methodology Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +88,8 @@
   },
   "active": "8db6e8b228d5c812",
   "lastOpenFiles": [
+    "Methodology Checklist.md",
+    "Attachments/Pasted image 20210627000830.png",
     "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
     "Writeups/Hack the Box/Boxes/Bashed/20 - Key Lessons.md",
     "Writeups/Hack the Box/Boxes/Bashed/15 - Privesc.md",
@@ -132,8 +97,6 @@
     "Writeups/Hack the Box/Boxes/Jerry/15 - Key Lessons.md",
     "Writeups/Hack the Box/Boxes/Jerry/Jerry Index.md",
     "Writeups/Hack the Box/Boxes/Jerry/Untitled.md",
-    "Writeups/Hack the Box/Boxes/Bashed/10 - Website.md",
-    "Writeups/Hack the Box/Boxes/Bashed/5 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Bashed/0 - Overview.md"
+    "Writeups/Hack the Box/Boxes/Bashed/10 - Website.md"
   ]
 }
