@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Methodology Checklist.md",
+            "file": "Writeups/Hack the Box/Boxes/Atom/Atom Index.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "33a3cb5f5fd895ff",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Writeups/Hack the Box/Boxes/Atom/30 - Shell as jason.md",
             "mode": "preview"
           }
         }
@@ -68,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodology Checklist.md",
+                "file": "Writeups/Hack the Box/Boxes/Atom/Atom Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +99,15 @@
   },
   "active": "8db6e8b228d5c812",
   "lastOpenFiles": [
-    "Methodology Checklist.md",
-    "Attachments/Pasted image 20210627000830.png",
-    "Writeups/Hack the Box/Boxes/Bashed/Bashed Index.md",
-    "Writeups/Hack the Box/Boxes/Bashed/20 - Key Lessons.md",
-    "Writeups/Hack the Box/Boxes/Bashed/15 - Privesc.md",
-    "Writeups/Hack the Box/Boxes/Bashed/Untitled.md",
-    "Writeups/Hack the Box/Boxes/Jerry/15 - Key Lessons.md",
-    "Writeups/Hack the Box/Boxes/Jerry/Jerry Index.md",
-    "Writeups/Hack the Box/Boxes/Jerry/Untitled.md",
-    "Writeups/Hack the Box/Boxes/Bashed/10 - Website.md"
+    "Writeups/Hack the Box/Boxes/Atom/Atom Index.md",
+    "Writeups/Hack the Box/Boxes/Atom/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Atom/25 - Automate Foothold.md",
+    "Writeups/Hack the Box/Boxes/Atom/30 - Shell as jason.md",
+    "Writeups/Hack the Box/Boxes/Atom/20 - Exploiting Electron Builder.md",
+    "Writeups/Hack the Box/Boxes/Atom/20 - Electron Builder.md",
+    "Writeups/Hack the Box/Boxes/Atom/25 - Electron Builder.md",
+    "Writeups/Hack the Box/Boxes/Atom/30 - Automate Foothold.md",
+    "Writeups/Hack the Box/Boxes/Atom/15 - SMB.md",
+    "Writeups/Hack the Box/Boxes/Atom/20 - Heed Source.md"
   ]
 }
