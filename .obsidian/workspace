@@ -10,9 +10,46 @@
           "type": "markdown",
           "state": {
             "file": "Methodology Checklist.md",
-            "mode": "source"
+            "mode": "preview"
           }
-        }
+        },
+        "group": "a335aa21beeacf20"
+      },
+      {
+        "id": "21c4d8a6f1d7747f",
+        "type": "leaf",
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "Methodology Checklist.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1,
+              "close": false
+            }
+          }
+        },
+        "group": "a335aa21beeacf20"
       }
     ],
     "direction": "vertical"

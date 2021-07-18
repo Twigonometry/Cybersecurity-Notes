@@ -18,7 +18,7 @@ Enumeration is recursive. You may do initial enumeration, then re-enumerate what
 
 Once you gain a foothold on a target somehow (i.e. remote code execution or remote access) you will have to re-enumerate. You will want to enumerate other users on the target or network, any new services that are only available locally, and any security flaws on the target now you have access to the file system and system information.
 
-You may then wish to do any/all of the following
+You may then wish to do any/all of the following:
 - escalate to a user of higher privilege
 - pivot to another network or host (lateral movement)
 - exfiltrate data (passwords, audit logs, user information, database dumps)
@@ -77,11 +77,11 @@ This flowchart provides a high-level overview of the steps involved:
 		- Try multiple languages
 			- If the site runs on ASP, also try ASPX or JSP
 		- Try well-known ports
-	- **Post Exploitation**
-		- Re-enumeration
-		- Privilege Escalation
-		- Data Exfiltration
-		- Persistence
+- **Post Exploitation**
+	- Re-enumeration
+	- Privilege Escalation
+	- Data Exfiltration
+	- Persistence
 
 # Enumeration
 
@@ -252,7 +252,7 @@ If you find a service running on the target, and you haven't seen it before, sea
 
 ## Automated Web Enumeration
 
-Before running Gobuster, check [[Methodology Checklist#What Powers the Site|what powers the site]]
+Before running Gobuster, check [[Methodology Checklist#What Powers the Site|what powers the site]].
 
 ### Gobuster
 
@@ -263,7 +263,7 @@ $ mkdir gobuster
 $ gobuster dir -u http://[IP/DOMAIN] -w /usr/share/seclists/Discovery/Web-Content/raft-small-words.txt -o gobuster/root
 ```
 
-Make sure to use the extension you've found with `-x [extension]`.
+Make sure to use the extension you've found with `-x [extension]` when enumerating the site technologies.
 
 Alternative list if running out of ideas:
 
