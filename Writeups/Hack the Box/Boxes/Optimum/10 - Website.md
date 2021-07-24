@@ -4,7 +4,7 @@ The website is an old looking file server:
 
 ![[Pasted image 20210613111026.png]]
 
-I ran a [[05 - Enumeration#Gobuster|gobuster scan]] in the background while I poked around.
+I ran a [[Writeups/Hack the Box/Boxes/Optimum/05 - Enumeration#Gobuster|gobuster scan]] in the background while I poked around.
 
 ## Trying HFS Exploits
 

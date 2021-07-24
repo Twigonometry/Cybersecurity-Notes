@@ -2,7 +2,7 @@
 
 Overview: [[Writeups/Hack the Box/Boxes/Optimum/0 - Overview|Overview]]
 
-Enumeration: [[05 - Enumeration|Enumeration]]
+Enumeration: [[Writeups/Hack the Box/Boxes/Optimum/05 - Enumeration|Enumeration]]
 
 Website: [[Writeups/Hack the Box/Boxes/Optimum/10 - Website|Website]]
 

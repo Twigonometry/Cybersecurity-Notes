@@ -9,47 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Methodology Checklist.md",
+            "file": "Writeups/Hack the Box/Boxes/Armageddon/20 - SSH as brucetherealadmin.md",
             "mode": "preview"
           }
-        },
-        "group": "a335aa21beeacf20"
-      },
-      {
-        "id": "21c4d8a6f1d7747f",
-        "type": "leaf",
-        "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "Methodology Checklist.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1,
-              "close": false
-            }
-          }
-        },
-        "group": "a335aa21beeacf20"
+        }
       }
     ],
     "direction": "vertical"
@@ -76,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"key lessons\"",
+                "query": "\"05 - Enumeration\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323,
-    "collapsed": true
+    "width": 323
   },
   "right": {
     "id": "4aa42a08b2824dd0",
@@ -106,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodology Checklist.md",
+                "file": "Writeups/Hack the Box/Boxes/Armageddon/20 - SSH as brucetherealadmin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,25 +78,35 @@
                 "unlinkedCollapsed": false
               }
             }
+          },
+          {
+            "id": "430f1f2730f94c87",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Writeups/Hack the Box/Boxes/Armageddon/20 - SSH as brucetherealadmin.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "3a228986de0f14d9",
   "lastOpenFiles": [
-    "Methodology Checklist.md",
-    "Exam Resources/OSCP/Exam Details.md",
-    "Writeups/Hack the Box/Boxes/Atom/20 - Exploiting Electron Builder.md",
-    "Writeups/Hack the Box/Boxes/Atom/30 - Shell as jason.md",
-    "Writeups/Hack the Box/Boxes/Atom/15 - SMB.md",
-    "Writeups/Hack the Box/Boxes/Atom/10 - Website.md",
-    "Writeups/Hack the Box/Boxes/Atom/5 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Atom/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Atom/Atom Index.md",
-    "Writeups/Hack the Box/Boxes/Atom/25 - Automate Foothold.md"
+    "Writeups/Hack the Box/Boxes/Armageddon/20 - SSH as brucetherealadmin.md",
+    "Writeups/Hack the Box/Boxes/Armageddon/01 - Loot.md",
+    "Writeups/Hack the Box/Boxes/Armageddon/15 - Shell as apache.md",
+    "Writeups/Hack the Box/Boxes/Armageddon/05 - Enumeration.md",
+    "Writeups/Hack the Box/Boxes/Armageddon/10 - Website.md",
+    "Writeups/Hack the Box/Boxes/Armageddon/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Armageddon/Armageddon Index.md",
+    "Writeups/Hack the Box/Boxes/Optimum/10 - Website.md",
+    "Writeups/Hack the Box/Boxes/Optimum/Optimum Index.md",
+    "Writeups/Hack the Box/Boxes/Bucket/Bucket Index.md"
   ]
 }
