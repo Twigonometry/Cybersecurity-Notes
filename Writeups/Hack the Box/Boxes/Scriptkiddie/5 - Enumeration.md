@@ -59,11 +59,11 @@ autorecon 10.10.10.226
 [*] [11:46:58] - There is 1 task still running on 10.10.10.226
 ```
 
-I eventually cancelled the scan. I'm not sure what the task was (autorecon isn't great at telling you what exactly is running when something goes wrong) but it didn't turn out to matter.
+I eventually cancelled the scan. I'm not sure what the task that never finished was (autorecon isn't great at telling you what exactly is running when something goes wrong) but it didn't turn out to matter.
 
 ## Nmap
 
-The output of Autorecon's \_quick_tcp_nmap scan:
+The output of Autorecon's `_quick_tcp_nmap` scan:
 
 ```bash
 # Nmap 7.91 scan initiated Sat Feb 13 10:52:56 2021 as: nmap -vv --reason -Pn -sV -sC --version-all -oN /root/Documents/scriptkiddie/results/10.10.10.226/scans/_quick_tcp_nmap.txt -oX /root/Documents/scriptkiddie/results/10.10.10.226/scans/xml/_quick_tcp_nmap.xml 10.10.10.226

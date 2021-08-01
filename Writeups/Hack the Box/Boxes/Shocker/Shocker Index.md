@@ -8,4 +8,6 @@ Briefly enumerating OpenSSH: [[10 - OpenSSH|OpenSSH]]
 
 Enumerating webserver, finding and exploiting shellshock: [[15 - Website|Website]]
 
-Shell as shelly to Root [[20 - Shell as shelly|Shell as shelly]]
+Shell as shelly to Root: [[20 - Shell as shelly|Shell as shelly]]
+
+Key Lessons: [[25 - Key Lessons]]
