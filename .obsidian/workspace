@@ -9,8 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Armageddon/20 - SSH as brucetherealadmin.md",
-            "mode": "preview"
+            "file": "Writeups/Hack the Box/Boxes/Shocker/20 - Shell as shelly.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "eab2b5112f8f5191",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Writeups/Hack the Box/Boxes/Shocker/15 - Website.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Armageddon/20 - SSH as brucetherealadmin.md",
+                "file": "Writeups/Hack the Box/Boxes/Shocker/20 - Shell as shelly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Armageddon/20 - SSH as brucetherealadmin.md"
+                "file": "Writeups/Hack the Box/Boxes/Shocker/20 - Shell as shelly.md"
               }
             }
           }
@@ -98,15 +109,15 @@
   },
   "active": "3a228986de0f14d9",
   "lastOpenFiles": [
-    "Writeups/Hack the Box/Boxes/Armageddon/20 - SSH as brucetherealadmin.md",
-    "Writeups/Hack the Box/Boxes/Armageddon/01 - Loot.md",
-    "Writeups/Hack the Box/Boxes/Armageddon/15 - Shell as apache.md",
-    "Writeups/Hack the Box/Boxes/Armageddon/05 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Armageddon/10 - Website.md",
-    "Writeups/Hack the Box/Boxes/Armageddon/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Armageddon/Armageddon Index.md",
-    "Writeups/Hack the Box/Boxes/Optimum/10 - Website.md",
-    "Writeups/Hack the Box/Boxes/Optimum/Optimum Index.md",
-    "Writeups/Hack the Box/Boxes/Bucket/Bucket Index.md"
+    "Writeups/Hack the Box/Boxes/Shocker/20 - Shell as shelly.md",
+    "Writeups/Hack the Box/Boxes/Shocker/15 - Website.md",
+    "Writeups/Hack the Box/Boxes/Shocker/Shocker Index.md",
+    "Writeups/Hack the Box/Boxes/Shocker/25 - Shell as shelly.md",
+    "Writeups/Hack the Box/Boxes/Shocker/20 - Shellshock.md",
+    "Writeups/Hack the Box/Boxes/Shocker/0 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Shocker/10 - OpenSSH.md",
+    "Writeups/Hack the Box/Boxes/Shocker/10 - Website.md",
+    "Writeups/Hack the Box/Boxes/Shocker/15 - OpenSSH.md",
+    "Writeups/Hack the Box/Boxes/Shocker/05 - Enumeration.md"
   ]
 }
