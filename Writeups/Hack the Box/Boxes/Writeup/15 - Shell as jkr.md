@@ -461,18 +461,9 @@ I then ran it - I just had to tell bash not to drop privileges with the `-p` fla
 
 ![[Pasted image 20210715223211.png]]
 
-45 minutes to read flag, another 10-15 to get shell
-
-confirm no ssh:
+We can also confirm there's no ssh key while we're here:
 
 ```bash
 twig-4.4# ls -la /root/.ssh
 ls: cannot access '/root/.ssh': No such file or directory
-```
-
-delete binary and go:
-
-```bash
-twig-4.4# rm /tmp/twig
-twig-4.4# exit
 ```

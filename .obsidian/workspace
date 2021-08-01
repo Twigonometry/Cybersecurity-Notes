@@ -4,33 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "15efcee27fbb763e",
-        "type": "split",
-        "children": [
-          {
-            "id": "d631ecfa39394407",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writeups/Hack the Box/Boxes/Writeup/Writeup Index.md",
-                "mode": "source"
-              }
-            }
-          },
-          {
-            "id": "abb4646eec8e84b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writeups/Hack the Box/Boxes/Shocker/0 - Overview.md",
-                "mode": "source"
-              }
-            }
+        "id": "abb4646eec8e84b5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Writeups/Hack the Box/Boxes/Writeup/00 - Overview.md",
+            "mode": "source"
           }
-        ],
-        "direction": "horizontal"
+        }
       },
       {
         "id": "a347bd229ab27eac",
@@ -97,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Writeup/Writeup Index.md",
+                "file": "Writeups/Hack the Box/Boxes/Writeup/00 - Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Writeup/Writeup Index.md"
+                "file": "Writeups/Hack the Box/Boxes/Writeup/00 - Overview.md"
               }
             }
           }
@@ -125,17 +107,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "d631ecfa39394407",
+  "active": "abb4646eec8e84b5",
   "lastOpenFiles": [
+    "Writeups/Hack the Box/Boxes/Writeup/00 - Overview.md",
+    "Writeups/Hack the Box/Boxes/Writeup/15 - Shell as jkr.md",
+    "Writeups/Hack the Box/Boxes/Shocker/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Writeup/Writeup Index.md",
     "Writeups/Hack the Box/Boxes/Writeup/20 - Key Lessons.md",
-    "Writeups/Hack the Box/Boxes/Writeup/15 - Shell as jkr.md",
     "Writeups/Hack the Box/Boxes/Writeup/Untitled.md",
     "Writeups/Hack the Box/Boxes/Writeup/Writeup Overview.md",
-    "Writeups/Hack the Box/Boxes/Writeup/00 - Overview.md",
     "Writeups/Hack the Box/Boxes/Writeup/05 - Enumeration.md",
     "Writeups/Hack the Box/Boxes/Writeup/10 - Website.md",
-    "Attachments/Pasted image 20210715205343.png",
-    "Attachments/Pasted image 20210715203147.png"
+    "Attachments/Pasted image 20210715205343.png"
   ]
 }

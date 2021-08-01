@@ -16,7 +16,7 @@ The privesc to root involved exploiting a Message of the Day script that called 
 
 I rated the user flag a 2 for difficulty. I spent a long time enumerating it, but realistically I would have found it much easier if I'd paid a bit more attention to the source code. Once I spotted the framework, I'd shelled it within 20 minutes. The box was made a little harder to fuzz by the WAF, but scanning wasn't actually necessary for the user flag.
 
-Root was slightly trickier, and involved a bit of SUID trickery to get a shell. It was also a little tricky to find the target binary and the right syntax, but the exploit concept wasn't too hard.
+Root was slightly trickier, and involved a bit of SUID trickery to get a shell. It was also a little tricky to find the target binary and the right syntax, but the exploit concept wasn't too hard. It took 45 minutes to read the flag itself, then another 10-15 minutes to figure out how to get a root shell.
 
 ## Tags
 
