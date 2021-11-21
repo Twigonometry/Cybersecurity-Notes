@@ -9,19 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/Hack the Box/Boxes/Writeup/00 - Overview.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "a347bd229ab27eac",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Writeups/Hack the Box/Boxes/Writeup/15 - Shell as jkr.md",
-            "mode": "source"
+            "file": "Writeups/CTFs/HTB Uni CTF 2021/Upgrades - Reversing Challenge.md",
+            "mode": "preview"
           }
         }
       }
@@ -79,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Writeup/00 - Overview.md",
+                "file": "Writeups/CTFs/HTB Uni CTF 2021/Upgrades - Reversing Challenge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writeups/Hack the Box/Boxes/Writeup/00 - Overview.md"
+                "file": "Writeups/CTFs/HTB Uni CTF 2021/Upgrades - Reversing Challenge.md"
               }
             }
           }
@@ -109,15 +98,15 @@
   },
   "active": "abb4646eec8e84b5",
   "lastOpenFiles": [
-    "Writeups/Hack the Box/Boxes/Writeup/00 - Overview.md",
+    "Writeups/CTFs/HTB Uni CTF 2021/Upgrades - Reversing Challenge.md",
     "Writeups/Hack the Box/Boxes/Writeup/15 - Shell as jkr.md",
+    "Writeups/Hack the Box/Boxes/Writeup/00 - Overview.md",
     "Writeups/Hack the Box/Boxes/Shocker/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Writeup/Writeup Index.md",
     "Writeups/Hack the Box/Boxes/Writeup/20 - Key Lessons.md",
     "Writeups/Hack the Box/Boxes/Writeup/Untitled.md",
     "Writeups/Hack the Box/Boxes/Writeup/Writeup Overview.md",
     "Writeups/Hack the Box/Boxes/Writeup/05 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Writeup/10 - Website.md",
-    "Attachments/Pasted image 20210715205343.png"
+    "Writeups/Hack the Box/Boxes/Writeup/10 - Website.md"
   ]
 }
