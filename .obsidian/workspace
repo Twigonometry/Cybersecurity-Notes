@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeups/CTFs/HTB Uni CTF 2021/Upgrades - Reversing Challenge.md",
+            "file": "Exam Resources/OSCP/OSCP - My Experience.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeups/CTFs/HTB Uni CTF 2021/Upgrades - Reversing Challenge.md",
+                "file": "Exam Resources/OSCP/OSCP - My Experience.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writeups/CTFs/HTB Uni CTF 2021/Upgrades - Reversing Challenge.md"
+                "file": "Exam Resources/OSCP/OSCP - My Experience.md"
               }
             }
           }
@@ -98,15 +98,15 @@
   },
   "active": "abb4646eec8e84b5",
   "lastOpenFiles": [
+    "Exam Resources/OSCP/OSCP - My Experience.md",
+    "Exam Resources/OSCP/OSCP Resources.md",
+    "Exam Resources/OSCP/OSCP Prep Series Intro.md",
+    "Exam Resources/OSCP/Exam Details.md",
     "Writeups/CTFs/HTB Uni CTF 2021/Upgrades - Reversing Challenge.md",
     "Writeups/Hack the Box/Boxes/Writeup/15 - Shell as jkr.md",
     "Writeups/Hack the Box/Boxes/Writeup/00 - Overview.md",
     "Writeups/Hack the Box/Boxes/Shocker/0 - Overview.md",
     "Writeups/Hack the Box/Boxes/Writeup/Writeup Index.md",
-    "Writeups/Hack the Box/Boxes/Writeup/20 - Key Lessons.md",
-    "Writeups/Hack the Box/Boxes/Writeup/Untitled.md",
-    "Writeups/Hack the Box/Boxes/Writeup/Writeup Overview.md",
-    "Writeups/Hack the Box/Boxes/Writeup/05 - Enumeration.md",
-    "Writeups/Hack the Box/Boxes/Writeup/10 - Website.md"
+    "Writeups/Hack the Box/Boxes/Writeup/20 - Key Lessons.md"
   ]
 }
