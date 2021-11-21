@@ -12,11 +12,13 @@ I was pretty drained, so I wrote the report pretty slowly over the next 24 hours
 
 Doing the OSCP was a gruelling experience, with lots of low points (and a lot of money spent). But I learnt an awful lot, and I'm extremely grateful to my work colleagues for giving me the time to pursue it and to my friends in the industry for all their advice.
 
-I will say that it's a very unforgiving certification for anyone with any other major responsibilities (work, University etc). It's possible (clearly), but I had to spent a lot of my spare time working towards it. There's a lot more that I wanted to do to prepare, and would have done if I had more time - I'll talk more about this [later](#things-i-wish-id-done) in the blog post.
+I will say that it's a very unforgiving certification for anyone with any other major responsibilities (work, University etc). It's possible (clearly), but I had to spent a lot of my spare time working towards it. There's a lot more that I wanted to do to prepare, and would have done if I had more time - I'll talk more about this [[#Things I Wish I'd Done|later]] in the blog post.
 
 I hope this blog (which I know is just one of many rambling OSCP journey posts) will be interesting and helpful to anyone looking to do the certification. It helps to know that someone with a similar background to you can pass the certification, so I hope this will inspire some confidence in at least *one* OSCP student. In each section of this blog I'll outline what I think is the most important lesson I learned.
 
 If you'd rather not read more, I'll be adding a lot of resources to this repository whenever I get time, including cheatsheets, notes on my methodology, and key lessons learned. But if you want a deeper dive, read on to find out more about my background, how I prepared, and my strategies during the exam!
+
+You can also find this note in the form of a blog post on [my website](https://www.mac-goodwin.com/blog/cyber/2021/10/16/oscp-experience.html).
 
 ## Contents
 
@@ -81,7 +83,7 @@ This was my second mistake, although not a huge one; I spent probably three days
 - The course materials can be used as a reference guide when performing specific exploits on the labs; I regularly referenced sections of the PDF I hadn't actually read to check OffSec's advice on a certain attack vector or privilege escalation method
 - You can always read the material *after* your labs end; you have 120 days to schedule your exam within, which means there's time to revise before you sit it
 
-If you take my advice from the [Pre-Course Preparation](#pre-course-preparation) section and revise these basic concepts ahead of purchasing the course, you'll be able to skip a lot of the initial reading and jump straight into the labs. I can't recommend having a good fundamental grasp of security before starting the OSCP enough. It is *not* an easy course to complete in a month with no prior knowledge.
+If you take my advice from the [[#Pre-Course Preparation|Pre-Course Preparation]] section and revise these basic concepts ahead of purchasing the course, you'll be able to skip a lot of the initial reading and jump straight into the labs. I can't recommend having a good fundamental grasp of security before starting the OSCP enough. It is *not* an easy course to complete in a month with no prior knowledge.
 
 Back to the labs; as it does, life got in the way of my precious 30 days, and by the end of my lab time I'd only rooted five boxes. Work were kind enough to put some money towards a lab extension, and I heavily prioritised my revision for the next month and managed to root a good number of machines. I was feeling confident, and scheduled my exam for the 6th September.
 
@@ -249,3 +251,7 @@ Whatever I end up doing, whether it's threat modelling or cybersecurity educatio
 As for other certifications, I *may* have slightly caught the OffSec addiction, but I'm going to focus on my degree (and earning some money to finance other potential courses) before I try the next cert.
 
 With all that said, if you can afford to do the OSCP I highly recommend it and I hope this post helps you succeed. Thanks for reading!
+
+## Discussion
+
+I also [posted this blog](https://www.reddit.com/r/oscp/comments/q9emq8/i_passed_with_70_points_my_experience/) on Reddit, and answered some questions there about the post - check it out if you have any questions!

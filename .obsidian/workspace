@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Exam Resources/OSCP/OSCP - My Experience.md",
-            "mode": "preview"
+            "file": "Exam Resources/OSCP/OSCP Practice Exam Writeups.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exam Resources/OSCP/OSCP - My Experience.md",
+                "file": "Exam Resources/OSCP/OSCP Practice Exam Writeups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exam Resources/OSCP/OSCP - My Experience.md"
+                "file": "Exam Resources/OSCP/OSCP Practice Exam Writeups.md"
               }
             }
           }
@@ -98,6 +98,7 @@
   },
   "active": "abb4646eec8e84b5",
   "lastOpenFiles": [
+    "Exam Resources/OSCP/OSCP Practice Exam Writeups.md",
     "Exam Resources/OSCP/OSCP - My Experience.md",
     "Exam Resources/OSCP/OSCP Resources.md",
     "Exam Resources/OSCP/OSCP Prep Series Intro.md",
@@ -106,7 +107,6 @@
     "Writeups/Hack the Box/Boxes/Writeup/15 - Shell as jkr.md",
     "Writeups/Hack the Box/Boxes/Writeup/00 - Overview.md",
     "Writeups/Hack the Box/Boxes/Shocker/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Writeup/Writeup Index.md",
-    "Writeups/Hack the Box/Boxes/Writeup/20 - Key Lessons.md"
+    "Writeups/Hack the Box/Boxes/Writeup/Writeup Index.md"
   ]
 }
