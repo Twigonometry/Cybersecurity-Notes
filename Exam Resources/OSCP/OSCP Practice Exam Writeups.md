@@ -302,7 +302,7 @@ Exam 1 Report available [here](https://www.mac-goodwin.com/blog/attachments/Prac
 
 Exam 2 Report available [here](https://www.mac-goodwin.com/blog/attachments/Practice%20Exam%202%20Report.pdf).
 
-When I originally wrote this post, I hadn't yet passed the exam - I since have, so you can trust that the writing style is at least passable!
+When I originally wrote this post, I hadn't yet passed the exam - I [[OSCP - My Experience|since have]], so you can trust that the writing style is at least passable!
 
 Thanks for reading, and good luck to anyone taking the exam!
 

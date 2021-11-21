@@ -1,4 +1,11 @@
 # OSCP Resources
+
+## My Resources
+
+My Experience: [[OSCP - My Experience]]
+
+Practice Exam Full Writeups + Reports: [[OSCP Practice Exam Writeups]]
+
 ## Gitbook Guides
 
 Xapax Guide:

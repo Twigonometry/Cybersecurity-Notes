@@ -65,7 +65,7 @@ Many writeups even recommend doing an intermediate certification before starting
 
 I decided I'd start the course in June, and hopefully sit the exam at the end of August. In the month before buying the course I ramped up my preparation on Hack the Box, and was lucky enough to get some allowance to do this during work hours. Without this, I wouldn't have been able to pass the exam and I'm extremely grateful to my amazing Year in Industry team :)
 
-I spent a few weeks doing this, working roughly through the [TJ Null list](https://www.netsecfocus.com/oscp/2019/03/29/The_Journey_to_Try_Harder-_TJNulls_Preparation_Guide_for_PWK_OSCP.html#vulnerable-machines) of HTB boxes and making detailed [writeups](https://www.mac-goodwin.com/blog/htb/) of each. This was an invaluable process, and helped me learn to take good notes in preparation for the lab environment and the exam. Not only did these notes help me keep track of key details when solving the boxes, but they also were a brilliant reference guide when revising. See my [Cybersecurity Notes](https://github.com/Twigonometry/Cybersecurity-Notes/tree/main/Writeups) repository for a few examples of how I laid these out.
+I spent a few weeks doing this, working roughly through the [TJ Null list](https://www.netsecfocus.com/oscp/2019/03/29/The_Journey_to_Try_Harder-_TJNulls_Preparation_Guide_for_PWK_OSCP.html#vulnerable-machines) of HTB boxes and making detailed [writeups](https://www.mac-goodwin.com/blog/htb/) of each. This was an invaluable process, and helped me learn to take good notes in preparation for the lab environment and the exam. Not only did these notes help me keep track of key details when solving the boxes, but they also were a brilliant reference guide when revising. You can find many examples of how I laid these out in this repository.
 
 I also made myself a rough timeline of how I expected my preparation to go, and when to start each task. This was valuable in organising the *massive* list of potential things you can do to prepare for this certification, but the timeline changed a lot as my preparation went on.
 
@@ -112,7 +112,7 @@ Besides the lab time, I did two practice exams. The practice exams were **the mo
 - You'll know what start time works for you; if you do a practice exam that starts in the morning and one that starts in the afternoon, you can pick a time that worked better for the real exam
 - You'll learn a strategy for what order to tackle the machines, how to escape rabbit holes, and what to do when you're stuck and **cannot** take a hint
 
-If you want to read more about my practice exams, including the reports I produced, you can do so [here](https://www.mac-goodwin.com/blog/cyber/2021/09/29/oscp-practice-exams.html).
+If you want to read more about my practice exams, including the reports I produced, you can do so [[OSCP Practice Exam Writeups|here]].
 
 ### Tips and Feedback
 
