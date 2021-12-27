@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Exam Resources/OSCP/OSCP - My Experience.md",
+            "file": "Writeups/SESH/DVWA/Shells Session Writeup - DVWA.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exam Resources/OSCP/OSCP - My Experience.md",
+                "file": "Writeups/SESH/DVWA/Shells Session Writeup - DVWA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exam Resources/OSCP/OSCP - My Experience.md"
+                "file": "Writeups/SESH/DVWA/Shells Session Writeup - DVWA.md"
               }
             }
           }
@@ -94,10 +94,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "abb4646eec8e84b5",
   "lastOpenFiles": [
+    "Writeups/SESH/DVWA/Shells Session Writeup - DVWA.md",
     "Exam Resources/OSCP/OSCP - My Experience.md",
     "Exam Resources/OSCP/OSCP Practice Exam Writeups.md",
     "Exam Resources/OSCP/OSCP Resources.md",
@@ -106,7 +108,6 @@
     "Writeups/CTFs/HTB Uni CTF 2021/Upgrades - Reversing Challenge.md",
     "Writeups/Hack the Box/Boxes/Writeup/15 - Shell as jkr.md",
     "Writeups/Hack the Box/Boxes/Writeup/00 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Shocker/0 - Overview.md",
-    "Writeups/Hack the Box/Boxes/Writeup/Writeup Index.md"
+    "Writeups/Hack the Box/Boxes/Shocker/0 - Overview.md"
   ]
 }
