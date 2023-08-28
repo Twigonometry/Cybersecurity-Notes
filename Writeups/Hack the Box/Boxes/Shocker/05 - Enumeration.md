@@ -4,6 +4,7 @@
 
 I started with an `nmap` scan:
 
+
 ```bash
 ┌──(mac㉿kali)-[~/Documents/HTB/shocker]
 └─$ nmap -sC -sV -v -Pn -oA nmap/shocker 10.10.10.56
